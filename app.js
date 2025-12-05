@@ -3,7 +3,7 @@
 // How many questions in each exam
 const EXAM_SIZE = 25;
 
-// Exam duration (in seconds) – 20 minutes
+// Exam duration in seconds (20 minutes = 1200 seconds)
 const EXAM_DURATION_SECONDS = 20 * 60;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
@@ -13,10 +13,11 @@ let allQuestions = [];
 let examQuestions = [];
 let examStarted = false;
 let examStartTime = null;
+let examFinished = false;
 
-// Timer state
+// timer state
 let timerInterval = null;
-let remainingSeconds = 0;
+let remainingSeconds = EXAM_DURATION_SECONDS;
 
 // DOM references
 let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput, timerDiv;
@@ -33,17 +34,12 @@ document.addEventListener("DOMContentLoaded", function () {
   startBtn.disabled = true;
   finishBtn.disabled = true;
 
-  if (timerDiv) {
-    timerDiv.textContent = "";
-  }
+  updateTimerDisplay(remainingSeconds);
 
   loadQuestions();
 
   startBtn.addEventListener("click", handleStart);
-  // Pass false to indicate manual finish (not auto by timer)
-  finishBtn.addEventListener("click", function () {
-    handleFinish(false);
-  });
+  finishBtn.addEventListener("click", handleFinishClick);
 });
 
 // ---------------------- Data loading ----------------------
@@ -84,6 +80,7 @@ function handleStart() {
 
   examQuestions = pickRandomQuestions(allQuestions, EXAM_SIZE);
   examStarted = true;
+  examFinished = false;
   examStartTime = new Date();
 
   renderExam();
@@ -93,6 +90,9 @@ function handleStart() {
   resultContainer.innerHTML = "";
   statusDiv.textContent = "Exam started. You have 25 questions.";
 
+  // reset & start timer
+  remainingSeconds = EXAM_DURATION_SECONDS;
+  updateTimerDisplay(remainingSeconds);
   startTimer();
 
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -144,16 +144,24 @@ function renderExam() {
   });
 }
 
-// autoSubmit = true when called by timer, false when user clicks Finish
-function handleFinish(autoSubmit) {
-  if (!examStarted) {
-    if (!autoSubmit) {
-      statusDiv.textContent = "You need to start the exam first.";
-    }
+// When user clicks Finish button
+function handleFinishClick() {
+  if (!examStarted || examFinished) {
+    statusDiv.textContent = "The exam is not active.";
     return;
   }
+  finalizeExam(false); // manual finish
+}
 
-  clearTimer();
+// This function does the actual scoring + review + logging
+function finalizeExam(autoSubmitted) {
+  if (!examStarted || examFinished) return;
+
+  examFinished = true;
+  examStarted = false;
+
+  // stop timer
+  stopTimer();
 
   var correct = 0;
   var answered = 0;
@@ -230,6 +238,9 @@ function handleFinish(autoSubmit) {
   if (durationSec !== null) {
     html += "<strong>Time used:</strong> " + durationSec + " seconds<br/>";
   }
+  if (autoSubmitted) {
+    html += "<strong>Note:</strong> Time ended; exam was submitted automatically.<br/>";
+  }
   html += "</div><br/>";
 
   html += "<h2>Answer Review</h2>";
@@ -249,50 +260,48 @@ function handleFinish(autoSubmit) {
 
   startBtn.disabled = false;
   finishBtn.disabled = true;
-  examStarted = false;
 
-  if (autoSubmit) {
-    statusDiv.textContent = "Time is up. Your exam has been submitted. Review your answers below.";
-  } else {
-    statusDiv.textContent = "Exam finished. Review your answers below.";
-  }
+  statusDiv.textContent = autoSubmitted
+    ? "Time is over. Exam submitted automatically."
+    : "Exam finished. Review your answers below.";
 }
 
 // ---------------------- Timer logic ----------------------
 
 function startTimer() {
-  clearTimer();
-  remainingSeconds = EXAM_DURATION_SECONDS;
-  updateTimerDisplay();
+  stopTimer(); // just in case
+
   timerInterval = setInterval(function () {
-    remainingSeconds--;
-    if (remainingSeconds <= 0) {
+    remainingSeconds -= 1;
+    if (remainingSeconds < 0) {
       remainingSeconds = 0;
-      updateTimerDisplay();
-      clearTimer();
-      if (examStarted) {
-        // Auto-submit
-        handleFinish(true);
+    }
+
+    updateTimerDisplay(remainingSeconds);
+
+    if (remainingSeconds <= 0) {
+      // time over
+      stopTimer();
+      if (examStarted && !examFinished) {
+        finalizeExam(true); // auto-submit
       }
-    } else {
-      updateTimerDisplay();
     }
   }, 1000);
 }
 
-function clearTimer() {
+function stopTimer() {
   if (timerInterval !== null) {
     clearInterval(timerInterval);
     timerInterval = null;
   }
 }
 
-function updateTimerDisplay() {
+function updateTimerDisplay(seconds) {
   if (!timerDiv) return;
-  var mins = Math.floor(remainingSeconds / 60);
-  var secs = remainingSeconds % 60;
-  var mm = String(mins).padStart(2, "0");
-  var ss = String(secs).padStart(2, "0");
+  var m = Math.floor(seconds / 60);
+  var s = seconds % 60;
+  var mm = m < 10 ? "0" + m : String(m);
+  var ss = s < 10 ? "0" + s : String(s);
   timerDiv.textContent = "Time left: " + mm + ":" + ss;
 }
 
