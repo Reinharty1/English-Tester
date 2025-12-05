@@ -25,7 +25,16 @@ let timerInterval = null;
 let remainingSeconds = 0;
 
 // DOM references
-let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput, timerDiv;
+let startBtn,
+  finishBtn,
+  statusDiv,
+  quizContainer,
+  resultContainer,
+  nameInput,
+  timerDiv,
+  progressTextEl,
+  progressBarEl,
+  backToTopBtn;
 
 // ====== INIT ======
 
@@ -37,17 +46,41 @@ document.addEventListener("DOMContentLoaded", function () {
   resultContainer = document.getElementById("resultContainer");
   nameInput = document.getElementById("studentName");
   timerDiv = document.getElementById("timer");
+  progressTextEl = document.getElementById("progressText");
+  progressBarEl = document.getElementById("progressBar");
+  backToTopBtn = document.getElementById("backToTop");
 
   startBtn.disabled = true;
   finishBtn.disabled = true;
 
   updateTimerDisplay(); // show "Time: --:--" at start
+  updateProgress(); // initial
 
   loadQuestions();
 
   startBtn.addEventListener("click", handleStart);
   finishBtn.addEventListener("click", function () {
     handleFinish(false); // manual finish
+  });
+
+  // Update progress when any radio changes (event delegation)
+  quizContainer.addEventListener("change", function (e) {
+    if (e.target && e.target.matches('input[type="radio"]')) {
+      updateProgress();
+    }
+  });
+
+  // Back-to-top behaviour
+  backToTopBtn.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+      backToTopBtn.classList.add("visible");
+    } else {
+      backToTopBtn.classList.remove("visible");
+    }
   });
 });
 
@@ -104,6 +137,8 @@ function handleStart() {
   updateTimerDisplay();
   startTimer();
 
+  updateProgress();
+
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -151,6 +186,8 @@ function renderExam() {
 
     quizContainer.appendChild(block);
   });
+
+  updateProgress();
 }
 
 // ====== TIMER ======
@@ -200,6 +237,30 @@ function updateTimerDisplay() {
   var mm = m < 10 ? "0" + m : String(m);
   var ss = s < 10 ? "0" + s : String(s);
   timerDiv.textContent = "Time left: " + mm + ":" + ss;
+}
+
+// ====== PROGRESS BAR ======
+
+function updateProgress() {
+  if (!progressTextEl || !progressBarEl) return;
+
+  if (!examQuestions || !examQuestions.length) {
+    progressTextEl.textContent = "Answered 0 / " + EXAM_SIZE;
+    progressBarEl.style.width = "0%";
+    return;
+  }
+
+  var answered = 0;
+  for (var i = 0; i < examQuestions.length; i++) {
+    var sel = document.querySelector('input[name="q_' + i + '"]:checked');
+    if (sel) answered++;
+  }
+
+  var total = examQuestions.length;
+  var percent = total ? Math.round((answered / total) * 100) : 0;
+
+  progressTextEl.textContent = "Answered " + answered + " / " + total;
+  progressBarEl.style.width = percent + "%";
 }
 
 // ====== FINISH & REVIEW ======
@@ -300,6 +361,9 @@ function handleFinish(autoSubmit) {
 
   resultContainer.innerHTML = html;
 
+  // make sure progress is fully updated at the end
+  updateProgress();
+
   // Send result to Google Sheets (non-blocking)
   sendResultToSheet({
     studentName: studentName,
@@ -314,7 +378,8 @@ function handleFinish(autoSubmit) {
   finishBtn.disabled = true;
 
   if (autoSubmit) {
-    statusDiv.textContent = "Time is up. Exam submitted automatically. Review your answers below.";
+    statusDiv.textContent =
+      "Time is up. Exam submitted automatically. Review your answers below.";
   } else {
     statusDiv.textContent = "Exam finished. Review your answers below.";
   }
@@ -325,54 +390,5 @@ function handleFinish(autoSubmit) {
 function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
     console.warn("SHEET_ENDPOINT is not configured.");
-    return;
-  }
-
-  console.log("Sending result to sheet:", payload);
-
-  fetch(SHEET_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(payload)
-  })
-    .then(function (res) {
-      console.log("Sheet response status:", res.status);
-      return res.text();
-    })
-    .then(function (text) {
-      console.log("Raw sheet response:", text);
-      var data;
-      try {
-        data = JSON.parse(text);
-      } catch (e) {
-        console.warn("Could not parse sheet response as JSON.");
-        data = null;
-      }
-      if (data && data.status === "ok") {
-        console.log("Result successfully saved to sheet.");
-      } else {
-        console.warn("Sheet API returned non-ok:", data);
-      }
-    })
-    .catch(function (err) {
-      console.warn("Failed to send result to sheet:", err);
-    });
-}
-
-// ====== HELPERS ======
-
-function indexToLetter(index) {
-  return String.fromCharCode(65 + index); // 0 → A, 1 → B, ...
-}
-
-function escapeHtml(str) {
-  if (str == null) return "";
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&quot;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
+ 
+::contentReference[oaicite:0]{index=0}
