@@ -67,28 +67,30 @@
 <body>
   <h1>English Tenses Exam</h1>
 
-  <div class="controls">
-    <label>
-      Difficulty:
-      <select id="difficulty">
-        <option value="easy">Easy</option>
-        <option value="moderate">Moderate</option>
-        <option value="advanced">Advanced</option>
-      </select>
-    </label>
+<div class="controls">
+  <label>
+    Student name:
+    <input type="text" id="studentName" placeholder="Enter your name">
+  </label>
 
-    <label>
-      Number of questions:
-      <input type="number" id="questionCount" value="50" min="1" max="200">
-    </label>
+  <label>
+    Difficulty:
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="moderate">Moderate</option>
+      <option value="advanced">Advanced</option>
+    </select>
+  </label>
 
-    <button id="startExamBtn">Start Exam</button>
-    <button id="finishExamBtn" disabled>Finish & Show Score</button>
-  </div>
+  <label>
+    Number of questions:
+    <input type="number" id="questionCount" value="50" min="1" max="200">
+  </label>
 
-  <div id="questionsContainer"></div>
+  <button id="startExamBtn">Start Exam</button>
+  <button id="finishExamBtn" disabled>Finish &amp; Show Score</button>
+</div>
 
-  <div id="resultContainer"></div>
 
   <script src="app.js"></script>
 </body>
