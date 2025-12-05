@@ -1,7 +1,7 @@
 // app.js
 
 // How many questions in each exam
-const EXAM_SIZE = 50;
+const EXAM_SIZE = 25;
 
 let allQuestions = [];
 let examQuestions = [];
@@ -73,7 +73,7 @@ function handleStart() {
   startBtn.disabled = true;
   finishBtn.disabled = false;
   resultContainer.innerHTML = "";
-  statusDiv.textContent = "Exam started. You have 50 questions.";
+  statusDiv.textContent = "Exam started. You have 25 questions.";
 
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
