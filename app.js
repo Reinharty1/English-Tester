@@ -3,20 +3,24 @@
 let currentQuestions = [];
 let examStarted = false;
 
+const studentNameInput = document.getElementById('studentName');
 const difficultySelect = document.getElementById('difficulty');
-const questionCountInput = document.getElementById('questionCount');
 const startExamBtn = document.getElementById('startExamBtn');
 const finishExamBtn = document.getElementById('finishExamBtn');
 const questionsContainer = document.getElementById('questionsContainer');
 const resultContainer = document.getElementById('resultContainer');
 
+// Google Apps Script Web App URL (already configured for your sheet)
+const GOOGLE_SHEETS_WEB_APP_URL =
+  'https://script.google.com/macros/s/AKfycbxXR8SSS_GNv1FwQzLVqQnriJWLZNKrJVozbQSUQ2aHyzQf_rXjGtw16cxYzqSA6mtI/exec';
+
 startExamBtn.addEventListener('click', startExam);
 finishExamBtn.addEventListener('click', finishExam);
 
+// -------------------- START EXAM --------------------
+
 async function startExam() {
   const difficulty = difficultySelect.value; // easy / moderate / advanced
-  const count = parseInt(questionCountInput.value, 10) || 50;
-
   const url = `data/questions_${difficulty}.json`;
 
   try {
@@ -26,7 +30,8 @@ async function startExam() {
     }
     const allQuestions = await response.json();
 
-    // Shuffle and take first N
+    // Always use up to 50 questions, randomly selected
+    const count = Math.min(50, allQuestions.length);
     const shuffled = shuffleArray(allQuestions);
     currentQuestions = shuffled.slice(0, count);
 
@@ -40,13 +45,15 @@ async function startExam() {
   }
 }
 
+// -------------------- RENDER QUESTIONS --------------------
+
 function renderQuestions(questions) {
   questionsContainer.innerHTML = '';
 
   questions.forEach((q, index) => {
     const div = document.createElement('div');
     div.className = 'question';
-    div.dataset.questionId = q.id ?? index; // fallback to index if no id
+    div.dataset.questionId = q.id ?? index;
 
     const header = document.createElement('div');
     header.className = 'question-header';
@@ -72,6 +79,8 @@ function renderQuestions(questions) {
     questionsContainer.appendChild(div);
   });
 }
+
+// -------------------- FINISH EXAM --------------------
 
 function finishExam() {
   if (!examStarted) return;
@@ -101,15 +110,28 @@ function finishExam() {
     });
   });
 
-  const scorePercent = currentQuestions.length
-    ? Math.round((correctCount / currentQuestions.length) * 100)
+  const totalQuestions = currentQuestions.length;
+  const scorePercent = totalQuestions
+    ? Math.round((correctCount / totalQuestions) * 100)
     : 0;
 
   showResult(answers, scorePercent);
 
-  // TODO: send results to Google Sheets (later)
-  // sendToGoogleSheets(answers, scorePercent);
+  const studentName = studentNameInput.value.trim() || 'Anonymous';
+  const difficulty = difficultySelect.value;
+
+  // Send results to Google Sheets (fire-and-forget)
+  sendToGoogleSheets(
+    answers,
+    scorePercent,
+    correctCount,
+    totalQuestions,
+    studentName,
+    difficulty
+  );
 }
+
+// -------------------- SHOW RESULT --------------------
 
 function showResult(answers, scorePercent) {
   resultContainer.innerHTML = '';
@@ -135,9 +157,8 @@ function showResult(answers, scorePercent) {
     const correctnessClass = ans.correct ? 'correct' : 'incorrect';
     const correctnessText = ans.correct ? 'Correct' : 'Incorrect';
 
-    const chosenText = ans.chosenIndex != null
-      ? q.options[ans.chosenIndex]
-      : '(No answer)';
+    const chosenText =
+      ans.chosenIndex != null ? q.options[ans.chosenIndex] : '(No answer)';
 
     const correctText = q.options[q.correctIndex];
 
@@ -149,7 +170,9 @@ function showResult(answers, scorePercent) {
       <div><strong>Your answer:</strong> ${chosenText}</div>
       <div><strong>Correct answer:</strong> ${correctText}</div>
       <div class="explanation">
-        <strong>Explanation:</strong> ${q.explanation ?? 'No explanation provided.'}
+        <strong>Explanation:</strong> ${
+          q.explanation ?? 'No explanation provided.'
+        }
       </div>
     `;
 
@@ -157,7 +180,9 @@ function showResult(answers, scorePercent) {
   });
 }
 
-// Utility: Fisher–Yates shuffle
+// -------------------- UTILS --------------------
+
+// Fisher–Yates shuffle
 function shuffleArray(arr) {
   const copy = arr.slice();
   for (let i = copy.length - 1; i > 0; i--) {
@@ -167,10 +192,38 @@ function shuffleArray(arr) {
   return copy;
 }
 
-// Placeholder for Google Sheets integration (later)
-function sendToGoogleSheets(answers, scorePercent) {
-  console.log('Sending to Google Sheets (to implement later)...', {
-    answers,
-    scorePercent
+// Send data to Google Sheets via Apps Script Web App
+function sendToGoogleSheets(
+  answers,
+  scorePercent,
+  correctCount,
+  totalQuestions,
+  studentName,
+  difficulty
+) {
+  if (!GOOGLE_SHEETS_WEB_APP_URL) {
+    console.warn('Google Sheets Web App URL not set.');
+    return;
+  }
+
+  const payload = {
+    studentName,
+    difficulty,
+    scorePercent,
+    totalQuestions,
+    correctCount,
+    answers
+  };
+
+  // Fire-and-forget; no-cors avoids CORS errors
+  fetch(GOOGLE_SHEETS_WEB_APP_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(payload)
+  }).catch(err => {
+    console.error('Error sending to Google Sheets', err);
   });
 }
