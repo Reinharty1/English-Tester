@@ -1,7 +1,95 @@
-english-tenses-exam/
-├─ index.html
-├─ app.js
-└─ data/
-   ├─ questions_easy.json
-   ├─ questions_moderate.json
-   └─ questions_advanced.json
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>English Tenses Exam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .controls {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    button {
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    .question {
+      border: 1px solid #ccc;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    .question-header {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .options label {
+      display: block;
+      margin: 3px 0;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 12px;
+      border-radius: 4px;
+      background: #f0f0f0;
+    }
+    .explanation {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed #ccc;
+      font-size: 0.95em;
+    }
+    .correct {
+      color: green;
+      font-weight: bold;
+    }
+    .incorrect {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>English Tenses Exam</h1>
+
+  <div class="controls">
+    <label>
+      Difficulty:
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="moderate">Moderate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+    </label>
+
+    <label>
+      Number of questions:
+      <input type="number" id="questionCount" value="50" min="1" max="200">
+    </label>
+
+    <button id="startExamBtn">Start Exam</button>
+    <button id="finishExamBtn" disabled>Finish & Show Score</button>
+  </div>
+
+  <div id="questionsContainer"></div>
+
+  <div id="resultContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
