@@ -4,13 +4,15 @@ let currentQuestions = [];
 let examStarted = false;
 
 const studentNameInput = document.getElementById('studentName');
-const difficultySelect = document.getElementById('difficulty');
 const startExamBtn = document.getElementById('startExamBtn');
 const finishExamBtn = document.getElementById('finishExamBtn');
 const questionsContainer = document.getElementById('questionsContainer');
 const resultContainer = document.getElementById('resultContainer');
 
-// Google Apps Script Web App URL (already configured for your sheet)
+// Single question bank (put ALL your questions here)
+const QUESTIONS_URL = 'data/questions_easy.json';
+
+// Your Google Apps Script Web App URL (already created)
 const GOOGLE_SHEETS_WEB_APP_URL =
   'https://script.google.com/macros/s/AKfycbxXR8SSS_GNv1FwQzLVqQnriJWLZNKrJVozbQSUQ2aHyzQf_rXjGtw16cxYzqSA6mtI/exec';
 
@@ -20,14 +22,12 @@ finishExamBtn.addEventListener('click', finishExam);
 // -------------------- START EXAM --------------------
 
 async function startExam() {
-  const difficulty = difficultySelect.value; // easy / moderate / advanced
-  const url = `data/questions_${difficulty}.json`;
-
   try {
-    const response = await fetch(url);
+    const response = await fetch(QUESTIONS_URL);
     if (!response.ok) {
-      throw new Error(`Cannot load questions from ${url}`);
+      throw new Error(`Cannot load questions from ${QUESTIONS_URL}`);
     }
+
     const allQuestions = await response.json();
 
     // Always use up to 50 questions, randomly selected
@@ -118,16 +118,15 @@ function finishExam() {
   showResult(answers, scorePercent);
 
   const studentName = studentNameInput.value.trim() || 'Anonymous';
-  const difficulty = difficultySelect.value;
 
-  // Send results to Google Sheets (fire-and-forget)
+  // Send results to Google Sheets (difficulty is empty string now)
   sendToGoogleSheets(
     answers,
     scorePercent,
     correctCount,
     totalQuestions,
     studentName,
-    difficulty
+    ''
   );
 }
 
@@ -180,7 +179,7 @@ function showResult(answers, scorePercent) {
   });
 }
 
-// -------------------- UTILS --------------------
+// -------------------- UTILITIES --------------------
 
 // Fisher–Yates shuffle
 function shuffleArray(arr) {
@@ -208,7 +207,7 @@ function sendToGoogleSheets(
 
   const payload = {
     studentName,
-    difficulty,
+    difficulty,          // now always '' (no levels)
     scorePercent,
     totalQuestions,
     correctCount,
