@@ -1,16 +1,615 @@
 [
   {
     "id": 1,
-    "question": "He always __________ football.",
-    "options": ["is playing", "played", "playing", "plays"],
-    "correctIndex": 3,
-    "explanation": "We use the present simple for habits: 'He always plays football.'"
+    "question": "Clean snow ____ as much as 87 per cent of the sunlight that ____ on it.",
+    "options": [
+      "is reflecting / shone",
+      "has reflected / was shining",
+      "reflected / is shining",
+      "was reflected / has shone",
+      "reflects / shines"
+    ],
+    "correctIndex": 4,
+    "explanation": "We use the present simple for facts and general truths: 'Clean snow reflects ... that shines on it.'"
   },
   {
     "id": 2,
-    "question": "I __________ you every day.",
-    "options": ["am seeing", "saw", "see", "will be seeing"],
+    "question": "More than two hundred people ____ the tower when the bomb ____ in one of the dustbins.",
+    "options": [
+      "have visited / was exploding",
+      "were visiting / exploded",
+      "visited / has exploded",
+      "are visiting / is exploding",
+      "visit / has exploded"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past continuous + past simple: 'were visiting' when it 'exploded'."
+  },
+  {
+    "id": 3,
+    "question": "Because you ____ half of the ingredients as I ____ dinner, you probably aren't hungry at all now.",
+    "options": [
+      "were eating / have prepared",
+      "have eaten / prepared",
+      "have been eating / prepare",
+      "ate / was preparing",
+      "eat / have been preparing"
+    ],
+    "correctIndex": 3,
+    "explanation": "Past simple for the longer action in progress: 'you ate ... as I was preparing dinner'."
+  },
+  {
+    "id": 4,
+    "question": "She ____ strictly since Christmas and so far she ____ eight kilos.",
+    "options": [
+      "was dieting / was losing",
+      "dieted / loses",
+      "diets / is losing",
+      "is dieting / lost",
+      "has been dieting / has lost"
+    ],
+    "correctIndex": 4,
+    "explanation": "Present perfect continuous + present perfect simple: 'has been dieting' and 'has lost'."
+  },
+  {
+    "id": 5,
+    "question": "Cindy's family ____ chains in this area for over three centuries and now her father ____ this traditional craft at the county museum twice a day as well.",
+    "options": [
+      "are making / is demonstrating",
+      "have made / has demonstrated",
+      "made / was demonstrating",
+      "were making / demonstrated",
+      "have been making / demonstrates"
+    ],
+    "correctIndex": 4,
+    "explanation": "Present perfect continuous for long activity + present simple for regular demonstration."
+  },
+  {
+    "id": 6,
+    "question": "He ______ to unlock the door to his flat because the telephone ________.",
+    "options": [
+      "was hurrying / rang",
+      "hurries / has been ringing",
+      "hurried / was ringing",
+      "is hurrying / rings",
+      "has hurried / has rung"
+    ],
     "correctIndex": 2,
-    "explanation": "Present simple for routine actions: 'I see you every day.'"
+    "explanation": "Past simple + past continuous: 'hurried' because the phone 'was ringing'."
+  },
+  {
+    "id": 7,
+    "question": "There ____ economies since the dawn of civilisation, but as a field of study, economics ____ only recently.",
+    "options": [
+      "were / was developing",
+      "have been / has developed",
+      "are / has been developing",
+      "were / is developing",
+      "have been / develops"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect 'have been' for economies, present perfect 'has developed' for the field."
+  },
+  {
+    "id": 8,
+    "question": "John Deere ____ his farm machinery business, which ____ tractors today, in the 19th century.",
+    "options": [
+      "founds / still produced",
+      "has founded / is still producing",
+      "was founding / was still producing",
+      "founded / still produces",
+      "is founding / is still produced"
+    ],
+    "correctIndex": 3,
+    "explanation": "Past simple 'founded' + present simple 'still produces'."
+  },
+  {
+    "id": 9,
+    "question": "I ____ my French lately; consequently, I ____ more and more of it.",
+    "options": [
+      "am not practising / forget",
+      "haven't been practising / am forgetting",
+      "don't practice / have forgotten",
+      "wasn't practising / forgot",
+      "didn't practice / was forgetting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect continuous + present continuous: 'haven't been practising' and 'am forgetting'."
+  },
+  {
+    "id": 10,
+    "question": "The old lady's health ____ day by day until she ____ smoking.",
+    "options": [
+      "was deteriorating / gave up",
+      "is deteriorating / gives up",
+      "deteriorated / has given up",
+      "deteriorates / is giving up",
+      "has deteriorated / was giving up"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past continuous + past simple: 'was deteriorating' until she 'gave up'."
+  },
+  {
+    "id": 11,
+    "question": "The word ‘that’ is a type of _______.",
+    "options": [
+      "article",
+      "demonstrative"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘That’ is a demonstrative determiner/pronoun."
+  },
+  {
+    "id": 12,
+    "question": "She has two daughters and they _______ do ballet.",
+    "options": [
+      "both",
+      "all"
+    ],
+    "correctIndex": 0,
+    "explanation": "We use 'both' for two people/things, not 'all'."
+  },
+  {
+    "id": 13,
+    "question": "_______ fishing is allowed on this river.",
+    "options": [
+      "No",
+      "Not any"
+    ],
+    "correctIndex": 0,
+    "explanation": "We say 'No fishing is allowed', not 'Not any fishing is allowed'."
+  },
+  {
+    "id": 14,
+    "question": "I don’t like _______ of these photos.",
+    "options": [
+      "either",
+      "neither"
+    ],
+    "correctIndex": 0,
+    "explanation": "With a negative verb we use 'either': 'I don’t like either of these photos.'"
+  },
+  {
+    "id": 15,
+    "question": "I’ve been trying to eat _______ chocolate bars.",
+    "options": [
+      "fewer",
+      "less"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use 'fewer' with countable nouns like 'bars'."
+  },
+  {
+    "id": 16,
+    "question": "The words ‘tiny’ and ‘young’ are _______ adjectives.",
+    "options": [
+      "describing",
+      "classifying"
+    ],
+    "correctIndex": 0,
+    "explanation": "They describe qualities (size, age), so they are describing adjectives."
+  },
+  {
+    "id": 17,
+    "question": "Adjectives come before nouns and _______ linking verbs.",
+    "options": [
+      "after",
+      "before"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adjectives usually come after linking verbs: 'She is happy.'"
+  },
+  {
+    "id": 18,
+    "question": "Claude was wearing a _______ coat.",
+    "options": [
+      "grey, black",
+      "grey and black"
+    ],
+    "correctIndex": 1,
+    "explanation": "Two colours on one item → 'grey and black coat'."
+  },
+  {
+    "id": 19,
+    "question": "I saw a documentary that was absolutely _______.",
+    "options": [
+      "fascinated",
+      "fascinating"
+    ],
+    "correctIndex": 1,
+    "explanation": "The thing is 'fascinating'; a person feels 'fascinated'."
+  },
+  {
+    "id": 20,
+    "question": "We need to give more opportunities to _______.",
+    "options": [
+      "unemployed",
+      "the unemployed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use 'the unemployed' to refer to the group of unemployed people."
+  },
+  {
+    "id": 21,
+    "question": "Choose the lettered part of the sentence that contains a word that needs a capital letter.\nCatherine complained loudly, | “why can’t you ever | pick me up on time | in the morning?” | None",
+    "options": [
+      "Catherine complained loudly,",
+      "“why can’t you ever",
+      "pick me up on time",
+      "in the morning?”",
+      "None"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first word in a direct quotation should be capitalized: 'Why'."
+  },
+  {
+    "id": 22,
+    "question": "Choose the lettered part that contains a word that needs a capital letter.\nThe Declaration of Independence | is one of the most important | documents in the history | of the United States. | None",
+    "options": [
+      "The Declaration of Independence",
+      "is one of the most important",
+      "documents in the history",
+      "of the United States.",
+      "None"
+    ],
+    "correctIndex": 4,
+    "explanation": "All capitalization is already correct."
+  },
+  {
+    "id": 23,
+    "question": "Choose the lettered part that contains a word that needs a capital letter.\nSally’s Sweet shop, | one of the oldest businesses in town, | is located on one of the main streets | of Millersville. | None",
+    "options": [
+      "Sally’s Sweet shop,",
+      "one of the oldest businesses in town,",
+      "is located on one of the main streets",
+      "of Millersville.",
+      "None"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shop is part of the business name → 'Sally’s Sweet Shop'."
+  },
+  {
+    "id": 24,
+    "question": "Choose the punctuation mark that is needed.\nFor the centerpieces, the florist recommended the following flowers daisies, tulips, daffodils, and hyacinths.",
+    "options": [
+      ":",
+      ",",
+      ".",
+      ";",
+      "none"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use a colon before a list after a full independent clause."
+  },
+  {
+    "id": 25,
+    "question": "Choose the punctuation mark that is needed.\nLily is an accomplished gymnast she won three medals in her last competition.",
+    "options": [
+      ";",
+      ",",
+      "?",
+      ":",
+      "none"
+    ],
+    "correctIndex": 0,
+    "explanation": "Two independent clauses → separate with a semicolon."
+  },
+  {
+    "id": 26,
+    "question": "Choose the punctuation mark that is needed.\nEveryone was shocked when Max Smithfield—a studious, extremely bright high school senior decided that college was not for him.",
+    "options": [
+      ";",
+      ",",
+      "–",
+      ":",
+      "none"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use a dash to set off the parenthetical description."
+  },
+  {
+    "id": 27,
+    "question": "Fill in the blank.\n__________ our low annual fee, you will receive a 20% discount if you sign up this week.",
+    "options": [
+      "Because",
+      "While",
+      "In spite of",
+      "In addition to"
+    ],
+    "correctIndex": 3,
+    "explanation": "The sentence adds another benefit: 'In addition to our low annual fee...'."
+  },
+  {
+    "id": 28,
+    "question": "Fill in the blank.\nThe ticket said the show would start at 8:00, but the curtains didn’t go up _________ 8:30.",
+    "options": [
+      "less than",
+      "until",
+      "about",
+      "since"
+    ],
+    "correctIndex": 1,
+    "explanation": "We say 'didn’t go up until 8:30'."
+  },
+  {
+    "id": 29,
+    "question": "Fill in the blank.\nMy neighbor is deathly afraid of dogs; ___________, I never let my Golden Retriever, Sandy, outside without a leash.",
+    "options": [
+      "moreover",
+      "yet",
+      "mainly",
+      "consequently"
+    ],
+    "correctIndex": 3,
+    "explanation": "Her fear causes the action → 'consequently'."
+  },
+  {
+    "id": 30,
+    "question": "Fill in the blank.\nThe wedding quilt was designed as a sentimental way to make use of fabric taken ______________ blankets and bedding that belonged to older couples in her family.",
+    "options": [
+      "from",
+      "with",
+      "in",
+      "at"
+    ],
+    "correctIndex": 0,
+    "explanation": "We take something 'from' something else."
+  },
+  {
+    "id": 31,
+    "question": "Fill in the blank.\nSandra Day O’Connor, the first woman to serve on the U.S. Supreme Court, ________ appointed by President Ronald Reagan in 1981.",
+    "options": [
+      "she",
+      "and",
+      "but",
+      "was"
+    ],
+    "correctIndex": 3,
+    "explanation": "We need the passive verb 'was appointed'."
+  },
+  {
+    "id": 32,
+    "question": "Identify the grammatical error.\nSomeone from the garage phoned to say that the car had been fixed and asking if we would pick it up by 5:00.",
+    "options": [
+      "asking",
+      "if we would",
+      "pick it up",
+      "by 5:00",
+      "No error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parallel with 'phoned to say' → should be 'asked', not 'asking'."
+  },
+  {
+    "id": 33,
+    "question": "Identify the grammatical error.\nIn 1963, Betty Friedan’s exposé of domesticity, The Feminine Mystique, became an immediate bestseller and creating a national sensation.",
+    "options": [
+      "became",
+      "an immediate",
+      "creating",
+      "sensation",
+      "No error"
+    ],
+    "correctIndex": 2,
+    "explanation": "Should be 'and created' for parallel structure with 'became'."
+  },
+  {
+    "id": 34,
+    "question": "Identify the grammatical error.\nThe staff at the university library deserve recognition for helping to locate the many sources needed for the successful completion of my doctoral dissertation.",
+    "options": [
+      "deserve",
+      "recognition",
+      "helping to locate",
+      "needed for",
+      "No error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Collective noun 'staff' is treated as singular here → 'deserves'."
+  },
+  {
+    "id": 35,
+    "question": "Identify the grammatical error.\nHomesteaders on the Great Plains had to build homes, find water in a semiarid land, and to learn to understand the blessings of the environment.",
+    "options": [
+      "had to build",
+      "find water",
+      "to learn",
+      "understand",
+      "No error"
+    ],
+    "correctIndex": 2,
+    "explanation": "Parallel structure: 'build, find, learn' (not 'to learn')."
+  },
+  {
+    "id": 36,
+    "question": "Identify the grammatical error.\nDuring the winter season, homeowners should change their disposable furnace filters at least once a month; a dirty filter reduce furnace efficiency.",
+    "options": [
+      "should change",
+      "their",
+      "reduce",
+      "furnace efficiency",
+      "No error"
+    ],
+    "correctIndex": 2,
+    "explanation": "Singular subject 'filter' → verb should be 'reduces'."
+  },
+  {
+    "id": 37,
+    "question": "Identify the grammatical error.\nThe chief executive officer and the chairman of the board agrees that the new benefit package should include a dental health plan as well as eye care.",
+    "options": [
+      "agrees",
+      "that the",
+      "should include",
+      "as well as",
+      "No error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compound subject → plural verb 'agree'."
+  },
+  {
+    "id": 38,
+    "question": "Identify the grammatical error.\nWatching the film, I begun to ask myself why I cared about these characters when I felt such an intense unease.",
+    "options": [
+      "begun",
+      "to ask myself",
+      "cared about",
+      "intense unease",
+      "No error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple of 'begin' is 'began', not 'begun'."
+  },
+  {
+    "id": 39,
+    "question": "Fill in the blank with the correct verb form.\nOn March 15, 2006, the Maywood Recreation Department requested a grant from the state to rebuild the community center that _________________ in the recent fire.",
+    "options": [
+      "destroys",
+      "will be destroyed",
+      "had been destroyed",
+      "is being destroyed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The fire happened before the request → past perfect 'had been destroyed'."
+  },
+  {
+    "id": 40,
+    "question": "Fill in the blank with the correct verb form.\nMatthew Morris and Jessica Glassman hosted a holiday party that The River Bank Café _________________.",
+    "options": [
+      "caters",
+      "will cater",
+      "is catering",
+      "catered"
+    ],
+    "correctIndex": 3,
+    "explanation": "The party is in the past → 'catered'."
+  },
+  {
+    "id": 41,
+    "question": "The managing director ____ Sid to sales manager and ever since then, he ____ everybody around.",
+    "options": [
+      "promoted / has been bossing",
+      "promotes / bosses",
+      "has promoted / is bossing",
+      "is promoting / was bossing",
+      "was promoting / has bossed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Past simple 'promoted' + present perfect continuous 'has been bossing'."
+  },
+  {
+    "id": 42,
+    "question": "Problems with the hotel, coupled with this awful weather, ____ our holiday miserable, so we ____ before the scheduled time.",
+    "options": [
+      "have made / have left",
+      "were making / leave",
+      "make / left",
+      "are making / are leaving",
+      "made / were leaving"
+    ],
+    "correctIndex": 3,
+    "explanation": "Present continuous + present continuous: 'are making ... so we are leaving'."
+  },
+  {
+    "id": 43,
+    "question": "The fact that more people ____ ozone-friendly products nowadays ____ that the media can positively increase public awareness.",
+    "options": [
+      "have used / was showing",
+      "used / has shown",
+      "use / has been showing",
+      "were using / showed",
+      "are using / shows"
+    ],
+    "correctIndex": 4,
+    "explanation": "Present continuous 'are using' + present simple 'shows'."
+  },
+  {
+    "id": 44,
+    "question": "My sister ____ from severe backaches lately and I think it's because, last month, she ____ to work in a shop where she has to pick up heavy things.",
+    "options": [
+      "is suffering / has started",
+      "suffers / was starting",
+      "has been suffering / started",
+      "suffered / is starting",
+      "was suffering / start"
+    ],
+    "correctIndex": 2,
+    "explanation": "Present perfect continuous 'has been suffering' + past simple 'started'."
+  },
+  {
+    "id": 45,
+    "question": "Though she ____ dancing, Sonia ____ to the disco with her friends the previous night just in order to be with them in a different atmosphere.",
+    "options": [
+      "hasn't like / has gone",
+      "doesn't like / went",
+      "didn't like / is going",
+      "doesn't like / goes",
+      "didn't like / is going"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present simple 'doesn't like' + past simple 'went'."
+  },
+  {
+    "id": 46,
+    "question": "Somebody ____ three times this morning asking for Pete, but nobody called Pete ____ here.",
+    "options": [
+      "has phoned / has ever lived",
+      "is phoning / was ever living",
+      "phones / ever lived",
+      "phoned / is ever living",
+      "has been phoning / ever lived"
+    ],
+    "correctIndex": 0,
+    "explanation": "Present perfect 'has phoned' + present perfect 'has ever lived'."
+  },
+  {
+    "id": 47,
+    "question": "Joey ____ just ____ stubborn when he refused to go to the cinema today and he only did so because we ____ to go bowling yesterday.",
+    "options": [
+      "is / being / haven't wanted",
+      "has / been / didn't want",
+      "is / being / don't want",
+      "was / being / haven't been wanting",
+      "was / being / didn't want"
+    ],
+    "correctIndex": 4,
+    "explanation": "Past continuous 'was being' + past simple 'didn’t want'."
+  },
+  {
+    "id": 48,
+    "question": "My mother ____ her optician tomorrow because her eyesight ____ worse since she got this computing job.",
+    "options": [
+      "has visited / is becoming",
+      "visited / was becoming",
+      "visits / becomes",
+      "is visiting / has become",
+      "was visiting / became"
+    ],
+    "correctIndex": 3,
+    "explanation": "Present continuous for the arranged future 'is visiting' + present perfect 'has become'."
+  },
+  {
+    "id": 49,
+    "question": "As the President ____ the hall, all the guests ____ to their feet to welcome him.",
+    "options": [
+      "was entering / have risen",
+      "entered / rose",
+      "is entering / rise",
+      "enters / have been rising",
+      "has entered / were rising"
+    ],
+    "correctIndex": 1,
+    "explanation": "Past simple sequence: 'entered' and 'rose'."
+  },
+  {
+    "id": 50,
+    "question": "She ____ interested in health ever since she was a young girl and now that the medical college ____ her as a student, it seems that she will be able to work in the medical field.",
+    "options": [
+      "was / accepted",
+      "has been / has accepted",
+      "is / is accepting",
+      "is being / accepts",
+      "was / was accepting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Present perfect 'has been interested' + present perfect 'has accepted'."
   }
 ]
