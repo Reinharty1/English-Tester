@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "question": "He always __________ football.",
+    "options": ["is playing", "played", "playing", "plays"],
+    "correctIndex": 3,
+    "explanation": "We use the present simple for habits: 'He always plays football.'"
+  },
+  {
+    "id": 2,
+    "question": "I __________ you every day.",
+    "options": ["am seeing", "saw", "see", "will be seeing"],
+    "correctIndex": 2,
+    "explanation": "Present simple for routine actions: 'I see you every day.'"
+  }
+]
