@@ -3,6 +3,9 @@
 // How many questions in each exam
 const EXAM_SIZE = 25;
 
+// Google Apps Script Web App URL (for saving results to Google Sheets)
+const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6GxRULVqXlFoM36pCdvfPWqEN1GlqG-SfhyQ0NW4BBNOJU4qPtGZbu8gYUuKfBe8c/exec";
+
 let allQuestions = [];
 let examQuestions = [];
 let examStarted = false;
@@ -212,11 +215,52 @@ function handleFinish() {
 
   resultContainer.innerHTML = html;
 
+  // Send result to Google Sheets (non-blocking)
+  sendResultToSheet({
+    studentName: studentName,
+    score: correct,
+    total: total,
+    percent: percent,
+    answered: answered,
+    durationSec: durationSec
+  });
+
   startBtn.disabled = false;
   finishBtn.disabled = true;
   examStarted = false;
 
   statusDiv.textContent = "Exam finished. Review your answers below.";
+}
+
+// ---------------------- Google Sheets integration ----------------------
+
+function sendResultToSheet(payload) {
+  if (!SHEET_ENDPOINT) {
+    console.warn("SHEET_ENDPOINT is not configured.");
+    return;
+  }
+
+  fetch(SHEET_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  })
+    .then(function (res) {
+      if (!res.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return res.json();
+    })
+    .then(function (data) {
+      if (data.status !== "ok") {
+        console.warn("Sheet API returned error:", data);
+      }
+    })
+    .catch(function (err) {
+      console.warn("Failed to send result to sheet:", err);
+    });
 }
 
 // ---------------------- Helpers ----------------------
