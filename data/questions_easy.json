@@ -1,16 +1,702 @@
 [
   {
     "id": 1,
-    "question": "He always __________ football.",
-    "options": ["is playing", "played", "playing", "plays"],
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
     "correctIndex": 3,
-    "explanation": "We use the present simple for habits: 'He always plays football.'"
+    "explanation": "Correct answer: 'eat'."
   },
   {
     "id": 2,
-    "question": "I __________ you every day.",
-    "options": ["am seeing", "saw", "see", "will be seeing"],
+    "question": "They __________ football now.",
+    "options": ["are playing", "play", "plays", "played"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 3,
+    "question": "They __________ football now.",
+    "options": ["played", "are playing", "play", "plays"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 4,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "are playing", "play"],
     "correctIndex": 2,
-    "explanation": "Present simple for routine actions: 'I see you every day.'"
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 5,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "is go", "go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 6,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "is go", "go", "going"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 7,
+    "question": "They __________ football now.",
+    "options": ["played", "play", "plays", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 8,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "am eating", "eats", "eat"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 9,
+    "question": "She __________ to school every day.",
+    "options": ["going", "is go", "go", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 10,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 11,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "going", "is go"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 12,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "eats", "eat", "am eating"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 13,
+    "question": "They __________ football now.",
+    "options": ["play", "played", "are playing", "plays"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 14,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "goes", "go", "going"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 15,
+    "question": "They __________ football now.",
+    "options": ["play", "played", "are playing", "plays"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 16,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "eat", "am eating", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 17,
+    "question": "They __________ football now.",
+    "options": ["plays", "are playing", "play", "played"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 18,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 19,
+    "question": "They __________ football now.",
+    "options": ["play", "plays", "played", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 20,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "goes", "go", "going"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 21,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "eat", "ate"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 22,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "goes", "going"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 23,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "is go", "going"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 24,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 25,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "eat", "eats", "am eating"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 26,
+    "question": "They __________ football now.",
+    "options": ["played", "play", "plays", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 27,
+    "question": "They __________ football now.",
+    "options": ["played", "plays", "are playing", "play"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 28,
+    "question": "She __________ to school every day.",
+    "options": ["go", "is go", "goes", "going"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 29,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eat", "eats", "ate"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 30,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "go", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 31,
+    "question": "They __________ football now.",
+    "options": ["play", "played", "plays", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 32,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 33,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "is go", "go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 34,
+    "question": "She __________ to school every day.",
+    "options": ["go", "goes", "is go", "going"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 35,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "ate", "eats", "eat"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 36,
+    "question": "She __________ to school every day.",
+    "options": ["go", "going", "is go", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 37,
+    "question": "They __________ football now.",
+    "options": ["plays", "play", "played", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 38,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "going", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 39,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 40,
+    "question": "She __________ to school every day.",
+    "options": ["going", "go", "goes", "is go"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 41,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "is go", "go", "going"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 42,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "ate", "eat", "eats"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 43,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "eat", "am eating", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 44,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 45,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eat", "ate", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 46,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "going", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 47,
+    "question": "They __________ football now.",
+    "options": ["play", "played", "are playing", "plays"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 48,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "are playing", "play"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 49,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "am eating", "eat", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 50,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eat", "eats", "ate"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 51,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eat", "eats", "am eating", "ate"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 52,
+    "question": "They __________ football now.",
+    "options": ["play", "plays", "are playing", "played"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 53,
+    "question": "They __________ football now.",
+    "options": ["played", "plays", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 54,
+    "question": "They __________ football now.",
+    "options": ["play", "are playing", "played", "plays"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 55,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eat", "ate", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 56,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "going", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 57,
+    "question": "They __________ football now.",
+    "options": ["are playing", "play", "played", "plays"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 58,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eats", "am eating", "eat", "ate"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 59,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "ate", "eat", "eats"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 60,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "goes", "going"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 61,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 62,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "go", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 63,
+    "question": "They __________ football now.",
+    "options": ["played", "are playing", "plays", "play"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 64,
+    "question": "They __________ football now.",
+    "options": ["are playing", "play", "plays", "played"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 65,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 66,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["ate", "am eating", "eat", "eats"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 67,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eat", "ate", "eats"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 68,
+    "question": "They __________ football now.",
+    "options": ["plays", "are playing", "play", "played"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 69,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eat", "ate", "am eating", "eats"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 70,
+    "question": "She __________ to school every day.",
+    "options": ["go", "going", "is go", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 71,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eats", "eat", "am eating", "ate"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 72,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "ate", "eat", "eats"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 73,
+    "question": "They __________ football now.",
+    "options": ["play", "played", "plays", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 74,
+    "question": "She __________ to school every day.",
+    "options": ["go", "is go", "goes", "going"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 75,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eat", "eats", "am eating", "ate"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 76,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eats", "eat", "ate", "am eating"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 77,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "go", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 78,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "goes", "go", "going"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 79,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "go", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 80,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "going", "go", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 81,
+    "question": "She __________ to school every day.",
+    "options": ["going", "go", "goes", "is go"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 82,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "going", "is go"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 83,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "ate", "eat"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 84,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "going", "is go"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 85,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eats", "ate", "am eating", "eat"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 86,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "going", "is go"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 87,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "goes", "going"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 88,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["eats", "eat", "ate", "am eating"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 89,
+    "question": "She __________ to school every day.",
+    "options": ["go", "goes", "going", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 90,
+    "question": "They __________ football now.",
+    "options": ["played", "play", "are playing", "plays"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 91,
+    "question": "They __________ football now.",
+    "options": ["plays", "are playing", "play", "played"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 92,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "ate", "eat", "eats"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'eat'."
+  },
+  {
+    "id": 93,
+    "question": "She __________ to school every day.",
+    "options": ["goes", "go", "is go", "going"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 94,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 95,
+    "question": "She __________ to school every day.",
+    "options": ["is go", "go", "going", "goes"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 96,
+    "question": "They __________ football now.",
+    "options": ["played", "plays", "are playing", "play"],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 97,
+    "question": "She __________ to school every day.",
+    "options": ["going", "goes", "go", "is go"],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'goes'."
+  },
+  {
+    "id": 98,
+    "question": "I __________ breakfast at 7 a.m.",
+    "options": ["am eating", "eats", "eat", "ate"],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'am eating'."
+  },
+  {
+    "id": 99,
+    "question": "They __________ football now.",
+    "options": ["played", "play", "plays", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
+  },
+  {
+    "id": 100,
+    "question": "They __________ football now.",
+    "options": ["plays", "played", "play", "are playing"],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'are playing'."
   }
 ]
