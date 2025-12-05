@@ -13,19 +13,33 @@
       padding: 20px;
       line-height: 1.6;
     }
-    h1, h2 {
+    h1 {
       text-align: center;
+      margin-bottom: 25px;
     }
     .controls {
       display: flex;
       gap: 10px;
       justify-content: center;
-      margin-bottom: 20px;
+      align-items: center;
       flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    input[type="text"] {
+      padding: 4px 6px;
     }
     button {
       padding: 8px 16px;
       cursor: pointer;
+    }
+    button:disabled {
+      opacity: 0.6;
+      cursor: default;
     }
     .question {
       border: 1px solid #ccc;
@@ -67,26 +81,30 @@
 <body>
   <h1>English Tenses Exam</h1>
 
-<div class="controls">
-  <label>
-    Student name:
-    <input type="text" id="studentName" placeholder="Enter your name">
-  </label>
+  <div class="controls">
+    <label>
+      Student name:
+      <input type="text" id="studentName" placeholder="Enter your name">
+    </label>
 
-  <label>
-    Difficulty:
-    <select id="difficulty">
-      <option value="easy">Easy</option>
-      <option value="moderate">Moderate</option>
-      <option value="advanced">Advanced</option>
-    </select>
-  </label>
+    <label>
+      Difficulty:
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="moderate">Moderate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+    </label>
 
-  <button id="startExamBtn">Start Exam</button>
-  <button id="finishExamBtn" disabled>Finish &amp; Show Score</button>
-</div>
+    <button id="startExamBtn">Start Exam</button>
+    <button id="finishExamBtn" disabled>Finish &amp; Show Score</button>
+  </div>
 
+  <div id="questionsContainer"></div>
 
+  <div id="resultContainer"></div>
+
+  <!-- IMPORTANT: this loads your JavaScript -->
   <script src="app.js"></script>
 </body>
 </html>
