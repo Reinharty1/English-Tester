@@ -3,6 +3,9 @@
 // How many questions in each exam
 const EXAM_SIZE = 25;
 
+// Exam duration (in seconds) – 20 minutes
+const EXAM_DURATION_SECONDS = 20 * 60;
+
 // Google Apps Script Web App URL (for saving results to Google Sheets)
 const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6GxRULVqXlFoM36pCdvfPWqEN1GlqG-SfhyQ0NW4BBNOJU4qPtGZbu8gYUuKfBe8c/exec";
 
@@ -11,8 +14,12 @@ let examQuestions = [];
 let examStarted = false;
 let examStartTime = null;
 
+// Timer state
+let timerInterval = null;
+let remainingSeconds = 0;
+
 // DOM references
-let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput;
+let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput, timerDiv;
 
 document.addEventListener("DOMContentLoaded", function () {
   startBtn = document.getElementById("startBtn");
@@ -21,14 +28,22 @@ document.addEventListener("DOMContentLoaded", function () {
   quizContainer = document.getElementById("quizContainer");
   resultContainer = document.getElementById("resultContainer");
   nameInput = document.getElementById("studentName");
+  timerDiv = document.getElementById("timer");
 
   startBtn.disabled = true;
   finishBtn.disabled = true;
 
+  if (timerDiv) {
+    timerDiv.textContent = "";
+  }
+
   loadQuestions();
 
   startBtn.addEventListener("click", handleStart);
-  finishBtn.addEventListener("click", handleFinish);
+  // Pass false to indicate manual finish (not auto by timer)
+  finishBtn.addEventListener("click", function () {
+    handleFinish(false);
+  });
 });
 
 // ---------------------- Data loading ----------------------
@@ -77,6 +92,8 @@ function handleStart() {
   finishBtn.disabled = false;
   resultContainer.innerHTML = "";
   statusDiv.textContent = "Exam started. You have 25 questions.";
+
+  startTimer();
 
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -127,11 +144,16 @@ function renderExam() {
   });
 }
 
-function handleFinish() {
+// autoSubmit = true when called by timer, false when user clicks Finish
+function handleFinish(autoSubmit) {
   if (!examStarted) {
-    statusDiv.textContent = "You need to start the exam first.";
+    if (!autoSubmit) {
+      statusDiv.textContent = "You need to start the exam first.";
+    }
     return;
   }
+
+  clearTimer();
 
   var correct = 0;
   var answered = 0;
@@ -229,7 +251,49 @@ function handleFinish() {
   finishBtn.disabled = true;
   examStarted = false;
 
-  statusDiv.textContent = "Exam finished. Review your answers below.";
+  if (autoSubmit) {
+    statusDiv.textContent = "Time is up. Your exam has been submitted. Review your answers below.";
+  } else {
+    statusDiv.textContent = "Exam finished. Review your answers below.";
+  }
+}
+
+// ---------------------- Timer logic ----------------------
+
+function startTimer() {
+  clearTimer();
+  remainingSeconds = EXAM_DURATION_SECONDS;
+  updateTimerDisplay();
+  timerInterval = setInterval(function () {
+    remainingSeconds--;
+    if (remainingSeconds <= 0) {
+      remainingSeconds = 0;
+      updateTimerDisplay();
+      clearTimer();
+      if (examStarted) {
+        // Auto-submit
+        handleFinish(true);
+      }
+    } else {
+      updateTimerDisplay();
+    }
+  }, 1000);
+}
+
+function clearTimer() {
+  if (timerInterval !== null) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
+
+function updateTimerDisplay() {
+  if (!timerDiv) return;
+  var mins = Math.floor(remainingSeconds / 60);
+  var secs = remainingSeconds % 60;
+  var mm = String(mins).padStart(2, "0");
+  var ss = String(secs).padStart(2, "0");
+  timerDiv.textContent = "Time left: " + mm + ":" + ss;
 }
 
 // ---------------------- Google Sheets integration ----------------------
