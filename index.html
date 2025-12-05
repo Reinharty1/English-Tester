@@ -45,6 +45,7 @@
       font-weight: 600;
       color: #b91c1c;
       min-width: 120px;
+      text-align: right;
     }
     button {
       padding: 8px 16px;
@@ -91,24 +92,9 @@
       border-radius: 10px;
       padding: 12px 16px;
       border: 1px solid #bfdbfe;
-      margin-bottom: 16px;
     }
     .score-box strong {
       font-size: 1.05rem;
-    }
-    .explanation-block {
-      margin-bottom: 12px;
-      padding: 10px 12px;
-      border-radius: 8px;
-      background: #f9fafb;
-      border: 1px solid #e5e7eb;
-      font-size: 0.95rem;
-    }
-    .explanation-block.correct {
-      border-color: #16a34a;
-    }
-    .explanation-block.incorrect {
-      border-color: #b91c1c;
     }
     .error {
       color: #b91c1c;
@@ -121,6 +107,9 @@
       }
       .top-bar input[type="text"] {
         width: 100%;
+      }
+      .timer-display {
+        text-align: left;
       }
     }
   </style>
@@ -138,14 +127,14 @@
         <button id="startBtn" disabled>Start Exam</button>
         <button id="finishBtn" disabled>Finish &amp; Show Score</button>
       </div>
-      <div id="timer" class="timer-display"></div>
+      <div id="timer" class="timer-display">Time: --:--</div>
     </div>
 
-    <div id="questionsContainer"></div>
+    <div id="status" class="error"></div>
+
+    <div id="quizContainer"></div>
 
     <div id="resultContainer"></div>
-
-    <div id="errorMsg" class="error"></div>
   </div>
 
   <script src="app.js"></script>
