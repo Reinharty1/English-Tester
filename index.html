@@ -58,6 +58,7 @@
       padding: 18px 20px 24px;
       box-shadow: 0 18px 40px rgba(15, 23, 42, 0.35);
       border: 1px solid rgba(148, 163, 184, 0.35);
+      position: relative;
     }
 
     .top-bar {
@@ -65,7 +66,7 @@
       grid-template-columns: minmax(0, 1.2fr) auto minmax(0, 0.9fr);
       gap: 14px;
       align-items: center;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
     }
 
     .student-field label {
@@ -158,12 +159,41 @@
     #status {
       min-height: 18px;
       font-size: 0.9rem;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
       color: var(--danger);
     }
 
+    .progress-wrapper {
+      margin-bottom: 10px;
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .progress-bar-outer {
+      width: 100%;
+      height: 8px;
+      border-radius: 999px;
+      background: #e5e7eb;
+      overflow: hidden;
+    }
+
+    .progress-bar-inner {
+      height: 100%;
+      width: 0;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #22c55e, #16a34a);
+      transition: width 0.15s ease-out;
+    }
+
     #quizContainer {
-      margin-top: 10px;
+      margin-top: 8px;
       max-height: 60vh;
       overflow-y: auto;
       padding-right: 4px;
@@ -220,6 +250,28 @@
       color: var(--text-main);
     }
 
+    .back-to-top {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: none;
+      background: rgba(15, 23, 42, 0.9);
+      color: #e5e7eb;
+      cursor: pointer;
+      font-size: 0.85rem;
+      display: none;
+      align-items: center;
+      gap: 4px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.6);
+      z-index: 1000;
+    }
+
+    .back-to-top.visible {
+      display: inline-flex;
+    }
+
     @media (max-width: 768px) {
       .card {
         padding: 14px 12px 20px;
@@ -266,6 +318,16 @@
         </div>
       </div>
 
+      <div class="progress-wrapper">
+        <div class="progress-header">
+          <span>Progress</span>
+          <span id="progressText">Answered 0 / 25</span>
+        </div>
+        <div class="progress-bar-outer">
+          <div id="progressBar" class="progress-bar-inner"></div>
+        </div>
+      </div>
+
       <div id="status"></div>
 
       <div id="quizContainer"></div>
@@ -273,6 +335,8 @@
       <div id="resultContainer"></div>
     </div>
   </div>
+
+  <button id="backToTop" class="back-to-top">↑ Top</button>
 
   <script src="app.js"></script>
 </body>
