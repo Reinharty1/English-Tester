@@ -611,5 +611,567 @@
     ],
     "correctIndex": 1,
     "explanation": "Present perfect 'has been interested' + present perfect 'has accepted'."
-  }
+  },
+
+  {
+    "id": 51,
+    "question": "‘Next to’ and ‘instead of’ are _______ prepositions.",
+    "options": [
+      "phrasal",
+      "complex"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: complex."
+  },
+  {
+    "id": 52,
+    "question": "My son was born _______ Christmas Day.",
+    "options": [
+      "on",
+      "at"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: on."
+  },
+  {
+    "id": 53,
+    "question": "I’ll have finished my talk _______ five.",
+    "options": [
+      "by",
+      "until"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: by."
+  },
+  {
+    "id": 54,
+    "question": "Only people aged _______ 18 can purchase alcohol.",
+    "options": [
+      "above",
+      "over"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: over."
+  },
+  {
+    "id": 55,
+    "question": "The competition is now _______ the red and blue teams.",
+    "options": [
+      "between",
+      "among"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: between."
+  },
+  {
+    "id": 56,
+    "question": "The _______ verb form is ‘to’ plus a verb.",
+    "options": [
+      "infinitive",
+      "bare infinitive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: infinitive."
+  },
+  {
+    "id": 57,
+    "question": "The gerund can be used like a _______.",
+    "options": [
+      "noun",
+      "verb"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: noun."
+  },
+  {
+    "id": 58,
+    "question": "I would prefer _______ a Shakespeare play.",
+    "options": [
+      "seeing",
+      "to see"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: to see."
+  },
+  {
+    "id": 59,
+    "question": "_______ passed his driving test, Marco bought a car.",
+    "options": [
+      "To have",
+      "Having"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: Having."
+  },
+  {
+    "id": 60,
+    "question": "Ana was delighted _______ your invitation.",
+    "options": [
+      "to get",
+      "getting"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: to get."
+  },
+  {
+    "id": 61,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "They go for a picnic every Spring.",
+      "She won the award, in spite of stiff competition from her classmates.",
+      "I didn’t know, that Gloria was going to the concert.",
+      "In the Winter, she takes the train home.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'Spring' should not be capitalized."
+  },
+  {
+    "id": 62,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "I have a history test on Tuesday, and a math test on Wednesday.",
+      "Paula, an excellent swimmer practices every day.",
+      "The girls’ softball team won every game, this season.",
+      "He studied hard, so he did well on the test.",
+      "No mistakes."
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct answer: comma before 'this season' creates a comma splice."
+  },
+  {
+    "id": 63,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "When she arrived at the party, she realized she had forgotten to feed their cat.",
+      "The ballerina was talented graceful poised and attentive.",
+      "She wants to visit London Paris and Rome on her trip to Europe.",
+      "My favorite painters are Monet, Rembrandt, and Degas.",
+      "No mistakes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: missing commas in the series 'talented, graceful, poised, and attentive'."
+  },
+  {
+    "id": 64,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "Ms. Sanchez asked, “who can tell me the answer?”",
+      "Many people read the New York Times on Sunday.",
+      "The mayor of Boston, Mayor Smith, hosted the parade.",
+      "The new restaurant on Elm Street is expensive.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'who' should be capitalized as 'Who'."
+  },
+  {
+    "id": 65,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "My friend lives in cape cod during the Summer.",
+      "I bought apples, oranges, and bananas at the store.",
+      "My favorite holiday is Thanksgiving.",
+      "He enjoys swimming, biking, and hiking.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'Cape Cod' needs capitals and 'summer' should be lowercase."
+  },
+  {
+    "id": 66,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "Do you know where she put the keys.",
+      "The teacher asked if anyone had any questions.",
+      "He wondered where his friends were going.",
+      "She asked when dinner would be ready.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: it should end with a question mark, not a full stop."
+  },
+  {
+    "id": 67,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "When my uncle Jim visits, he always brings gifts.",
+      "My Uncle is coming over for dinner tonight.",
+      "They went to visit Aunt Mary last weekend.",
+      "I think my cousin will come too.",
+      "No mistakes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'uncle' is not used as a name here, so it should be lowercase."
+  },
+  {
+    "id": 68,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "My Grandma baked cookies for the school bake sale.",
+      "They visit their grandparents every Sunday.",
+      "He told his grandma about his day.",
+      "My cousin loves when Grandpa tells stories.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: pattern treats 'Grandma' here as incorrectly capitalized."
+  },
+  {
+    "id": 69,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "He bought milk, bread, and eggs: cheese.",
+      "She enjoys reading, writing, and drawing.",
+      "They visited museums, parks, and monuments.",
+      "We had soup, salad, and pasta for dinner.",
+      "No mistakes."
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: the colon is misused after 'eggs'."
+  },
+  {
+    "id": 70,
+    "question": "Identify the sentence with a mistake in capitalization or punctuation.",
+    "options": [
+      "Someone else’s jacket is on the chair.",
+      "Is this anyones book?",
+      "The teacher corrected the students’ papers.",
+      "Her sister’s car is parked outside.",
+      "No mistakes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: it should be 'anyone’s' with an apostrophe."
+  },
+  {
+    "id": 71,
+    "question": "Choose the underlined part that contains a grammatical error.\nThe words on the page of his new novel delicately carves a portrait of a time that is nearly forgotten.",
+    "options": [
+      "The words on the page",
+      "of his new novel",
+      "delicately carves",
+      "are carved",
+      "No error"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct answer: subject 'words' is plural, so the verb should be 'carve'."
+  },
+  {
+    "id": 72,
+    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A.\nThe unpredictable price, as well as the supply and demand, determine the cost of oil.",
+    "options": [
+      "determine the cost of oil",
+      "determines the cost of oil",
+      "are determining the cost of oil",
+      "with supply and demand determine",
+      "with supply and demand determines"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'determines the cost of oil' – the subject is singular ('price')."
+  },
+  {
+    "id": 73,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nThe new budget is designed to reduce expenses, increase operating efficiency, and the conservation of soil.",
+    "options": [
+      "and conserving the soil",
+      "and to conserve the soil",
+      "and conservation of the soil",
+      "and conserve the soil",
+      "and by conserving the soil"
+    ],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'and conserve the soil' for parallel structure."
+  },
+  {
+    "id": 74,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nIt is important for a leader to remain calm and possessive of an even temper at all times.",
+    "options": [
+      "calm and be possessive of",
+      "calm and possessive of",
+      "calm, and possessing",
+      "calm, possessing",
+      "calm in possessing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'calm and possessive of' keeps the parallel adjective structure."
+  },
+  {
+    "id": 75,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nWhen the phone rang, Jacoby is writing his term paper for his sociology class.",
+    "options": [
+      "Jacoby is writing his term paper",
+      "Jacoby writes his term paper",
+      "Jacoby was writing his term paper",
+      "Jacoby has been writing his term paper",
+      "Jacoby will be writing his term paper"
+    ],
+    "correctIndex": 2,
+    "explanation": "Correct answer: 'Jacoby was writing his term paper' (past continuous with 'rang')."
+  },
+  {
+    "id": 76,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nThe first factory to open in the industrial area was a textile mill in which materials were woven into fabric and then automobiles are often used.",
+    "options": [
+      "then automobiles often are using them",
+      "then automobiles often use",
+      "which is often used in automobiles",
+      "that is often used in automobiles",
+      "and in which automobiles are often used"
+    ],
+    "correctIndex": 3,
+    "explanation": "Correct answer: 'that is often used in automobiles' (clarifies what is used)."
+  },
+  {
+    "id": 77,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nThe application required a photograph and submitting it.",
+    "options": [
+      "submitting",
+      "submitting of it",
+      "our submitting",
+      "submit it",
+      "we submitted it"
+    ],
+    "correctIndex": 4,
+    "explanation": "Correct answer: 'we submitted it' makes a complete clause."
+  },
+  {
+    "id": 78,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nThe reasons she enjoys her new job include working outdoors, hiking in the mountains, and riding a bicycle.",
+    "options": [
+      "working outdoors, to hike in the mountains, and riding a bicycle",
+      "working outdoors, hiking in the mountains, and riding a bicycle",
+      "to work outdoors, hiking in the mountains, and riding a bicycle",
+      "to work outdoors, hike in the mountains, and riding a bicycle",
+      "to work outdoors, to hike in the mountains, and to ride a bicycle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: parallel -ing forms: 'working, hiking, and riding'."
+  },
+  {
+    "id": 79,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nMr. Webster made sure that everyone was aware that she might change her mind and doesn’t.",
+    "options": [
+      "mind and doesn’t",
+      "mind and wouldn’t",
+      "mind and hadn’t",
+      "mind and didn’t",
+      "mind and hasn’t"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: 'might change ... and wouldn’t' – conditional meaning."
+  },
+  {
+    "id": 80,
+    "question": "Replace the underlined part with the phrase that best completes the sentence.\nThe veterinarian had to assure the dog’s owner that the animal would not be harmed during the procedure.",
+    "options": [
+      "had to assure",
+      "had to ensure",
+      "had to insure",
+      "assured",
+      "ensured"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: 'had to assure' (to comfort the owner)."
+  },
+  {
+    "id": 81,
+    "question": "To form the passive we use ‘be’ and a _______ participle.",
+    "options": [
+      "past",
+      "present"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: past."
+  },
+  {
+    "id": 82,
+    "question": "The company _______ closed down.",
+    "options": [
+      "might",
+      "might be"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: might be."
+  },
+  {
+    "id": 83,
+    "question": "Karl has just _______ by a physiotherapist.",
+    "options": [
+      "been seen",
+      "be seen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: been seen."
+  },
+  {
+    "id": 84,
+    "question": "A newspaper article was written _______ my son.",
+    "options": [
+      "to",
+      "about"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: about."
+  },
+  {
+    "id": 85,
+    "question": "The air pollution was caused _______ the traffic.",
+    "options": [
+      "by",
+      "from"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: by."
+  },
+  {
+    "id": 86,
+    "question": "The word ‘that’ is a type of _______.",
+    "options": [
+      "article",
+      "demonstrative"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: demonstrative."
+  },
+  {
+    "id": 87,
+    "question": "She has two daughters and they _______ do ballet.",
+    "options": [
+      "both",
+      "all"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: both."
+  },
+  {
+    "id": 88,
+    "question": "_______ fishing is allowed on this river.",
+    "options": [
+      "No",
+      "Not any"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: No."
+  },
+  {
+    "id": 89,
+    "question": "I don’t like _______ of these photos.",
+    "options": [
+      "either",
+      "neither"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: either."
+  },
+  {
+    "id": 90,
+    "question": "They _______ have five or six holidays a year.",
+    "options": [
+      "usually",
+      "almost"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: usually."
+  },
+  {
+    "id": 91,
+    "question": "I _______ see a film at the cinema.",
+    "options": [
+      "seldom",
+      "rare"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: seldom."
+  },
+  {
+    "id": 92,
+    "question": "She _______ loves going to football matches.",
+    "options": [
+      "really",
+      "real"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: really."
+  },
+  {
+    "id": 93,
+    "question": "She sings _______.",
+    "options": [
+      "wonderful",
+      "wonderfully"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: wonderfully."
+  },
+  {
+    "id": 94,
+    "question": "Driving a car is _______ less dangerous than riding a motor-bike.",
+    "options": [
+      "more",
+      "much"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: much."
+  },
+  {
+    "id": 95,
+    "question": "She’s incredibly _______ in her job.",
+    "options": [
+      "success",
+      "successful"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: successful."
+  },
+  {
+    "id": 96,
+    "question": "She’s never been on a long _______.",
+    "options": [
+      "cycle",
+      "bike ride"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: bike ride."
+  },
+  {
+    "id": 97,
+    "question": "Spanish has _______ vowels.",
+    "options": [
+      "much",
+      "a lot of"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: a lot of."
+  },
+  {
+    "id": 98,
+    "question": "The _______ in Iraq was shorter than many people thought it would be.",
+    "options": [
+      "battle",
+      "war"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: war."
+  },
+  {
+    "id": 99,
+    "question": "The environmental performance of _______ economy is an important indicator of sustainability.",
+    "options": [
+      "an",
+      "a"
+    ],
+    "correctIndex": 1,
+    "explanation": "Correct answer: a."
+  },
+  {
+    "id": 100,
+    "question": "It is recommended that the factory _______.",
+    "options": [
+      "close",
+      "closed"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correct answer: close."
+  },
 ]
+
