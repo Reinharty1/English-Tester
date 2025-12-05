@@ -3,8 +3,8 @@
 // How many questions in each exam
 const EXAM_SIZE = 25;
 
-// Exam duration in seconds (20 minutes = 1200 seconds)
-const EXAM_DURATION_SECONDS = 20 * 60;
+// Exam duration in minutes (change if you want 15, 30, etc.)
+const EXAM_DURATION_MIN = 20;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
 const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6GxRULVqXlFoM36pCdvfPWqEN1GlqG-SfhyQ0NW4BBNOJU4qPtGZbu8gYUuKfBe8c/exec";
@@ -13,14 +13,14 @@ let allQuestions = [];
 let examQuestions = [];
 let examStarted = false;
 let examStartTime = null;
-let examFinished = false;
 
 // timer state
+let timerDiv;
 let timerInterval = null;
-let remainingSeconds = EXAM_DURATION_SECONDS;
+let remainingSeconds = 0;
 
 // DOM references
-let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput, timerDiv;
+let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput;
 
 document.addEventListener("DOMContentLoaded", function () {
   startBtn = document.getElementById("startBtn");
@@ -33,13 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startBtn.disabled = true;
   finishBtn.disabled = true;
-
-  updateTimerDisplay(remainingSeconds);
+  updateTimerDisplay(); // initial
 
   loadQuestions();
 
   startBtn.addEventListener("click", handleStart);
-  finishBtn.addEventListener("click", handleFinishClick);
+  finishBtn.addEventListener("click", function () {
+    handleFinish(false);
+  });
 });
 
 // ---------------------- Data loading ----------------------
@@ -80,7 +81,6 @@ function handleStart() {
 
   examQuestions = pickRandomQuestions(allQuestions, EXAM_SIZE);
   examStarted = true;
-  examFinished = false;
   examStartTime = new Date();
 
   renderExam();
@@ -90,9 +90,9 @@ function handleStart() {
   resultContainer.innerHTML = "";
   statusDiv.textContent = "Exam started. You have 25 questions.";
 
-  // reset & start timer
-  remainingSeconds = EXAM_DURATION_SECONDS;
-  updateTimerDisplay(remainingSeconds);
+  // start timer
+  remainingSeconds = EXAM_DURATION_MIN * 60;
+  updateTimerDisplay();
   startTimer();
 
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -144,23 +144,61 @@ function renderExam() {
   });
 }
 
-// When user clicks Finish button
-function handleFinishClick() {
-  if (!examStarted || examFinished) {
-    statusDiv.textContent = "The exam is not active.";
-    return;
-  }
-  finalizeExam(false); // manual finish
+// ---------------------- Timer logic ----------------------
+
+function startTimer() {
+  stopTimer(); // just in case
+  timerInterval = setInterval(tickTimer, 1000);
 }
 
-// This function does the actual scoring + review + logging
-function finalizeExam(autoSubmitted) {
-  if (!examStarted || examFinished) return;
+function stopTimer() {
+  if (timerInterval !== null) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
 
-  examFinished = true;
-  examStarted = false;
+function tickTimer() {
+  if (!examStarted) {
+    stopTimer();
+    return;
+  }
 
-  // stop timer
+  remainingSeconds -= 1;
+  if (remainingSeconds <= 0) {
+    remainingSeconds = 0;
+    updateTimerDisplay();
+    stopTimer();
+    if (examStarted) {
+      // auto-submit
+      handleFinish(true);
+    }
+  } else {
+    updateTimerDisplay();
+  }
+}
+
+function updateTimerDisplay() {
+  if (!timerDiv) return;
+  if (!examStarted && remainingSeconds === 0) {
+    timerDiv.textContent = "Time: --:--";
+    return;
+  }
+  var m = Math.floor(remainingSeconds / 60);
+  var s = remainingSeconds % 60;
+  var mm = m < 10 ? "0" + m : String(m);
+  var ss = s < 10 ? "0" + s : String(s);
+  timerDiv.textContent = "Time left: " + mm + ":" + ss;
+}
+
+// ---------------------- Finish & review ----------------------
+
+function handleFinish(autoSubmit) {
+  if (!examStarted) {
+    statusDiv.textContent = "You need to start the exam first.";
+    return;
+  }
+
   stopTimer();
 
   var correct = 0;
@@ -238,9 +276,6 @@ function finalizeExam(autoSubmitted) {
   if (durationSec !== null) {
     html += "<strong>Time used:</strong> " + durationSec + " seconds<br/>";
   }
-  if (autoSubmitted) {
-    html += "<strong>Note:</strong> Time ended; exam was submitted automatically.<br/>";
-  }
   html += "</div><br/>";
 
   html += "<h2>Answer Review</h2>";
@@ -260,49 +295,15 @@ function finalizeExam(autoSubmitted) {
 
   startBtn.disabled = false;
   finishBtn.disabled = true;
+  examStarted = false;
 
-  statusDiv.textContent = autoSubmitted
-    ? "Time is over. Exam submitted automatically."
-    : "Exam finished. Review your answers below.";
-}
-
-// ---------------------- Timer logic ----------------------
-
-function startTimer() {
-  stopTimer(); // just in case
-
-  timerInterval = setInterval(function () {
-    remainingSeconds -= 1;
-    if (remainingSeconds < 0) {
-      remainingSeconds = 0;
-    }
-
-    updateTimerDisplay(remainingSeconds);
-
-    if (remainingSeconds <= 0) {
-      // time over
-      stopTimer();
-      if (examStarted && !examFinished) {
-        finalizeExam(true); // auto-submit
-      }
-    }
-  }, 1000);
-}
-
-function stopTimer() {
-  if (timerInterval !== null) {
-    clearInterval(timerInterval);
-    timerInterval = null;
+  if (autoSubmit) {
+    statusDiv.textContent = "Time is up. Exam submitted automatically. Review your answers below.";
+  } else {
+    statusDiv.textContent = "Exam finished. Review your answers below.";
   }
-}
 
-function updateTimerDisplay(seconds) {
-  if (!timerDiv) return;
-  var m = Math.floor(seconds / 60);
-  var s = seconds % 60;
-  var mm = m < 10 ? "0" + m : String(m);
-  var ss = s < 10 ? "0" + s : String(s);
-  timerDiv.textContent = "Time left: " + mm + ":" + ss;
+  updateTimerDisplay(); // reset to --:--
 }
 
 // ---------------------- Google Sheets integration ----------------------
