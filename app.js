@@ -1,228 +1,180 @@
 // app.js
 
-let currentQuestions = [];
+const EXAM_SIZE = 50; // number of random questions per exam
+
+let allQuestions = [];
+let examQuestions = [];
 let examStarted = false;
+let examStartTime = null;
 
-const studentNameInput = document.getElementById('studentName');
-const startExamBtn = document.getElementById('startExamBtn');
-const finishExamBtn = document.getElementById('finishExamBtn');
-const questionsContainer = document.getElementById('questionsContainer');
-const resultContainer = document.getElementById('resultContainer');
+let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput;
 
-// Single question bank (put ALL your questions here)
-const QUESTIONS_URL = 'data/questions_easy.json';
+document.addEventListener("DOMContentLoaded", () => {
+  // Cache DOM
+  startBtn = document.getElementById("startBtn");
+  finishBtn = document.getElementById("finishBtn");
+  statusDiv = document.getElementById("status");
+  quizContainer = document.getElementById("quizContainer");
+  resultContainer = document.getElementById("resultContainer");
+  nameInput = document.getElementById("studentName");
 
-// Your Google Apps Script Web App URL (already created)
-const GOOGLE_SHEETS_WEB_APP_URL =
-  'https://script.google.com/macros/s/AKfycbxXR8SSS_GNv1FwQzLVqQnriJWLZNKrJVozbQSUQ2aHyzQf_rXjGtw16cxYzqSA6mtI/exec';
+  startBtn.disabled = true;
+  finishBtn.disabled = true;
 
-startExamBtn.addEventListener('click', startExam);
-finishExamBtn.addEventListener('click', finishExam);
+  loadQuestions();
 
-// -------------------- START EXAM --------------------
+  startBtn.addEventListener("click", handleStart);
+  finishBtn.addEventListener("click", handleFinish);
+});
 
-async function startExam() {
-  try {
-    const response = await fetch(QUESTIONS_URL);
-    if (!response.ok) {
-      throw new Error(`Cannot load questions from ${QUESTIONS_URL}`);
-    }
+function loadQuestions() {
+  statusDiv.textContent = "Loading questions…";
 
-    const allQuestions = await response.json();
-
-    // Always use up to 50 questions, randomly selected
-    const count = Math.min(50, allQuestions.length);
-    const shuffled = shuffleArray(allQuestions);
-    currentQuestions = shuffled.slice(0, count);
-
-    renderQuestions(currentQuestions);
-    resultContainer.innerHTML = '';
-    examStarted = true;
-    finishExamBtn.disabled = false;
-  } catch (err) {
-    console.error(err);
-    alert('Error loading questions. Check console for details.');
-  }
-}
-
-// -------------------- RENDER QUESTIONS --------------------
-
-function renderQuestions(questions) {
-  questionsContainer.innerHTML = '';
-
-  questions.forEach((q, index) => {
-    const div = document.createElement('div');
-    div.className = 'question';
-    div.dataset.questionId = q.id ?? index;
-
-    const header = document.createElement('div');
-    header.className = 'question-header';
-    header.textContent = `${index + 1}. ${q.question}`;
-
-    const optionsDiv = document.createElement('div');
-    optionsDiv.className = 'options';
-
-    q.options.forEach((opt, optIndex) => {
-      const label = document.createElement('label');
-      const radio = document.createElement('input');
-      radio.type = 'radio';
-      radio.name = `q_${index}`;
-      radio.value = optIndex;
-
-      label.appendChild(radio);
-      label.appendChild(document.createTextNode(' ' + opt));
-      optionsDiv.appendChild(label);
-    });
-
-    div.appendChild(header);
-    div.appendChild(optionsDiv);
-    questionsContainer.appendChild(div);
-  });
-}
-
-// -------------------- FINISH EXAM --------------------
-
-function finishExam() {
-  if (!examStarted) return;
-
-  const answers = [];
-  let correctCount = 0;
-
-  currentQuestions.forEach((q, index) => {
-    const radios = document.getElementsByName(`q_${index}`);
-    let chosenIndex = null;
-
-    for (const r of radios) {
-      if (r.checked) {
-        chosenIndex = parseInt(r.value, 10);
-        break;
+  fetch("questions.json")
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error("Failed to load questions.json");
       }
-    }
-
-    const isCorrect = chosenIndex === q.correctIndex;
-    if (isCorrect) correctCount++;
-
-    answers.push({
-      questionId: q.id ?? index,
-      chosenIndex,
-      correctIndex: q.correctIndex,
-      correct: isCorrect
+      return res.json();
+    })
+    .then((data) => {
+      allQuestions = data;
+      if (!Array.isArray(allQuestions) || allQuestions.length === 0) {
+        throw new Error("questions.json is empty or invalid.");
+      }
+      statusDiv.textContent = "";
+      startBtn.disabled = false;
+    })
+    .catch((err) => {
+      console.error(err);
+      statusDiv.textContent =
+        "Error loading questions. Check that questions.json is in the same folder as index.html.";
     });
-  });
-
-  const totalQuestions = currentQuestions.length;
-  const scorePercent = totalQuestions
-    ? Math.round((correctCount / totalQuestions) * 100)
-    : 0;
-
-  showResult(answers, scorePercent);
-
-  const studentName = studentNameInput.value.trim() || 'Anonymous';
-
-  // Send results to Google Sheets (difficulty is empty string now)
-  sendToGoogleSheets(
-    answers,
-    scorePercent,
-    correctCount,
-    totalQuestions,
-    studentName,
-    ''
-  );
 }
 
-// -------------------- SHOW RESULT --------------------
-
-function showResult(answers, scorePercent) {
-  resultContainer.innerHTML = '';
-
-  const summary = document.createElement('div');
-  summary.className = 'result';
-  summary.innerHTML = `
-    <h2>Your Score</h2>
-    <p>You answered <strong>${answers.filter(a => a.correct).length}</strong> 
-    out of <strong>${currentQuestions.length}</strong> correctly 
-    (${scorePercent}%).</p>
-  `;
-
-  resultContainer.appendChild(summary);
-
-  // Detailed explanations
-  currentQuestions.forEach((q, index) => {
-    const ans = answers[index];
-
-    const expl = document.createElement('div');
-    expl.className = 'result';
-
-    const correctnessClass = ans.correct ? 'correct' : 'incorrect';
-    const correctnessText = ans.correct ? 'Correct' : 'Incorrect';
-
-    const chosenText =
-      ans.chosenIndex != null ? q.options[ans.chosenIndex] : '(No answer)';
-
-    const correctText = q.options[q.correctIndex];
-
-    expl.innerHTML = `
-      <div class="${correctnessClass}">
-        Q${index + 1}: ${correctnessText}
-      </div>
-      <div><strong>Question:</strong> ${q.question}</div>
-      <div><strong>Your answer:</strong> ${chosenText}</div>
-      <div><strong>Correct answer:</strong> ${correctText}</div>
-      <div class="explanation">
-        <strong>Explanation:</strong> ${
-          q.explanation ?? 'No explanation provided.'
-        }
-      </div>
-    `;
-
-    resultContainer.appendChild(expl);
-  });
-}
-
-// -------------------- UTILITIES --------------------
-
-// Fisher–Yates shuffle
-function shuffleArray(arr) {
-  const copy = arr.slice();
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-// Send data to Google Sheets via Apps Script Web App
-function sendToGoogleSheets(
-  answers,
-  scorePercent,
-  correctCount,
-  totalQuestions,
-  studentName,
-  difficulty
-) {
-  if (!GOOGLE_SHEETS_WEB_APP_URL) {
-    console.warn('Google Sheets Web App URL not set.');
+function handleStart() {
+  if (!allQuestions.length) {
+    statusDiv.textContent = "Questions not loaded yet.";
     return;
   }
 
-  const payload = {
-    studentName,
-    difficulty,          // now always '' (no levels)
-    scorePercent,
-    totalQuestions,
-    correctCount,
-    answers
-  };
+  // Prepare exam
+  examQuestions = pickRandomQuestions(allQuestions, EXAM_SIZE);
+  examStarted = true;
+  examStartTime = new Date();
 
-  // Fire-and-forget; no-cors avoids CORS errors
-  fetch(GOOGLE_SHEETS_WEB_APP_URL, {
-    method: 'POST',
-    mode: 'no-cors',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(payload)
-  }).catch(err => {
-    console.error('Error sending to Google Sheets', err);
+  // Render
+  renderExam();
+
+  // Toggle buttons
+  startBtn.disabled = true;
+  finishBtn.disabled = false;
+  statusDiv.textContent = `Exam started. You have ${examQuestions.length} questions.`;
+  resultContainer.innerHTML = "";
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function pickRandomQuestions(questions, count) {
+  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+function renderExam() {
+  quizContainer.innerHTML = "";
+
+  examQuestions.forEach((q, index) => {
+    const block = document.createElement("div");
+    block.className = "question-block";
+
+    const qTitle = document.createElement("div");
+    qTitle.innerHTML = `<strong>${index + 1}.</strong> ${q.question}`;
+    block.appendChild(qTitle);
+
+    (q.options || []).forEach((optText, optIndex) => {
+      if (!optText || !optText.trim()) return;
+
+      const letter = String.fromCharCode(65 + optIndex); // A, B, C, ...
+      const name = `q_${index}`;
+      const id = `q_${index}_${optIndex}`;
+
+      const label = document.createElement("label");
+      label.setAttribute("for", id);
+
+      const radio = document.createElement("input");
+      radio.type = "radio";
+      radio.name = name;
+      radio.id = id;
+      radio.value = String(optIndex);
+
+      label.appendChild(radio);
+      label.appendChild(document.createTextNode(` ${letter}) ${optText}`));
+
+      block.appendChild(label);
+    });
+
+    quizContainer.appendChild(block);
   });
+}
+
+function handleFinish() {
+  if (!examStarted) {
+    statusDiv.textContent = "You need to start the exam first.";
+    return;
+  }
+
+  let correct = 0;
+  let answered = 0;
+
+  examQuestions.forEach((q, index) => {
+    const selected = document.querySelector(
+      `input[name="q_${index}"]:checked`
+    );
+    if (!selected) {
+      return;
+    }
+    answered++;
+    const chosenIndex = parseInt(selected.value, 10);
+    if (chosenIndex === q.correctIndex) {
+      correct++;
+    }
+  });
+
+  const total = examQuestions.length;
+  const percent = Math.round((correct / total) * 100);
+  const studentName = nameInput.value.trim();
+  const endTime = new Date();
+  const durationSec = examStartTime
+    ? Math.round((endTime - examStartTime) / 1000)
+    : null;
+
+  // Simple result box
+  let html = `<div class="score-box">`;
+  html += `<strong>Score:</strong> ${correct} / ${total} (${percent}%)<br/>`;
+  if (studentName) {
+    html += `<strong>Student:</strong> ${escapeHtml(studentName)}<br/>`;
+  }
+  html += `<strong>Questions answered:</strong> ${answered} / ${total}<br/>`;
+  if (durationSec !== null) {
+    html += `<strong>Time used:</strong> ${durationSec} seconds<br/>`;
+  }
+  html += `</div>`;
+
+  resultContainer.innerHTML = html;
+
+  // After finish, you can re-enable starting a new random exam if you want:
+  startBtn.disabled = false;
+  finishBtn.disabled = true;
+  examStarted = false;
+
+  statusDiv.textContent = "Exam finished. You can start a new random exam if you want.";
+}
+
+// Very simple HTML escape
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
