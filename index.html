@@ -41,6 +41,11 @@
       border: 1px solid #ccc;
       min-width: 220px;
     }
+.timer-display {
+  font-weight: 600;
+  color: #b91c1c;
+  min-width: 120px;
+}
     button {
       padding: 8px 16px;
       border-radius: 8px;
@@ -106,26 +111,18 @@
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>English Tenses Exam</h1>
-
-    <div class="top-bar">
-      <div>
-        <label for="studentName">Student name:</label>
-        <input type="text" id="studentName" placeholder="Enter your name (optional)" />
-      </div>
-      <div>
-        <button id="startBtn" disabled>Start Exam</button>
-        <button id="finishBtn" disabled>Finish &amp; Show Score</button>
-      </div>
-    </div>
-
-    <div id="status" class="error"></div>
-
-    <div id="quizContainer"></div>
-
-    <div id="resultContainer"></div>
+<div class="top-bar">
+  <div>
+    <label for="studentName">Student name:</label>
+    <input type="text" id="studentName" placeholder="Enter your name (optional)" />
   </div>
+  <div>
+    <button id="startBtn" disabled>Start Exam</button>
+    <button id="finishBtn" disabled>Finish &amp; Show Score</button>
+  </div>
+  <div id="timer" class="timer-display"></div>
+</div>
+
 
   <script src="app.js"></script>
 </body>
