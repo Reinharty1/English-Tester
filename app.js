@@ -1,26 +1,33 @@
 // app.js
 
+// ====== CONFIG ======
+
 // How many questions in each exam
 const EXAM_SIZE = 25;
 
-// Exam duration in minutes (change if you want 15, 30, etc.)
+// Exam duration in minutes
 const EXAM_DURATION_MIN = 20;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
 const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6GxRULVqXlFoM36pCdvfPWqEN1GlqG-SfhyQ0NW4BBNOJU4qPtGZbu8gYUuKfBe8c/exec";
 
+// ====== STATE ======
+
 let allQuestions = [];
 let examQuestions = [];
+
 let examStarted = false;
+let examFinished = false;
 let examStartTime = null;
 
 // timer state
-let timerDiv;
 let timerInterval = null;
 let remainingSeconds = 0;
 
 // DOM references
-let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput;
+let startBtn, finishBtn, statusDiv, quizContainer, resultContainer, nameInput, timerDiv;
+
+// ====== INIT ======
 
 document.addEventListener("DOMContentLoaded", function () {
   startBtn = document.getElementById("startBtn");
@@ -33,17 +40,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   startBtn.disabled = true;
   finishBtn.disabled = true;
-  updateTimerDisplay(); // initial
+
+  updateTimerDisplay(); // show "Time: --:--" at start
 
   loadQuestions();
 
   startBtn.addEventListener("click", handleStart);
   finishBtn.addEventListener("click", function () {
-    handleFinish(false);
+    handleFinish(false); // manual finish
   });
 });
 
-// ---------------------- Data loading ----------------------
+// ====== LOAD QUESTIONS ======
 
 function loadQuestions() {
   statusDiv.textContent = "Loading questions…";
@@ -71,7 +79,7 @@ function loadQuestions() {
     });
 }
 
-// ---------------------- Exam flow ----------------------
+// ====== EXAM FLOW ======
 
 function handleStart() {
   if (!allQuestions.length) {
@@ -81,6 +89,7 @@ function handleStart() {
 
   examQuestions = pickRandomQuestions(allQuestions, EXAM_SIZE);
   examStarted = true;
+  examFinished = false;
   examStartTime = new Date();
 
   renderExam();
@@ -90,7 +99,7 @@ function handleStart() {
   resultContainer.innerHTML = "";
   statusDiv.textContent = "Exam started. You have 25 questions.";
 
-  // start timer
+  // timer
   remainingSeconds = EXAM_DURATION_MIN * 60;
   updateTimerDisplay();
   startTimer();
@@ -144,10 +153,10 @@ function renderExam() {
   });
 }
 
-// ---------------------- Timer logic ----------------------
+// ====== TIMER ======
 
 function startTimer() {
-  stopTimer(); // just in case
+  stopTimer(); // safety
   timerInterval = setInterval(tickTimer, 1000);
 }
 
@@ -169,7 +178,7 @@ function tickTimer() {
     remainingSeconds = 0;
     updateTimerDisplay();
     stopTimer();
-    if (examStarted) {
+    if (examStarted && !examFinished) {
       // auto-submit
       handleFinish(true);
     }
@@ -180,10 +189,12 @@ function tickTimer() {
 
 function updateTimerDisplay() {
   if (!timerDiv) return;
+
   if (!examStarted && remainingSeconds === 0) {
     timerDiv.textContent = "Time: --:--";
     return;
   }
+
   var m = Math.floor(remainingSeconds / 60);
   var s = remainingSeconds % 60;
   var mm = m < 10 ? "0" + m : String(m);
@@ -191,15 +202,21 @@ function updateTimerDisplay() {
   timerDiv.textContent = "Time left: " + mm + ":" + ss;
 }
 
-// ---------------------- Finish & review ----------------------
+// ====== FINISH & REVIEW ======
 
+/**
+ * autoSubmit = true  → time over
+ * autoSubmit = false → user clicked Finish
+ */
 function handleFinish(autoSubmit) {
-  if (!examStarted) {
-    statusDiv.textContent = "You need to start the exam first.";
+  if (!examStarted || examFinished) {
     return;
   }
 
+  examFinished = true;
+  examStarted = false;
   stopTimer();
+  updateTimerDisplay(); // reset to "--:--"
 
   var correct = 0;
   var answered = 0;
@@ -295,24 +312,23 @@ function handleFinish(autoSubmit) {
 
   startBtn.disabled = false;
   finishBtn.disabled = true;
-  examStarted = false;
 
   if (autoSubmit) {
     statusDiv.textContent = "Time is up. Exam submitted automatically. Review your answers below.";
   } else {
     statusDiv.textContent = "Exam finished. Review your answers below.";
   }
-
-  updateTimerDisplay(); // reset to --:--
 }
 
-// ---------------------- Google Sheets integration ----------------------
+// ====== GOOGLE SHEETS INTEGRATION ======
 
 function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
     console.warn("SHEET_ENDPOINT is not configured.");
     return;
   }
+
+  console.log("Sending result to sheet:", payload);
 
   fetch(SHEET_ENDPOINT, {
     method: "POST",
@@ -322,14 +338,22 @@ function sendResultToSheet(payload) {
     body: JSON.stringify(payload)
   })
     .then(function (res) {
-      if (!res.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return res.json();
+      console.log("Sheet response status:", res.status);
+      return res.text();
     })
-    .then(function (data) {
-      if (data.status !== "ok") {
-        console.warn("Sheet API returned error:", data);
+    .then(function (text) {
+      console.log("Raw sheet response:", text);
+      var data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        console.warn("Could not parse sheet response as JSON.");
+        data = null;
+      }
+      if (data && data.status === "ok") {
+        console.log("Result successfully saved to sheet.");
+      } else {
+        console.warn("Sheet API returned non-ok:", data);
       }
     })
     .catch(function (err) {
@@ -337,7 +361,7 @@ function sendResultToSheet(payload) {
     });
 }
 
-// ---------------------- Helpers ----------------------
+// ====== HELPERS ======
 
 function indexToLetter(index) {
   return String.fromCharCode(65 + index); // 0 → A, 1 → B, ...
@@ -348,7 +372,7 @@ function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
+    .replace(/>/g, "&quot;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#039;");
 }
