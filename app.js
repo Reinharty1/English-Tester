@@ -10,7 +10,7 @@ const EXAM_DURATION_MIN = 20;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
 const SHEET_ENDPOINT =
-  "https://script.google.com/macros/s/AKfycbzYYsi5IF_eKH6ZN5olSQNFWmTgcPzNBmveKVWlRwTh78yEdnAJt9p2_RNGFpE_BVX3/exec";
+  "https://script.google.com/macros/s/AKfycbwRlcxoK6AQSF70x9wabnytu6LYAo7IdaR9h5v7i08fYbpykjL6ZbYQIgzXjboFf7bf/exec";
 
 // ====== STATE ======
 
@@ -391,30 +391,29 @@ function handleFinish(autoSubmit) {
   }
 }
 
-// ====== GOOGLE SHEETS INTEGRATION ======
-
 // ====== GOOGLE SHEETS INTEGRATION (CLEAN VERSION) ======
 
-function sendResultToSheet(payload) {
+async function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
     console.warn("SHEET_ENDPOINT is missing.");
     return;
   }
 
-  // Send POST request
-  fetch(SHEET_ENDPOINT, {
-    method: "POST",
-    contentType: "application/json",
-    body: JSON.stringify(payload)
-  })
-  .then(() => {
-    console.log("✔ Result sent to Google Sheet");
-  })
-  .catch(err => {
-    console.warn("❌ Failed to send result:", err);
-  });
-}
+  try {
+    const res = await fetch(SHEET_ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
 
+    const text = await res.text(); // see raw response from Apps Script
+    console.log("Sheet response:", text);
+  } catch (err) {
+    console.warn("❌ Failed to send result:", err);
+  }
+}
 
 // ====== HELPERS ======
 
