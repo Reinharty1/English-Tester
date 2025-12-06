@@ -10,7 +10,7 @@ const EXAM_DURATION_MIN = 20;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
 const SHEET_ENDPOINT =
-  "https://script.google.com/macros/s/AKfycbxXR8SSS_GNv1FwQzLVqQnriJWLZNKrJVozbQSUQ2aHyzQf_rXjGtw16cxYzqSA6mtI/exec";
+  "https://script.google.com/macros/s/AKfycbzYYsi5IF_eKH6ZN5olSQNFWmTgcPzNBmveKVWlRwTh78yEdnAJt9p2_RNGFpE_BVX3/exec";
 
 // ====== STATE ======
 
