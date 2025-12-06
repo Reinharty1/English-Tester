@@ -393,27 +393,28 @@ function handleFinish(autoSubmit) {
 
 // ====== GOOGLE SHEETS INTEGRATION (CLEAN VERSION) ======
 
-async function sendResultToSheet(payload) {
+
+function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
     console.warn("SHEET_ENDPOINT is missing.");
     return;
   }
 
-  try {
-    const res = await fetch(SHEET_ENDPOINT, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
+  // Fire-and-forget request to Apps Script
+  fetch(SHEET_ENDPOINT, {
+    method: "POST",
+    mode: "no-cors",              // avoid CORS errors
+    body: JSON.stringify(payload) // Apps Script will still receive this
+  })
+    .then(() => {
+      console.log("✔ Result sent to Google Sheet (no-cors, response not readable)");
+    })
+    .catch(err => {
+      // In no-cors, this usually won't fire unless there's a real network error
+      console.warn("❌ Failed to send result:", err);
     });
-
-    const text = await res.text(); // see raw response from Apps Script
-    console.log("Sheet response:", text);
-  } catch (err) {
-    console.warn("❌ Failed to send result:", err);
-  }
 }
+
 
 // ====== HELPERS ======
 
