@@ -393,44 +393,28 @@ function handleFinish(autoSubmit) {
 
 // ====== GOOGLE SHEETS INTEGRATION ======
 
+// ====== GOOGLE SHEETS INTEGRATION (CLEAN VERSION) ======
+
 function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
-    console.warn("SHEET_ENDPOINT is not configured.");
+    console.warn("SHEET_ENDPOINT is missing.");
     return;
   }
 
-  console.log("Sending result to sheet:", payload);
-
+  // Send POST request
   fetch(SHEET_ENDPOINT, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(payload),
+    contentType: "application/json",
+    body: JSON.stringify(payload)
   })
-    .then(function (res) {
-      console.log("Sheet response status:", res.status);
-      return res.text();
-    })
-    .then(function (text) {
-      console.log("Raw sheet response:", text);
-      var data;
-      try {
-        data = JSON.parse(text);
-      } catch (e) {
-        console.warn("Could not parse sheet response as JSON.");
-        data = null;
-      }
-      if (data && data.status === "ok") {
-        console.log("Result successfully saved to sheet.");
-      } else {
-        console.warn("Sheet API returned non-ok:", data);
-      }
-    })
-    .catch(function (err) {
-      console.warn("Failed to send result to sheet:", err);
-    });
+  .then(() => {
+    console.log("✔ Result sent to Google Sheet");
+  })
+  .catch(err => {
+    console.warn("❌ Failed to send result:", err);
+  });
 }
+
 
 // ====== HELPERS ======
 
