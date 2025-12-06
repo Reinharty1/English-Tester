@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "question": "The word that is a type of _______.",
+    "question": "The word ‘that’ is a type of _______.",
     "options": [
       "article",
       "demonstrative"
@@ -148,7 +148,7 @@
   },
   {
     "id": 14,
-    "question": "I dont like _______ of these photos.",
+    "question": "I don’t like _______ of these photos.",
     "options": [
       "either",
       "neither"
@@ -157,7 +157,7 @@
   },
   {
     "id": 15,
-    "question": "Ive been trying to eat _______ chocolate bars.",
+    "question": "I’ve been trying to eat _______ chocolate bars.",
     "options": [
       "fewer",
       "less"
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "question": "The words tiny and young are _______ adjectives.",
+    "question": "The words ‘tiny’ and ‘young’ are _______ adjectives.",
     "options": [
       "describing",
       "classifying"
@@ -211,12 +211,12 @@
   },
   {
     "id": 21,
-    "question": "Choose the lettered part of the sentence that contains a word that needs a capital letter. If no additional words should be capitalized, choose answer E. Catherine complained loudly, | why cant you ever | pick me up on time | in the morning? | None",
+    "question": "Choose the lettered part of the sentence that contains a word that needs a capital letter. If no additional words should be capitalized, choose answer E. Catherine complained loudly, | “why can’t you ever | pick me up on time | in the morning?” | None",
     "options": [
-      "Catherine complained loudly,",
-      "why cant you ever",
+      "Catherine complained loudly",
+      "“why can’t you ever",
       "pick me up on time",
-      "in the morning?",
+      "in the morning?”",
       "None"
     ],
     "correctIndex": 1
@@ -235,10 +235,10 @@
   },
   {
     "id": 23,
-    "question": "Choose the lettered part of the sentence that contains a word that needs a capital letter. If no additional words should be capitalized, choose answer E. Sallys Sweet shop, | one of the oldest businesses in town, | is located on one of the main streets | of Millersville. | None",
+    "question": "Choose the lettered part of the sentence that contains a word that needs a capital letter. If no additional words should be capitalized, choose answer E. Sally’s Sweet shop, | one of the oldest businesses in town, | is located on one of the main streets | of Millersville. | None",
     "options": [
-      "Sallys Sweet shop,",
-      "one of the oldest businesses in town,",
+      "Sally’s Sweet shop",
+      "one of the oldest businesses in town",
       "is located on one of the main streets",
       "of Millersville.",
       "None"
@@ -250,7 +250,6 @@
     "question": "Choose the punctuation mark that is needed in the following sentence. For the centerpieces, the florist recommended the following flowers daisies, tulips, daffodils, and hyacinths.",
     "options": [
       ":",
-      ",",
       ".",
       ";",
       "none"
@@ -262,7 +261,6 @@
     "question": "Choose the punctuation mark that is needed in the following sentence. Lily is an accomplished gymnast she won three medals in her last competition.",
     "options": [
       ";",
-      ",",
       "?",
       ":",
       "None"
@@ -271,15 +269,14 @@
   },
   {
     "id": 26,
-    "question": "Choose the punctuation mark that is needed in the following sentence. Everyone was shocked when Max Smithfielda studious, extremely bright high school senior decided that college was not for him.",
+    "question": "Choose the punctuation mark that is needed in the following sentence. Everyone was shocked when Max Smithfield—a studious, extremely bright high school senior decided that college was not for him.",
     "options": [
       ";",
-      ",",
-      "",
+      "–",
       ":",
       "none"
     ],
-    "correctIndex": 2
+    "correctIndex": 1
   },
   {
     "id": 27,
@@ -294,7 +291,7 @@
   },
   {
     "id": 28,
-    "question": "Fill in the blank with the word that creates the most logical sentence. The ticket said the show would start at 8:00, but the curtains didnt go up _________ 8:30.",
+    "question": "Fill in the blank with the word that creates the most logical sentence. The ticket said the show would start at 8:00, but the curtains didn’t go up _________ 8:30.",
     "options": [
       "less than",
       "until",
@@ -327,7 +324,7 @@
   },
   {
     "id": 31,
-    "question": "Fill in the blank with the word that creates the most logical sentence. Sandra Day OConnor, the first woman to serve on the U.S. Supreme Court, ________ appointed by President Ronald Reagan in 1981.",
+    "question": "Fill in the blank with the word that creates the most logical sentence. Sandra Day O’Connor, the first woman to serve on the U.S. Supreme Court, ________ appointed by President Ronald Reagan in 1981.",
     "options": [
       "she",
       "and",
@@ -350,7 +347,7 @@
   },
   {
     "id": 33,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. In 1963, Betty Friedans exposé of domesticity, The Feminine Mystique, became an immediate bestseller and creating a national sensation.",
+    "question": "Identify the grammatical error in the underlined part. If none, choose E. In 1963, Betty Friedan’s exposé of domesticity, The Feminine Mystique, became an immediate bestseller and creating a national sensation.",
     "options": [
       "became",
       "an immediate",
@@ -564,7 +561,7 @@
   },
   {
     "id": 51,
-    "question": "Next to and instead of are _______ prepositions.",
+    "question": "‘Next to’ and ‘instead of’ are _______ prepositions.",
     "options": [
       "phrasal",
       "complex"
@@ -582,7 +579,7 @@
   },
   {
     "id": 53,
-    "question": "Ill have finished my talk _______ five.",
+    "question": "I’ll have finished my talk _______ five.",
     "options": [
       "by",
       "until"
@@ -609,7 +606,7 @@
   },
   {
     "id": 56,
-    "question": "The _______ verb form is to plus a verb.",
+    "question": "The _______ verb form is ‘to’ plus a verb.",
     "options": [
       "infinitive",
       "bare infinitive"
@@ -658,7 +655,7 @@
     "options": [
       "My least favorite season is Winter.",
       "Next Friday, Uncle Jake is coming to visit.",
-      "Maureen served as treasurer for the womens organization.",
+      "Maureen served as treasurer for the women’s organization.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -667,9 +664,9 @@
     "id": 62,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
-      "Can you attend next weeks meeting? she asked.",
+      "“Can you attend next week’s meeting?” she asked.",
       "His new car was damaged in the accident.",
-      "The girls giggled through the whole movie.",
+      "The girls’ giggled through the whole movie.",
       "No mistakes."
     ],
     "correctIndex": 2
@@ -679,7 +676,7 @@
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "Leo told her, to call the customer service department in the morning.",
-      "She put up signs all over town, but she didnt get any response.",
+      "She put up signs all over town, but she didn’t get any response.",
       "Occasionally, her neighbors ask her to feed their cat.",
       "No mistakes."
     ],
@@ -702,7 +699,7 @@
     "options": [
       "A major highway is being built on the outskirts of town.",
       "When you reach the traffic light on Berkshire Road, turn right onto Springfield Blvd.",
-      "We were staying at my sisters cape Cod vacation home.",
+      "We were staying at my sister’s cape Cod vacation home.",
       "No mistakes."
     ],
     "correctIndex": 2
@@ -712,7 +709,7 @@
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "The instructor asked us if we needed more time?",
-      "Carlas mother is a pediatric dentist.",
+      "Carla’s mother is a pediatric dentist.",
       "Every item in the store costs less than a dollar.",
       "No mistakes."
     ],
@@ -722,9 +719,9 @@
     "id": 67,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
-      "Janes family owned three Persian cats.",
+      "Jane’s family owned three Persian cats.",
       "My Uncle always takes the subway to Yankee Stadium.",
-      "Everyone knows that Marisas favorite book is Pride and Prejudice.",
+      "Everyone knows that Marisa’s favorite book is Pride and Prejudice.",
       "No mistakes."
     ],
     "correctIndex": 1
@@ -733,9 +730,9 @@
     "id": 68,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
-      "Ill do the grocery shopping for you, grandma, Lucy said.",
-      "Where can I find the best pizza in town? he asked.",
-      "Be sure to arrive two hours early, she warned.",
+      "“I’ll do the grocery shopping for you, grandma,” Lucy said.",
+      "“Where can I find the best pizza in town?” he asked.",
+      "“Be sure to arrive two hours early,” she warned.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -860,13 +857,13 @@
   },
   {
     "id": 79,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that shes changed her mind and doesnt want to see the movie after all.",
+    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that she’s changed her mind and doesn’t want to see the movie after all.",
     "options": [
-      "says that shes changed her mind and doesnt",
-      "said that she had changed her mind and didnt",
-      "is saying that shed changed her mind and doesnt",
-      "told us that she is changing her mind and didnt",
-      "tells us that she had changed her mind and doesnt"
+      "says that she’s changed her mind and doesn’t",
+      "said that she had changed her mind and didn’t",
+      "is saying that she’d changed her mind and doesn’t",
+      "told us that she is changing her mind and didn’t",
+      "tells us that she had changed her mind and doesn’t"
     ],
     "correctIndex": 1
   },
@@ -884,7 +881,7 @@
   },
   {
     "id": 81,
-    "question": "To form the passive we use be and a _______ participle.",
+    "question": "To form the passive we use ‘be’ and a _______ participle.",
     "options": [
       "past",
       "present"
@@ -929,7 +926,7 @@
   },
   {
     "id": 86,
-    "question": "The word that is a type of _______.",
+    "question": "The word ‘that’ is a type of _______.",
     "options": [
       "article",
       "demonstrative"
@@ -956,7 +953,7 @@
   },
   {
     "id": 89,
-    "question": "I dont like _______ of these photos.",
+    "question": "I don’t like _______ of these photos.",
     "options": [
       "either",
       "neither"
@@ -965,7 +962,7 @@
   },
   {
     "id": 90,
-    "question": "Ive been trying to eat _______ chocolate bars.",
+    "question": "I’ve been trying to eat _______ chocolate bars.",
     "options": [
       "fewer",
       "less"
@@ -974,7 +971,7 @@
   },
   {
     "id": 91,
-    "question": "The words tiny and young are _______ adjectives.",
+    "question": "The words ‘tiny’ and ‘young’ are _______ adjectives.",
     "options": [
       "describing",
       "classifying"
@@ -1037,7 +1034,7 @@
   },
   {
     "id": 98,
-    "question": "_______ doesnt matter if you wear jeans or trousers.",
+    "question": "_______ doesn’t matter if you wear jeans or trousers.",
     "options": [
       "It",
       "That"
@@ -1075,12 +1072,12 @@
   },
   {
     "id": 102,
-    "question": "Choose the sentence that best combines the underlined sentences. Some people believe fairy tales are merely childrens stories. Some people believe fairy tales carry important psychological truths for adults.",
+    "question": "Choose the sentence that best combines the underlined sentences. Some people believe fairy tales are merely children’s stories. Some people believe fairy tales carry important psychological truths for adults.",
     "options": [
-      "When some believe they carry important psychological truths for adults, some people believe fairy tales are merely childrens stories.",
-      "Some people believe fairy tales are merely childrens stories, whereupon some believe they carry important psychological truths for adults.",
-      "Because some believe fairy tales carry important psychological truths for adults, some people believe fairy tales are merely childrens stories.",
-      "Some people believe fairy tales are merely childrens stories, yet some believe they carry important psychological truths for adults."
+      "When some believe they carry important psychological truths for adults, some people believe fairy tales are merely children’s stories.",
+      "Some people believe fairy tales are merely children’s stories, whereupon some believe they carry important psychological truths for adults.",
+      "Because some believe fairy tales carry important psychological truths for adults, some people believe fairy tales are merely children’s stories.",
+      "Some people believe fairy tales are merely children’s stories, yet some believe they carry important psychological truths for adults."
     ],
     "correctIndex": 3
   },
@@ -1099,7 +1096,7 @@
     "id": 104,
     "question": "Choose the sentence that best combines the underlined sentences. The man nodded politely. His expression was bewildered.",
     "options": [
-      "Nodding politely, the mans expression was bewildered.",
+      "Nodding politely, the man’s expression was bewildered.",
       "The man nodded politely his expression was bewildered.",
       "The man nodded politely, his expression bewildered.",
       "The man nodded politely, since his expression was bewildered."
@@ -1130,12 +1127,12 @@
   },
   {
     "id": 107,
-    "question": "Choose the sentence that best combines the underlined sentences. Sailors are said to catch albatrosses with baited hooks let down into the ships wake. To kill the albatross was thought to be bad luck, so they were released immediately.",
+    "question": "Choose the sentence that best combines the underlined sentences. Sailors are said to catch albatrosses with baited hooks let down into the ship’s wake. To kill the albatross was thought to be bad luck, so they were released immediately.",
     "options": [
-      "Sailors are said to catch albatrosses with baited hooks and let them down into the ships wake, then release them again, for to kill the albatross was thought to be bad luck.",
-      "With baited hooks let down into the ships wake, sailors are said to catch albatrosses then release them again, so to kill the albatross was thought to be bad luck.",
-      "Sailors are said to catch albatrosses with baited hooks let down into the ships wake, then release them again, or to kill the albatross was thought to be bad luck.",
-      "To kill the albatross was thought to be bad luck, so sailors are said to catch albatrosses with baited hooks let down into the ships wake, only to release them immediately."
+      "Sailors are said to catch albatrosses with baited hooks and let them down into the ship’s wake, then release them again, for to kill the albatross was thought to be bad luck.",
+      "With baited hooks let down into the ship’s wake, sailors are said to catch albatrosses then release them again, so to kill the albatross was thought to be bad luck.",
+      "Sailors are said to catch albatrosses with baited hooks let down into the ship’s wake, then release them again, or to kill the albatross was thought to be bad luck.",
+      "To kill the albatross was thought to be bad luck, so sailors are said to catch albatrosses with baited hooks let down into the ship’s wake, only to release them immediately."
     ],
     "correctIndex": 0
   },
@@ -1196,7 +1193,7 @@
   },
   {
     "id": 113,
-    "question": "Choose the sentence that best combines the underlined sentences. I must buy my dog a new license. If I dont, I will have to pay a fine.",
+    "question": "Choose the sentence that best combines the underlined sentences. I must buy my dog a new license. If I don’t, I will have to pay a fine.",
     "options": [
       "I must buy my dog a new license, and I will have to pay a fine.",
       "I must buy my dog a new license; I will have to pay a fine.",
@@ -1240,12 +1237,12 @@
   },
   {
     "id": 117,
-    "question": "Choose the sentence that best combines the underlined sentences. She never responded to the invitation we sent. We assumed she wasnt coming.",
+    "question": "Choose the sentence that best combines the underlined sentences. She never responded to the invitation we sent. We assumed she wasn’t coming.",
     "options": [
-      "She never responded to the invitation we sent; however we assumed she wasnt coming.",
-      "While we assumed she wasnt coming, she never responded to the invitation we sent.",
-      "She never responded to the invitation we sent, whether we assumed she wasnt coming.",
-      "Because she never responded to the invitation we sent, we assumed she wasnt coming."
+      "She never responded to the invitation we sent; however we assumed she wasn’t coming.",
+      "While we assumed she wasn’t coming, she never responded to the invitation we sent.",
+      "She never responded to the invitation we sent, whether we assumed she wasn’t coming.",
+      "Because she never responded to the invitation we sent, we assumed she wasn’t coming."
     ],
     "correctIndex": 3
   },
@@ -1273,23 +1270,23 @@
   },
   {
     "id": 120,
-    "question": "Choose the sentence that best combines the underlined sentences. This neighborhood is called baby central. Almost every family within a three-block radius has a child under the age of one.",
+    "question": "Choose the sentence that best combines the underlined sentences. This neighborhood is called “baby central.” Almost every family within a three-block radius has a child under the age of one.",
     "options": [
-      "Almost every family within a three-block radius has a child under the age of one, while this neighborhood is called baby central.",
-      "Almost every family within a three-block radius has a child under the age of one, but this neighborhood is called baby central.",
-      "Almost every family within a three-block radius has a child under the age of one; therefore, this neighborhood is called baby central.",
-      "This neighborhood is called baby central: meanwhile, almost every family within a three-block radius has a child under the age of one."
+      "Almost every family within a three-block radius has a child under the age of one, while this neighborhood is called “baby central.”",
+      "Almost every family within a three-block radius has a child under the age of one, but this neighborhood is called “baby central.”",
+      "Almost every family within a three-block radius has a child under the age of one; therefore, this neighborhood is called “baby central.”",
+      "This neighborhood is called “baby central:” meanwhile, almost every family within a three-block radius has a child under the age of one."
     ],
     "correctIndex": 2
   },
   {
     "id": 121,
-    "question": "Choose the sentence that best combines the underlined sentences. The new shopping mall has 200 stores. The new shopping mall doesnt have a pet shop.",
+    "question": "Choose the sentence that best combines the underlined sentences. The new shopping mall has 200 stores. The new shopping mall doesn’t have a pet shop.",
     "options": [
-      "The new shopping mall has 200 stores; however, it doesnt have a pet shop.",
+      "The new shopping mall has 200 stores; however, it doesn’t have a pet shop.",
       "Instead of a pet shop, the new shopping mall has 200 stores.",
-      "With 200 stores, the new shopping mall doesnt have a pet shop.",
-      "The new shopping mall has 200 stores, and it doesnt have a pet shop."
+      "With 200 stores, the new shopping mall doesn’t have a pet shop.",
+      "The new shopping mall has 200 stores, and it doesn’t have a pet shop."
     ],
     "correctIndex": 0
   },
@@ -1297,7 +1294,7 @@
     "id": 122,
     "question": "Choose the sentence that best combines the underlined sentences. Eugene has a difficult personality. Eugene is unreliable.",
     "options": [
-      "Eugene has a difficult personality, and furthermore hes unreliable.",
+      "Eugene has a difficult personality, and furthermore he’s unreliable.",
       "Eugene has a difficult personality, although he is unreliable.",
       "While he is unreliable, Eugene has a difficult personality.",
       "Being unreliable, Eugene has a difficult personality."
@@ -1339,12 +1336,12 @@
   },
   {
     "id": 126,
-    "question": "Choose the sentence that best combines the underlined sentences. Insomnia does not usually begin as a physical problem. It can affect ones physical health.",
+    "question": "Choose the sentence that best combines the underlined sentences. Insomnia does not usually begin as a physical problem. It can affect one’s physical health.",
     "options": [
-      "Insomnia is not usually a physical problem; therefore, it can affect ones physical health.",
-      "Insomnia is not usually a physical problem, yet it can affect ones physical health.",
-      "Insomnia not usually a physical problem can affect ones physical health.",
-      "Insomnia is not usually a physical problem, so it can affect ones physical health."
+      "Insomnia is not usually a physical problem; therefore, it can affect one’s physical health.",
+      "Insomnia is not usually a physical problem, yet it can affect one’s physical health.",
+      "Insomnia not usually a physical problem can affect one’s physical health.",
+      "Insomnia is not usually a physical problem, so it can affect one’s physical health."
     ],
     "correctIndex": 1
   },
@@ -1389,7 +1386,7 @@
       "For a wide variety of different reasons, more and more people",
       "For a variety of many reasons, much more people",
       "For a number of reasons, more people",
-      "More people, for various different reasons,",
+      "More people, for various different reasons",
       "Lots of people, for many numerous reasons"
     ],
     "correctIndex": 2
@@ -1458,11 +1455,11 @@
     "id": 136,
     "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Beside his expertise in gardening, Malcolm is also an accomplished carpenter.",
     "options": [
-      "Beside his expertise in gardening,",
-      "Beside gardening,",
-      "In addition also to his accomplished carpentry,",
-      "Besides his expertise in gardening,",
-      "Beside his gardening,"
+      "Beside his expertise in gardening",
+      "Beside gardening",
+      "In addition also to his accomplished carpentry",
+      "Besides his expertise in gardening",
+      "Beside his gardening"
     ],
     "correctIndex": 3
   },
@@ -1480,7 +1477,7 @@
   },
   {
     "id": 138,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. I decided to paint the kitchen yellow, and after I had painted, my husband informed me that hed rather it be blue.",
+    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. I decided to paint the kitchen yellow, and after I had painted, my husband informed me that he’d rather it be blue.",
     "options": [
       "yellow, and after I had painted, my husband",
       "yellow, and after I had painted my husband",
@@ -1533,18 +1530,18 @@
       "This was the fifth of the five speeches the mayor gave during this the month of May.",
       "Of the five speeches the mayor gave during May, this was the fifth one.",
       "Thus far during the month of May, the mayor gave five speeches and this was the fifth.",
-      "This fifth speech of the mayors given during the month of May was one of five speeches.",
+      "This fifth speech of the mayor’s given during the month of May was one of five speeches.",
       "This was the fifth speech the mayor has given during the month of May."
     ],
     "correctIndex": 4
   },
   {
     "id": 143,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. An American poet of the nineteenth century, Walt Whitmans collection of poems, Leaves of Grass, celebrates nature and individualism.",
+    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. An American poet of the nineteenth century, Walt Whitman’s collection of poems, Leaves of Grass, celebrates nature and individualism.",
     "options": [
-      "Walt Whitmans collection of poems, Leaves of Grass,",
-      "Leaves of Grass, a collection of poems by Walt Whitman,",
-      "a collection of poems, Leaves of Grass, by Walt Whitman,",
+      "Walt Whitman’s collection of poems, Leaves of Grass",
+      "Leaves of Grass, a collection of poems by Walt Whitman",
+      "a collection of poems, Leaves of Grass, by Walt Whitman",
       "Walt Whitman published poems, collected as Leaves of Grass, that",
       "Walt Whitman published a collection of poems entitled Leaves of Grass, that"
     ],
@@ -1566,17 +1563,17 @@
     "id": 145,
     "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Opposite in what many financial analysts had predicted, the stock market rose by 22 points this month.",
     "options": [
-      "Opposite in what many financial analysts had predicted,",
-      "Contrary to the predictions of many financial analysts,",
-      "As against the predictions of many financial analysts,",
-      "Contrasting of many financial analysts predictions,",
-      "Contrary with what many financial analysts predicted,"
+      "Opposite in what many financial analysts had predicted",
+      "Contrary to the predictions of many financial analysts",
+      "As against the predictions of many financial analysts",
+      "Contrasting of many financial analysts’ predictions",
+      "Contrary with what many financial analysts predicted"
     ],
     "correctIndex": 1
   },
   {
     "id": 146,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. A standardized extract made from the leaves of the ginkgo biloba tree is proving to be effective in treating mild to moderate Alzheimers disease.",
+    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. A standardized extract made from the leaves of the ginkgo biloba tree is proving to be effective in treating mild to moderate Alzheimer’s disease.",
     "options": [
       "is proving to be effective in treating",
       "has shown its proof of effectiveness with treating",
@@ -1588,7 +1585,7 @@
   },
   {
     "id": 147,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The citizens action committee has accused the city counsel members with being careless with the spending of the taxpayers money.",
+    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The citizens’ action committee has accused the city counsel members with being careless with the spending of the taxpayers’ money.",
     "options": [
       "with being careless with the spending of",
       "as to carelessness in the spending of",
@@ -1627,7 +1624,7 @@
     "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Donald Trump, the son of a real estate developer, he has built a billion-dollar empire.",
     "options": [
       "Donald Trump, the son of a real estate developer, he",
-      "Donald Trump, being the son of a real estate developer,",
+      "Donald Trump, being the son of a real estate developer",
       "While he was the son of a real estate developer, Donald Trump",
       "The son of a real estate developer, Donald Trump",
       "Donald Trump, the son of a real estate developer, and he"
@@ -1636,7 +1633,7 @@
   },
   {
     "id": 151,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The troposphere is the lowest layer of Earths atmosphere, it extends from ground level to an altitude of seven to ten miles.",
+    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The troposphere is the lowest layer of Earth’s atmosphere, it extends from ground level to an altitude of seven to ten miles.",
     "options": [
       "atmosphere, it extends",
       "atmosphere of which it extends",
@@ -1652,9 +1649,9 @@
     "options": [
       "Along with your membership to our health club, and",
       "Along with your membership to our health club you receive",
-      "With your membership to our health club,",
+      "With your membership to our health club",
       "In addition to your membership to our health club being",
-      "Added to your membership to our health club,"
+      "Added to your membership to our health club"
     ],
     "correctIndex": 1
   },
@@ -1710,7 +1707,7 @@
     "options": [
       "We are planning to build a new fence in our backyard.",
       "Where is the new diner that everyone is talking about?",
-      "Theres nothing I can do to help.",
+      "There’s nothing I can do to help.",
       "No mistakes."
     ],
     "correctIndex": 3
@@ -1742,7 +1739,7 @@
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "Kate was allergic to all dairy products.",
-      "Which of the Beatles songs is your favorite?",
+      "Which of the Beatles’ songs is your favorite?",
       "The company newsletter explained the new vacation policy.",
       "No mistakes."
     ],
@@ -1854,7 +1851,7 @@
   },
   {
     "id": 170,
-    "question": "Fill in the blank with the correct verb form. While attempting to _____________ his broken bicycle, Leo Donner realized that he didnt have the proper tools.",
+    "question": "Fill in the blank with the correct verb form. While attempting to _____________ his broken bicycle, Leo Donner realized that he didn’t have the proper tools.",
     "options": [
       "be repairing",
       "have repaired",
@@ -1876,7 +1873,7 @@
   },
   {
     "id": 172,
-    "question": "Fill in the blank with the correct verb form. The biggest problem with Marthas garden __________ too many weeds.",
+    "question": "Fill in the blank with the correct verb form. The biggest problem with Martha’s garden __________ too many weeds.",
     "options": [
       "will have been",
       "were",
@@ -2038,13 +2035,13 @@
   },
   {
     "id": 186,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that shes changed her mind and doesnt want to see the movie after all.",
+    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that she’s changed her mind and doesn’t want to see the movie after all.",
     "options": [
-      "says that shes changed her mind and doesnt",
-      "said that she had changed her mind and didnt",
-      "is saying that shed changed her mind and doesnt",
-      "told us that she is changing her mind and didnt",
-      "tells us that she had changed her mind and doesnt"
+      "says that she’s changed her mind and doesn’t",
+      "said that she had changed her mind and didn’t",
+      "is saying that she’d changed her mind and doesn’t",
+      "told us that she is changing her mind and didn’t",
+      "tells us that she had changed her mind and doesn’t"
     ],
     "correctIndex": 1
   },
@@ -2076,7 +2073,7 @@
     "id": 189,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "No, its not true.",
+      "No, it’s not true.",
       "The curtain closed, and the people will applaud.",
       "My sister is a nurse practitioner.",
       "No mistakes."
@@ -2098,9 +2095,9 @@
     "id": 191,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "Where are Giannas art supplies?",
+      "Where are Gianna’s art supplies?",
       "Darren should of been given a chance to audition.",
-      "Its going to take all day.",
+      "It’s going to take all day.",
       "No mistakes."
     ],
     "correctIndex": 1
@@ -2164,7 +2161,7 @@
     "id": 197,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "The dogs barking woke us.",
+      "The dog’s barking woke us.",
       "Ursula has broke one of your plates.",
       "The sun rose from behind the mountain.",
       "No mistakes."
@@ -2176,7 +2173,7 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "After we sat down to eat dinner, the phone rung.",
-      "Keep a positive attitude, he always says.",
+      "“Keep a positive attitude,” he always says.",
       "Sign here.",
       "No mistakes."
     ],
@@ -2186,7 +2183,7 @@
     "id": 199,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "The childrens books are over there.",
+      "The children’s books are over there.",
       "She missed the bus and arrives late.",
       "There is hardly enough food for a mouse.",
       "No mistakes."
@@ -2274,9 +2271,9 @@
     "id": 207,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
-      "A longer happier life, caused by ones owning a pet.",
+      "A longer happier life, caused by one’s owning a pet.",
       "Owning a pet, for one to live a longer, happier life.",
-      "To live a longer, happier life by ones owning a pet.",
+      "To live a longer, happier life by one’s owning a pet.",
       "Owning a pet can help one live a longer, happier life."
     ],
     "correctIndex": 3
@@ -2307,10 +2304,10 @@
     "id": 210,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
-      "I dont like fish as well as my sister does.",
-      "I dont like fish as well as my sister.",
-      "Fish isnt liked by me as well as my sister.",
-      "My sister likes it, but I dont like fish as well."
+      "I don’t like fish as well as my sister does.",
+      "I don’t like fish as well as my sister.",
+      "Fish isn’t liked by me as well as my sister.",
+      "My sister likes it, but I don’t like fish as well."
     ],
     "correctIndex": 0
   },
@@ -2338,9 +2335,9 @@
   },
   {
     "id": 213,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. All employees with two years experience are entitled to full benefits, including health insurance, life insurance, a retirement plan, and stock options.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. All employees with two years’ experience are entitled to full benefits, including health insurance, life insurance, a retirement plan, and stock options.",
     "options": [
-      "with two years",
+      "with two years’",
       "entitled to",
       "including",
       "and stock options",
@@ -2362,12 +2359,12 @@
   },
   {
     "id": 215,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. To find the perimeter of a polygon, add the lengths of its sides.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. To find the perimeter of a polygon, add the lengths of it’s sides.",
     "options": [
       "To find",
       "add",
       "lengths",
-      "its",
+      "it’s",
       "No error."
     ],
     "correctIndex": 3
@@ -2410,7 +2407,7 @@
   },
   {
     "id": 219,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. For all of those people who have vowed to give up fatty foods, video games, and shopping for the new year, heres an incentive to keep him on the straight and narrow path.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. For all of those people who have vowed to give up fatty foods, video games, and shopping for the new year, here’s an incentive to keep him on the straight and narrow path.",
     "options": [
       "have vowed",
       "for the new",
@@ -2458,7 +2455,7 @@
   },
   {
     "id": 223,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The term blood type refers to one of the many groups into which a persons blood can be categorized, based on the presence or absence of specific antigens.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The term “blood type” refers to one of the many groups into which a person’s blood can be categorized, based on the presence or absence of specific antigens.",
     "options": [
       "refers to",
       "into which",
@@ -2482,7 +2479,7 @@
   },
   {
     "id": 225,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Although the chances of being victimized are slim, if your not careful, airport thieveswho look like ordinary travelerscan make off with your purse, your wallet, your phone card, and all your credit cards.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Although the chances of being victimized are slim, if your not careful, airport thieves—who look like ordinary travelers—can make off with your purse, your wallet, your phone card, and all your credit cards.",
     "options": [
       "are slim",
       "your",
@@ -2540,7 +2537,7 @@
   },
   {
     "id": 230,
-    "question": "Fill in the blank with the correct pronoun. If you dont stop playing ________ video games, you will miss the bus.",
+    "question": "Fill in the blank with the correct pronoun. If you don’t stop playing ________ video games, you will miss the bus.",
     "options": [
       "that",
       "those",
@@ -2562,7 +2559,7 @@
   },
   {
     "id": 232,
-    "question": "Fill in the blank with the correct pronoun. If you steal ________ artichoke from Petras garden, youll be sorry.",
+    "question": "Fill in the blank with the correct pronoun. If you steal ________ artichoke from Petra’s garden, you’ll be sorry.",
     "options": [
       "them",
       "those",
@@ -2584,7 +2581,7 @@
   },
   {
     "id": 234,
-    "question": "Fill in the blank with the correct pronoun. ________ met more than ten years ago at a mutual friends birthday party.",
+    "question": "Fill in the blank with the correct pronoun. ________ met more than ten years ago at a mutual friend’s birthday party.",
     "options": [
       "Her and I",
       "Her and me",
@@ -2622,8 +2619,8 @@
     "options": [
       "Whose car will you take when you drive to their",
       "Whose car will you take when you drive to there",
-      "Whos car will you take when you drive to their",
-      "Whos car will take when you drive to there",
+      "Who’s car will you take when you drive to their",
+      "Who’s car will take when you drive to there",
       "Which car will you take when you drive to there"
     ],
     "correctIndex": 0
@@ -2669,7 +2666,7 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Of the four of us, I am the tallest.",
-      "Wilsons brother is a chemical engineer.",
+      "Wilson’s brother is a chemical engineer.",
       "That fine circus elephant now belongs to my sister and I.",
       "No mistakes."
     ],
@@ -2681,7 +2678,7 @@
     "options": [
       "Help is on the way.",
       "The firemen used a ladder to reach the kitten.",
-      "Dont slip on the icy sidewalk.",
+      "Don’t slip on the icy sidewalk.",
       "No mistakes."
     ],
     "correctIndex": 3
@@ -2691,8 +2688,8 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "His family has lived in this town for thirty-five years.",
-      "Youre the only one who can remember that song.",
-      "Thats the quickest way to get to Sylvias house.",
+      "You’re the only one who can remember that song.",
+      "That’s the quickest way to get to Sylvia’s house.",
       "No mistakes."
     ],
     "correctIndex": 3
@@ -2701,7 +2698,7 @@
     "id": 244,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "Meet me at six oclock, she said.",
+      "“Meet me at six o’clock,” she said.",
       "Tired of running, she slowed her pace to a fast walk.",
       "Gabriel and me will attend the geography bee.",
       "No mistakes."
@@ -2712,9 +2709,9 @@
     "id": 245,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "Sheilas sister wanted to accompany us to the party.",
-      "Whos scarf is this?",
-      "Be sure to wear something comfortable, she said.",
+      "Sheila’s sister wanted to accompany us to the party.",
+      "Who’s scarf is this?",
+      "“Be sure to wear something comfortable,” she said.",
       "No mistakes."
     ],
     "correctIndex": 1
@@ -2745,9 +2742,9 @@
     "id": 248,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "They werent the only ones who didnt like the movie.",
-      "Please come back another time, Aunt Julie begged.",
-      "Threes a crowd, he always says.",
+      "They weren’t the only ones who didn’t like the movie.",
+      "“Please come back another time,” Aunt Julie begged.",
+      "“Threes a crowd,” he always says.",
       "No mistakes."
     ],
     "correctIndex": 2
@@ -2756,7 +2753,7 @@
     "id": 249,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "The first house on the street is theres.",
+      "The first house on the street is there’s.",
       "I love the fireworks on the Fourth of July.",
       "My grandparents live in San Juan, Puerto Rico.",
       "No mistakes."
@@ -2778,9 +2775,9 @@
     "id": 251,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "Its not my fault that you and him got caught.",
-      "Do you brush twice a day? Dr. Evans asked.",
-      "Whats the weather report?",
+      "It’s not my fault that you and him got caught.",
+      "“Do you brush twice a day?” Dr. Evans asked.",
+      "What’s the weather report?",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -2789,8 +2786,8 @@
     "id": 252,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
-      "Couldnt you arrive fashionably late?",
-      "Youre assumption is correct.",
+      "Couldn’t you arrive fashionably late?",
+      "You’re assumption is correct.",
       "I know that Bowser will be well treated.",
       "No mistakes."
     ],
@@ -2812,7 +2809,7 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "He wore two different shoes to class.",
-      "Rhondas sister bought a new Pontiac.",
+      "Rhonda’s sister bought a new Pontiac.",
       "Lake Superior is the largest of the Great Lakes.",
       "No mistakes."
     ],
@@ -2823,7 +2820,7 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "She and I have been friends for more than ten years.",
-      "Is that one of the OFarrell children?",
+      "Is that one of the O’Farrell children?",
       "They took too much time to answer.",
       "No mistakes."
     ],
@@ -2844,10 +2841,10 @@
     "id": 257,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
-      "Some of the instructions I have to follow are very detailed, but that doesnt bother one as long as they are clear.",
-      "Some of the instructions I have to follow are very detailed, but that doesnt bother you as long as they are clear.",
-      "Some of the instructions I have to follow are very detailed, but it doesnt bother a person as long as they are clear.",
-      "Some of the instructions I have to follow are very detailed, but that doesnt bother me as long as they are clear."
+      "Some of the instructions I have to follow are very detailed, but that doesn’t bother one as long as they are clear.",
+      "Some of the instructions I have to follow are very detailed, but that doesn’t bother you as long as they are clear.",
+      "Some of the instructions I have to follow are very detailed, but it doesn’t bother a person as long as they are clear.",
+      "Some of the instructions I have to follow are very detailed, but that doesn’t bother me as long as they are clear."
     ],
     "correctIndex": 3
   },
@@ -2875,11 +2872,11 @@
   },
   {
     "id": 260,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Frightened, the little boy screamed loud as his neighbors friendly eighty-pound dog bounded up the sidewalk.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Frightened, the little boy screamed loud as his neighbor’s friendly eighty-pound dog bounded up the sidewalk.",
     "options": [
       "Frightened",
       "loud",
-      "neighbors",
+      "neighbor’s",
       "bounded up",
       "No error."
     ],
@@ -2887,7 +2884,7 @@
   },
   {
     "id": 261,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Gwens friend Lukeonce the star quarterback of his college football team and now a successful restaurateurowns ten restaurants and has published three award-winning cookbooks.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Gwen’s friend Luke—once the star quarterback of his college football team and now a successful restaurateur—owns ten restaurants and has published three award-winning cookbooks.",
     "options": [
       "once the",
       "team and now",
@@ -2923,7 +2920,7 @@
   },
   {
     "id": 264,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Despite its daunting three-hour length, the movies popularity continues to grow; last week, it took in 12.7 million dollars.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Despite its daunting three-hour length, the movie’s popularity continues to grow; last week, it took in 12.7 million dollars.",
     "options": [
       "Despite its",
       "length",
@@ -2947,7 +2944,7 @@
   },
   {
     "id": 266,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Some buildings, such as the White House, Saint Pauls Cathedral, and the Taj Mahal, deserve to be preserved not only because of their artistic excellence but also because of their symbolic associations.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Some buildings, such as the White House, Saint Paul’s Cathedral, and the Taj Mahal, deserve to be preserved not only because of their artistic excellence but also because of their symbolic associations.",
     "options": [
       "such as",
       "deserve to",
@@ -2959,22 +2956,22 @@
   },
   {
     "id": 267,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Because they close resemble sound arguments, fallacious arguments can sound convincing, so be sure to carefully organize your thoughts when youre writing an opinion paper.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Because they close resemble sound arguments, fallacious arguments can sound convincing, so be sure to carefully organize your thoughts when you’re writing an opinion paper.",
     "options": [
       "close",
       "can sound",
       "to carefully",
-      "youre",
+      "you’re",
       "No error."
     ],
     "correctIndex": 0
   },
   {
     "id": 268,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. In this cookbook, youll discover colorful, easy to prepare, and great-tasting recipes for even your more diet-conscious guests.",
+    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. In this cookbook, you’ll discover colorful, easy to prepare, and great-tasting recipes for even your more diet-conscious guests.",
     "options": [
       "In this",
-      "youll discover",
+      "you’ll discover",
       "great-tasting",
       "more",
       "No error."
@@ -3109,12 +3106,12 @@
   },
   {
     "id": 280,
-    "question": "Replace the underlined phrase with the most grammatically correct option. There wasnt nothing that could have been easier.",
+    "question": "Replace the underlined phrase with the most grammatically correct option. There wasn’t nothing that could have been easier.",
     "options": [
-      "There wasnt nothing that could have been easier.",
+      "There wasn’t nothing that could have been easier.",
       "There was nothing that could have been more easier.",
       "Nothing could have been more easier.",
-      "Nothing couldnt have been more easy.",
+      "Nothing couldn’t have been more easy.",
       "Nothing could have been easier."
     ],
     "correctIndex": 4
@@ -3169,7 +3166,7 @@
     "options": [
       "The lost dog wandered sad through the streets.",
       "Frustrated, Boris threw his pencil across the room.",
-      "Well stop at their house first.",
+      "We’ll stop at their house first.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -3178,9 +3175,9 @@
     "id": 286,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
-      "I dont want to participate no longer.",
-      "If youre not sure, look in the dictionary.",
-      "I will try to do better, Lauren promised.",
+      "I don’t want to participate no longer.",
+      "If you’re not sure, look in the dictionary.",
+      "“I will try to do better,” Lauren promised.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -3212,8 +3209,8 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "We sold less cookies this year than we did last year.",
-      "That parrot doesnt talk.",
-      "Dont spend too much money.",
+      "That parrot doesn’t talk.",
+      "Don’t spend too much money.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -3223,7 +3220,7 @@
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "She spread the frosting too thickly.",
-      "What is your answer? she asked.",
+      "“What is your answer?” she asked.",
       "We waited while he stopped to make a phone call.",
       "No mistakes."
     ],
@@ -3235,7 +3232,7 @@
     "options": [
       "Between the three of us, we should find the answer.",
       "Alberto laughed loudly when he saw us.",
-      "Theyre looking for another apartment.",
+      "They’re looking for another apartment.",
       "No mistakes."
     ],
     "correctIndex": 0
@@ -3646,18 +3643,18 @@
   },
   {
     "id": 326,
-    "question": "________. No search of a persons home or personal effects may be conducted without a written search warrant. This means that a judge must justify a search before it can be conducted.",
+    "question": "________. No search of a person’s home or personal effects may be conducted without a written search warrant. This means that a judge must justify a search before it can be conducted.",
     "options": [
-      "There is an old saying that a persons home is his or her castle.",
+      "There is an old saying that a person’s home is his or her castle.",
       "Much of the U.S. legal system was based on the old British system.",
       "The Fourth Amendment to the Constitution protects citizens against unreasonable searches.",
-      "Personal effects is a term that refers to the belongings of a person."
+      "“Personal effects” is a term that refers to the belongings of a person."
     ],
     "correctIndex": 2
   },
   {
     "id": 327,
-    "question": "________. You must imitate as closely as possible the parents methods of feeding. First, hold the beak open using thumb and forefinger. Then, introduce food into the beak with tweezers or an eyedropper.",
+    "question": "________. You must imitate as closely as possible the parents’ methods of feeding. First, hold the beak open using thumb and forefinger. Then, introduce food into the beak with tweezers or an eyedropper.",
     "options": [
       "Recently, I read an article about baby birds.",
       "Hand-rearing wounded or orphaned baby birds requires skill.",
@@ -3692,20 +3689,20 @@
     "id": 330,
     "question": "Gary was a very distinguished looking man with a touch of gray at the temples. Even in his early fifties, he was still the one to turn heads. He enjoyed spending most of his time admiring his profile in the mirror. In fact, he considered his good looks to be his second most important asset in the world. The first, however, was money. He was lucky in this area, too, having been born into a wealthy family. ________. He loved the power his wealth had given him. He could buy whatever he desired, be that people, places, or things. Gary checked that mirror often and felt great delight with what he saw.",
     "options": [
-      "Garys gray hair was his worst characteristic.",
-      "Conceit was the beginning and the end of Garys character; conceit of person and situation.",
+      "Gary’s gray hair was his worst characteristic.",
+      "Conceit was the beginning and the end of Gary’s character; conceit of person and situation.",
       "Gary felt blessed to be wealthy and the joy consumed his every thought.",
-      "The only objects of Garys respect were others who held positions in society."
+      "The only objects of Gary’s respect were others who held positions in society."
     ],
     "correctIndex": 1
   },
   {
     "id": 331,
-    "question": "The term spices is a pleasant one, whether it connotes fine French cuisine or a down-home, cinnamon-flavored apple pie. ________. Individuals have traveled the world seeking exotic spices for profit and, in searching, have changed the course of history. Indeed, to gain control of lands harboring new spices, nations have actually gone to war.",
+    "question": "The term “spices” is a pleasant one, whether it connotes fine French cuisine or a down-home, cinnamon-flavored apple pie. ________. Individuals have traveled the world seeking exotic spices for profit and, in searching, have changed the course of history. Indeed, to gain control of lands harboring new spices, nations have actually gone to war.",
     "options": [
       "The taste and aroma of spices are the main elements that make food such a source of fascination and pleasure.",
       "The term might equally bring to mind Indian curry made thousands of miles away and those delicious barbecued ribs sold down on the corner.",
-      "It is exciting to find a good cookbook and experiment with spices from other landsindeed, it is one way to travel around the globe!",
+      "It is exciting to find a good cookbook and experiment with spices from other lands—indeed, it is one way to travel around the globe!",
       "The history of spices, however, is another matter altogether, often exciting, at times filled with danger and intrigue."
     ],
     "correctIndex": 3
@@ -3745,7 +3742,7 @@
   },
   {
     "id": 335,
-    "question": "________. It is true that Ernest Hemingway went to war to gather material for his stories, and F. Scott Fitzgerald lived a life of dissolution that destroyed him. However, Emily Brontë seldom ventured outside her fathers tiny country rectory, yet she wrote Wuthering Heights, a tale of passionate love and intense hatred, and one of the greatest works in the English language.",
+    "question": "________. It is true that Ernest Hemingway went to war to gather material for his stories, and F. Scott Fitzgerald lived a life of dissolution that destroyed him. However, Emily Brontë seldom ventured outside her father’s tiny country rectory, yet she wrote Wuthering Heights, a tale of passionate love and intense hatred, and one of the greatest works in the English language.",
     "options": [
       "It is not necessary for a writer to endanger his or her life in order to have something to write about.",
       "There are many ways for gifted writers to collect material for their stories and novels.",
@@ -3756,21 +3753,21 @@
   },
   {
     "id": 336,
-    "question": "________. Hearsay that depends on the statements truthfulness is inadmissible because the witness does not appear in court and swear an oath to tell the truth. This means that his or her demeanor when making the statement is not visible to the jury, the accuracy of the statement cannot be tested under cross-examination, and to introduce it would be to deprive the accused of the constitutional right to confront the accuser.",
+    "question": "________. Hearsay that depends on the statement’s truthfulness is inadmissible because the witness does not appear in court and swear an oath to tell the truth. This means that his or her demeanor when making the statement is not visible to the jury, the accuracy of the statement cannot be tested under cross-examination, and to introduce it would be to deprive the accused of the constitutional right to confront the accuser.",
     "options": [
       "Hearsay evidence is not acceptable in a criminal trial because the witness cannot be cross-examined.",
       "Hearsay evidence in a trial is inadmissible because there is too great a chance that it will be false.",
-      "The definition of hearsay evidence is the secondhand reporting of a statement and is sometimes allowable.",
+      "The definition of hearsay evidence is the “secondhand reporting of a statement” and is sometimes allowable.",
       "Hearsay evidence, which is the secondhand reporting of a statement, is allowed in court only when the truth of the statement is irrelevant."
     ],
     "correctIndex": 3
   },
   {
     "id": 337,
-    "question": "________. Any truck that finishes its assigned route before the end of the workers shift will return to the sanitation lot, where supervisors will provide materials for workers to use in cleaning off the graffiti. Because the length of time it takes to complete different routes varies, trucks will no longer be assigned to a specific route but will be rotated among the routes. Therefore, workers should no longer leave personal items in the trucks, as they will not necessarily be using the same truck each day as they did in the past.",
+    "question": "________. Any truck that finishes its assigned route before the end of the workers’ shift will return to the sanitation lot, where supervisors will provide materials for workers to use in cleaning off the graffiti. Because the length of time it takes to complete different routes varies, trucks will no longer be assigned to a specific route but will be rotated among the routes. Therefore, workers should no longer leave personal items in the trucks, as they will not necessarily be using the same truck each day as they did in the past.",
     "options": [
       "Graffiti on city trucks is unsightly and gives city residents a poor impression of the Sanitation Department.",
-      "The Sanitation Department greatly appreciates city workers extra efforts in cleaning graffiti off the city trucks.",
+      "The Sanitation Department greatly appreciates city workers’ extra efforts in cleaning graffiti off the city trucks.",
       "Beginning next month, the Sanitation Department will institute a program intended to remove the graffiti from sanitation trucks.",
       "City workers should keep a sharp lookout for persons spray-painting graffiti on Sanitation Department trucks."
     ],
@@ -3782,8 +3779,8 @@
     "options": [
       "As busy secretaries, we cannot expect to remember all the details of our daily responsibilities without some help.",
       "At the beginning of the day, good secretaries review and organize the tasks they must attend to during that day.",
-      "The word tickler perfectly describes the organizational system to which it refers.",
-      "All secretaries need a good reminder system, sometimes known as a tickler system because it tickles the memory."
+      "The word “tickler” perfectly describes the organizational system to which it refers.",
+      "All secretaries need a good reminder system, sometimes known as a “tickler” system because it tickles the memory."
     ],
     "correctIndex": 3
   },
@@ -3793,14 +3790,14 @@
     "options": [
       "Space flight, especially if it is prolonged, can be hazardous to the health of the astronauts.",
       "The tissues of human beings are ill-prepared for the stresses placed upon them by space flight.",
-      "In space flight, astronauts must deal with two vexing physiological foesmuscle atrophy and bone loss.",
-      "Travel on the space shuttle does less damage to an astronauts bones and muscles than an extended stay on a space station."
+      "In space flight, astronauts must deal with two vexing physiological foes—muscle atrophy and bone loss.",
+      "Travel on the space shuttle does less damage to an astronaut’s bones and muscles than an extended stay on a space station."
     ],
     "correctIndex": 2
   },
   {
     "id": 340,
-    "question": "________. Rather, asthma is now understood to be a chronic inflammatory disorder of the airwaysthat is, inflammation makes the airways chronically sensitive. When these hyper-responsive airways are irritated, air flow is limited, and attacks of coughing, wheezing, chest tightness, and difficulty breathing occur.",
+    "question": "________. Rather, asthma is now understood to be a chronic inflammatory disorder of the airways—that is, inflammation makes the airways chronically sensitive. When these hyper-responsive airways are irritated, air flow is limited, and attacks of coughing, wheezing, chest tightness, and difficulty breathing occur.",
     "options": [
       "No longer is asthma considered a condition with isolated, acute episodes of bronchospasm.",
       "The true nature of asthma has only recently been understood.",
@@ -3825,9 +3822,9 @@
     "question": "Choose the answer that best develops the topic sentence given. Indoor pollution sources that release gases or particles into the air are the primary cause of indoor air-quality problems in homes.",
     "options": [
       "Inadequate ventilation can increase indoor pollutant levels by not bringing in enough outdoor air to dilute emissions from indoor sources.",
-      "Some physicians believe that the dangers of environmental allergens are greatly exaggerated.",
+      "Some physicians believe that the dangers of “environmental allergens” are greatly exaggerated.",
       "Although there are more potential pollution sources today than ever before, environmental activists are working hard to make our world a safer place.",
-      "Ill choose a good, old-fashioned log cabin any day to the kind of squeaky-clean, hermetically-sealed modern condos you find in the big American cities."
+      "I’ll choose a good, old-fashioned log cabin any day to the kind of squeaky-clean, hermetically-sealed modern condos you find in the big American cities."
     ],
     "correctIndex": 0
   },
@@ -3858,7 +3855,7 @@
     "question": "Choose the answer that best develops the topic sentence given. One of the most fascinating discoveries in modern physics is the idea that light can behave both as particles and as waves.",
     "options": [
       "In order to understand quantum physics, one must know a great deal about mathematics.",
-      "What is called empty space by laypersons is really not empty at all, but a sea of negative energy electrons.",
+      "What is called “empty space” by laypersons is really not empty at all, but a sea of negative energy electrons.",
       "This idea, first suggested by the French noblemen Louis de Broglie, is counter-intuitive, but can be empirically proven.",
       "Some physicists say that nothing is real unless it is observed."
     ],
@@ -3869,7 +3866,7 @@
     "question": "Choose the answer that best develops the topic sentence given. Because of technological advances, much communication between companies and businesses is now conducted via e-mail, and office workers must face that fact.",
     "options": [
       "Every day, the U.S. Post Office is subjected to a huge deluge of junk mail.",
-      "Checking e-mail every morning is as important a task for a secretary as sorting and opening the bosss paper mail.",
+      "Checking e-mail every morning is as important a task for a secretary as sorting and opening the boss’s paper mail.",
       "It is hard to believe that a century ago, the mail was delivered on horseback.",
       "Unsolicited commercial e-mails, also known as spam, are not only annoying, but in large quantities, spam can clog e-mail systems."
     ],
@@ -3890,16 +3887,16 @@
     "id": 348,
     "question": "Choose the answer that best develops the topic sentence given. It is a myth that financial aid for higher education just means getting a loan and going into heavy debt.",
     "options": [
-      "Its important for young people to avoid starting out their working lives under a load of indebtedness.",
+      "It’s important for young people to avoid starting out their working lives under a load of indebtedness.",
       "Financial aid is meant to help those students who could otherwise not attend college.",
       "The truth is that students in medicine and law are often able to pay back their student loans in short order.",
-      "The fact is that most schools have their own grants and scholarships, which the student doesnt have to pay back, and a large percentage of students get these."
+      "The fact is that most schools have their own grants and scholarships, which the student doesn’t have to pay back, and a large percentage of students get these."
     ],
     "correctIndex": 3
   },
   {
     "id": 349,
-    "question": "Choose the answer that best develops the topic sentence given. This contract will confirm our agreement in connection with your services as freelance writer for the work entitled Why Kangaroos Cant Fly.",
+    "question": "Choose the answer that best develops the topic sentence given. This contract will confirm our agreement in connection with your services as freelance writer for the work entitled Why Kangaroos Can’t Fly.",
     "options": [
       "The title, although rather silly, accurately sums up the tone and style of the book.",
       "You agree to assist us in preparation of the book by developing content for it, based on your zoo-keeping experience.",
@@ -3910,7 +3907,7 @@
   },
   {
     "id": 350,
-    "question": "Choose the answer that best develops the topic sentence given. Americas fascination with reality television is a topic of much discussion. Many think that people tune in simply to keep up-to-date with the latest popular culture trends.",
+    "question": "Choose the answer that best develops the topic sentence given. America’s fascination with reality television is a topic of much discussion. Many think that people tune in simply to keep up-to-date with the latest popular culture trends.",
     "options": [
       "Whether you love it or hate it, reality television is definitely here to stay.",
       "Every season brings several new reality television shows. However, not every one of them succeeds.",
@@ -3923,7 +3920,7 @@
     "id": 351,
     "question": "Choose the answer that best develops the topic sentence given. Before we learn how to truly love someone else, we must learn how to love the face in the mirror.",
     "options": [
-      "Dont be shy about meeting members of the opposite sex.",
+      "Don’t be shy about meeting members of the opposite sex.",
       "No one can really love you the way you can love yourself.",
       "Love is not something that lasts unless one is very lucky.",
       "Learning to accept ourselves for what we are will teach us how to accept another person."
@@ -3943,7 +3940,7 @@
   },
   {
     "id": 353,
-    "question": "Choose the answer that best develops the topic sentence given. Landscapers do not recommend rose bushes for homeowners who have shade-filled gardens and who dont spend a great deal of time maintaining outdoor plants.",
+    "question": "Choose the answer that best develops the topic sentence given. Landscapers do not recommend rose bushes for homeowners who have shade-filled gardens and who don’t spend a great deal of time maintaining outdoor plants.",
     "options": [
       "Bugs called aphids can destroy roses. However, you can get rid of them by spraying with a solution of water and dish soap.",
       "Gardening can be quite time-consuming. Most gardeners spend hours in their gardens each week.",
@@ -3969,944 +3966,9 @@
     "options": [
       "Scientists place its beginnings at some 3,000 million years ago. This is when the first molecule floated up out of the ooze with the unique ability to replicate itself.",
       "The most complex life form is, of course, the mammal. The most complex mammal is us.",
-      "It is unknown exactly where life started. It is unknown exactly where the first molecule was born.",
-      "Darwins theory of evolution was an attempt to explain what essentially remains a great mystery. His theory, of course, has been discounted by some people."
+      "It is unknown exactly where life started. It is unknown exactly where the first molecule was “born.”",
+      "Darwin’s theory of evolution was an attempt to explain what essentially remains a great mystery. His theory, of course, has been discounted by some people."
     ],
     "correctIndex": 0
-  },
-  {
-    "id": 356,
-    "question": "For the following paragraph, choose the sentence that does NOT belong. (1) The cassowary, a solitary, meat-eating creature who makes its home deep in the jungles of New Guinea, hardly seems like a bird at all. (2) It is enormous, weighing up to 190 pounds. (3) Its plumage is more like hair than feathers; its song is a deep, menacing rumble; and it has lost the capability of flight. (4) Human beings have long been fascinated by birds, particularly by their ability to fly.",
-    "options": [
-      "Sentence 1",
-      "Sentence 2",
-      "Sentence 3",
-      "Sentence 4"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 357,
-    "question": "For the following paragraph, choose the sentence that does NOT belong. (1) Story-telling should speak first to the heart and only second to the intellect. (2) It should, in Isaac Bashevis Singers words, be both clear and profound,and it should also entertain. (3) Many fine writing programs have sprung up across the United States. (4) The new writer should avoid creating pieces that are deliberately obscure and impossible to understand except by a small, elite group of other writers.",
-    "options": [
-      "Sentence 1",
-      "Sentence 2",
-      "Sentence 3",
-      "Sentence 4"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 358,
-    "question": "For the following paragraph, choose the sentence that does NOT belong. (1) Caribbean cuisine is a fusion of Spanish, French, African, Amerindian, and Indian cuisine. (2) Many people travel to the Caribbean to enjoy the beautiful beaches and warm weather. (3) A typical dish and one increasingly common outside of the area is jerk seasoned meats, commonly chicken. (4) Other popular dishes include curried goat and a soup-like dish called callaloo.",
-    "options": [
-      "Sentence 1",
-      "Sentence 2",
-      "Sentence 3",
-      "Sentence 4"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 359,
-    "question": "For the following paragraph, choose the sentence that does NOT belong. (1) Ratatouille is a dish that has grown in popularity over the last few years. (2) It features eggplant, zucchini, tomato, peppers, and garlic, chopped, mixed together, and cooked slowly over low heat. (3) Zucchini is a summer squash and has a smooth, dark green skin. (4) As the vegetables cook slowly, they make their own broth, which may be extended with a little tomato paste.",
-    "options": [
-      "Sentence 1",
-      "Sentence 2",
-      "Sentence 3",
-      "Sentence 4"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 360,
-    "question": "For the following paragraph, choose the sentence that does NOT belong. (1) An odd behavior associated with sleep and dreaming is somnambulism, commonly known as sleepwalking. (2) Sleepwalkers suffer from a malfunction in a brain mechanism that monitors the transition from REM to non-REM sleep. (3) REM sleep is vitally important to psychological well-being. (4) Sleepwalking episodes diminish with age and usually cause no serious harmthe worst thing that could happen would be a fall down the stairs.",
-    "options": [
-      "Sentence 1",
-      "Sentence 2",
-      "Sentence 3",
-      "Sentence 4"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 361,
-    "question": "Use the following passage to answer the question. (1) Following an overwhelmingly enthusiastic response, the school administration has decided to expand the Community Mural Painting Programnow a part of two high school curriculumsto the middle school level. (2) The program was piloted in the school district last year and it was a successful initiative for students and for the community. Which of the following sentences, if inserted after Part 2, would best develop the ideas in the first paragraph?",
-    "options": [
-      "The program could benefit other districts as well.",
-      "One particularly beautiful mural was painted on a playground wall on the east side of town.",
-      "Fifty high school students were involved and they spent five weeks painting ten murals throughout the community in locations that were in great need of some attention.",
-      "The school district is interested in trying other pilot programs in addition the Mural Painting Program."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 362,
-    "question": "Use the following passage to answer the question. (1) Yesterday I was exposed to what was called, in a recent newspaper ad for Dillys Deli, a dining experience like no other. (2) I decided on the hamburger steak special, the other specials were liver and onions and tuna casserole. Which of the following changes should be made to Part 2?",
-    "options": [
-      "Replace were with are.",
-      "Replace the comma with a dash.",
-      "Replace I decided with Deciding.",
-      "Replace the comma with a semicolon."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 363,
-    "question": "Use the following passage to answer the question. (8) After tasting each of the dishes on my plate, it was time to leave; at that moment, one of the people working behind the counter yelled at me to clean up after myself. Which of the following words or phrases should replace the underlined words in Part 8?",
-    "options": [
-      "Having tasted",
-      "After I tasted",
-      "Tasting",
-      "After having tasted"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 364,
-    "question": "Use the following passage to answer the question. (4) One of the simplest and most effective ways to increase physical activity are walking; walking requires no special equipment, no particular location, and it can be easily incorporated into even the busiest lives. Which of the following revisions is necessary in Part 4?",
-    "options": [
-      "One of the simplest and most effective ways to increase physical activity are walking; walking requires no special equipment, no particular location and it can be easily incorporated into even the busiest lives.",
-      "One of the simplest and most effective ways to increase physical activity is walking; walking requires no special equipment, no particular location, and it can be easily incorporated into even the busiest lives.",
-      "One of the simplest and most effective ways to enhance physical activity are walking; walking requires no special equipment, no particular location, and it can be easily incorporated into even the busiest lives.",
-      "One of the simplest and most effective ways to increase physical activity are walking; only walking requires no special equipment, no particular location, and it can be easily incorporated into even the busiest lives."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 365,
-    "question": "Use the following passage to answer the question. (10) ________________________. (11) Before long, it will become a normal part of your daily routine and youll hardly notice the extra effort. Which of the following sentences, if inserted in the blank line numbered Part 10, would be most consistent with the development and grammar of the paragraph?",
-    "options": [
-      "People will benefit from putting on their walking shoes and pounding the pavement.",
-      "So jog, bicycle, and walk as much as you can.",
-      "While people will benefit from increased physical activity, it cannot replace the necessity of eating right.",
-      "So put on your walking shoes and start pounding the pavement."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 366,
-    "question": "Use the following passage to answer the question. (1) Although eating right is an important part of good health, most experts agree that being physically active is also a key element in living a longer and healthier life. (2) The benefits of physical activity include improved self-esteem, a lowered risk of heart disease and colon cancer, stronger bones, muscles, and joints, and enhanced flexibility. (3) Physical activity, in addition to its many other rewards will also help manage weight gain. Which of the following changes is needed in the passage?",
-    "options": [
-      "Part 3: Insert comma after rewards.",
-      "Part 1: Replace most with more.",
-      "Part 5: Insert a comma after minutes.",
-      "Part 2: Insert a colon after activity."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 367,
-    "question": "Use the following passage to answer the question. (2) When a suspect who is merely being questioned incriminates himself, he might later claim to have been in custody and seek to have the case dismissed on the grounds of not having been appraised of his Miranda rights. Which of the underlined words in the paragraph should be replaced by a more appropriate, accurate word?",
-    "options": [
-      "incriminates",
-      "appraised",
-      "criteria",
-      "ascertain"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 368,
-    "question": "Use the following passage to answer the question. (3) In such cases, a judge must make a determination as to whether or not a reasonable person would have believed himself to have been in custody, based on certain criteria. (4) Officers must be aware of these criteria and take care not to give suspects grounds for later claiming they believed themselves to be in custody. (5) The judge must ascertain whether the suspect was questioned in a threatening manner... Which of the following changes would make the sequence of ideas in the paragraph clearer?",
-    "options": [
-      "Place Part 5 after Part 1.",
-      "Reverse Parts 3 and 5.",
-      "Reverse the order of Parts 4 and 5.",
-      "Delete Part 2."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 369,
-    "question": "Use the following passage to answer the question. (4) Some find snowboarding more difficult to learn than skiing however, others consider it easier, requiring the mastery of one board as opposed to two skis and two poles. Which of the following parts of the passage is a nonstandard sentence?",
-    "options": [
-      "Part 1",
-      "Part 3",
-      "Part 4",
-      "Part 6"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 370,
-    "question": "Use the following passage to answer the question. (6) Those who excel in the sport may even find himself bound for the Olympics since snowboarding became medal-eligible in 1998. Which of the following changes is needed in the passage?",
-    "options": [
-      "Part 1: Change combines to combine.",
-      "Part 2: Change snow-covered to snow covered.",
-      "Part 5: Change agree to agreed.",
-      "Part 6: Change himself to themselves."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 371,
-    "question": "Use the following passage to answer the question. (1) An ecosystem is a group of animals and plants living in a specific region and interacting with one another and with their physical environment. ... (6) Environmental Groups are forming in many communities. (7) Human activities can harm or destroy local ecosystems... Which of the following numbered parts is least relevant to the main idea of the paragraph?",
-    "options": [
-      "Part 1",
-      "Part 6",
-      "Part 7",
-      "Part 8"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 372,
-    "question": "Use the following passage to answer the question. (6) Environmental Groups are forming in many communities. Which of the following changes is needed in the passage?",
-    "options": [
-      "Part 5: Place a comma after live.",
-      "Part 2: Remove the comma after water.",
-      "Part 6: Use a lowercase g for the word Group.",
-      "Part 8: Change involves to involved."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 373,
-    "question": "Use the following passage to answer the question. (5) ________, someone who has developed Type II diabetes may feel more tired or ill without knowing why. Which of the following parts of the paragraph contains a nonstandard comparison?",
-    "options": [
-      "Part 7",
-      "Part 5",
-      "Part 3",
-      "Part 2"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 374,
-    "question": "Use the following passage to answer the question. (4) ________ its symptoms often develop gradually and are hard to identify at first, nearly half of all people with diabetes do not know they have it. (5) ________, someone who has developed Type II diabetes may feel more tired or ill without knowing why. Which sequence of words, if inserted in order into the blanks in the paragraph, help the reader understand the sequence and logic of the writers ideas?",
-    "options": [
-      "Since . . . For example",
-      "While . . . Next",
-      "Moreover . . . Eventually",
-      "Because . . . Thus"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 375,
-    "question": "Use the following passage to answer the question. (8) The probes usually have up to four channels, each with its own recording/stimulating electrode. Which of the following changes is needed in the above passage?",
-    "options": [
-      "Part 8: Change its to its.",
-      "Part 6: Change their to its.",
-      "Part 6: Change than to then.",
-      "Part 5: Change researchers to researchers."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 376,
-    "question": "Use the following passage to answer the question. (4) The tissue-compatible microprobes represent an advance over the typically aluminum wire electrodes used in studies of the cortex and other brain structures. Which of the following includes a nonstandard use of an adverb in the passage?",
-    "options": [
-      "Part 2",
-      "Part 4",
-      "Part 6",
-      "Part 8"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 377,
-    "question": "Use the following passage to answer the question. (6) Microprobes, since they are slightly thinner than a human hair, cause minimal damage and disruption of neurons when inserted into the brain because of their diminutive width. Which of the following numbered parts should be revised to reduce unnecessary repetition?",
-    "options": [
-      "Part 2",
-      "Part 5",
-      "Part 6",
-      "Part 8"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 378,
-    "question": "Use the following passage to answer the question. (4) A passenger-created disturbance is by playing excessively loud music or creating loud noises in some other manner. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 3",
-      "Part 4",
-      "Part 6",
-      "Part 7"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 379,
-    "question": "Use the following passage to answer the question. (8) Conductors will wait there until the police arrive, will allow passengers to get off the train at this point, and no passengers are allowed back on until the situation is resolved. Which of the following sentences is the best revision of the sentence numbered Part 8 in the passage?",
-    "options": [
-      "Conductors will wait there until the police arrive, will allow passengers off the train at this point, and no passengers will be allowed on until the situation is resolved.",
-      "Conductors will wait there until the police arrive, will allow passengers off the train at this point, and, until the situation is resolved, no passengers are allowed on.",
-      "Conductors will wait there until the police arrive, will allow passengers off the train at this point, and will not allow passengers on until the situation is resolved.",
-      "Conductors will wait there until the police arrive, will allow passengers off the train at this point, and no passengers will be allowed on until the situation is resolved."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 380,
-    "question": "Use the following passage to answer the question. (6) ...and will have to leave the train if he or she will not comply to the request. Which of the following numbered parts contains a nonstandard use of a preposition?",
-    "options": [
-      "Part 2",
-      "Part 6",
-      "Part 7",
-      "Part 8"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 381,
-    "question": "Use the following passage to answer the question. (6) Cigarette smoking which increases the risk of heart disease and when it is combined with other factors, the risk is even greater. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 3",
-      "Part 6",
-      "Part 2",
-      "Part 10"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 382,
-    "question": "Use the following passage to answer the question. (1) In her lecture Keeping Your Heart Healthy, Dr. Miranda Woodhouse challenged Americans to join her in the fight to reduce the risks of heart disease. (2) Her plan includes four basic strategies meant to increase public awareness and prevent heart disease. Which of the following sentences, if inserted between Part 2 and Part 3 of the passage, would best focus the purpose of the writer?",
-    "options": [
-      "While the guidelines will help those who are free of heart disease, they will not help those who have already experienced a heart attack.",
-      "Extending the life of American citizens will make our countrys life expectancy rates the highest in the world.",
-      "The following is a brief outline of each of the four strategies.",
-      "Getting people to stop smoking is the most important element of Dr. Woodhouses program."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 383,
-    "question": "Use the following passage to answer the question. (9) Because their are often no symptoms, many people dont even know that they have high blood pressure. Which of the following changes needs to be made to the passage?",
-    "options": [
-      "Part 2: Change includes to is inclusive of.",
-      "Part 3: Change Eating to To eat.",
-      "Part 9: Change their to there.",
-      "Part 12: Change show to shown."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 384,
-    "question": "Use the following passage to answer the question. (5) A contemporary of artists including Camille Pissarro and Edgar Degas Cassatt was an active member of the school of painting known as impressionism. Which of the following changes needs to be made to the above passage?",
-    "options": [
-      "Part 3: Change Before to Because.",
-      "Part 4: Insert a comma after Although.",
-      "Part 5: Insert a comma after Degas.",
-      "Part 7: Change breathtaking to breathtakingly."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 385,
-    "question": "Use the following passage to answer the question. (2) Because her family valued education and believed that traveling was a wonderful way to learn. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 8"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 386,
-    "question": "Use the following passage to answer the question. (6) However, in later years, her painting evolved and she abandoned the impressionist approach; for a simpler, more straightforward style. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 3",
-      "Part 4",
-      "Part 6",
-      "Part 8"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 387,
-    "question": "Use the following passage to answer the question. (7) Cassatt never married or had children, but her most well-known paintings depict breathtaking, yet ordinary scenes of mothers and children. Which of the following should be used in place of the underlined word in Part 7 of the last paragraph?",
-    "options": [
-      "painting",
-      "paintings",
-      "paintings",
-      "artworks"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 388,
-    "question": "Use the following passage to answer the question. (6) Veggie burgers offered alongside beef burgers would be a positive addition, says Warner. Which of the following changes is needed in the third paragraph?",
-    "options": [
-      "Part 7: Remove the quotation marks before A.",
-      "Part 6: Insert quotation marks after addition.",
-      "Part 9: Insert a comma after case.",
-      "Part 8: Change than to then."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 389,
-    "question": "Use the following passage to answer the question. (3) School cafeterias, in an effort to provide food that is appetizing to young people, too often memorize fast-food menus, serving items such as burgers and fries, pizza, hot dogs, and fried chicken. Which of the underlined words or phrases in the passage should be replaced by more precise or appropriate words?",
-    "options": [
-      "direction",
-      "memorize",
-      "nutritional",
-      "substitutions"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 390,
-    "question": "Use the following passage to answer the question. (5) According to nutritionist Elizabeth Warner, many of the lunch selections currently offered by school cafeterias could be made healthier with a few simple and inexpensive substitutions. Which of the following editorial changes would help focus attention on the main idea in the third paragraph?",
-    "options": [
-      "Reverse the order of Part 7 and Part 9.",
-      "Delete Part 6.",
-      "Combine Part 7 and 8 into one sentence.",
-      "Make Part 5 the first sentence of the third paragraph."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 391,
-    "question": "Use the following passage to answer the question. (4) As a thrifty gardener, you should leave part of the garden free for the planting of herbs such as lavender, sage, thyme, and parsley. Which of the following editorial changes would best help to clarify the ideas in the first paragraph?",
-    "options": [
-      "Omit the phrase, with only a little care, from Part 2.",
-      "Reverse the order of Parts 2 and 3.",
-      "Add a sentence after Part 4 explaining why saving room for herbs is a sign of thrift in a gardener.",
-      "Add a sentence about the ease of growing roses after Part 3."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 392,
-    "question": "Use the following passage to answer the question. (5) If you have a moderate amount of time, growing vegetables and a garden culture of pears, apples, quinces, and other small fruits can be an interesting occupation... (7) ________. (8) When planting seeds for the vegetable garden, you should be sure that they receive the proper amount of moisture... Which of the following sentences, if inserted in the blank line numbered Part 7, would be most consistent with the writers development of ideas in the second paragraph?",
-    "options": [
-      "When and how you plant is important to producing a good yield from your garden.",
-      "Very few gardening tasks are more fascinating than growing fruit trees.",
-      "Of course, if you have saved room for an herb garden, you will be able to make the yield of your garden even more tasty by cooking with your own herbs.",
-      "Growing a productive fruit garden may take some specialized and time-consuming research into proper grafting techniques."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 393,
-    "question": "Use the following passage to answer the question. (5) ...which amply rewards the care languished on it. Which of the following changes needs to be made in the above passage?",
-    "options": [
-      "Part 2: Change through to threw.",
-      "Part 5: Change languished to lavished.",
-      "Part 8: Change sown to sewn.",
-      "Part 8: Change surface to surfeit."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 394,
-    "question": "Use the following passage to answer the question. (4) It was the first year she had ever grown these; Doctor Ed brung her the seeds from Omaha when he went to some medical convention. Which of the following numbered parts displays nonstandard use of a verb form?",
-    "options": [
-      "Part 2",
-      "Part 3",
-      "Part 4",
-      "Part 5"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 395,
-    "question": "Use the following passage to answer the question. (3) Marys big red geranium in bloom for Christmas, and a row of Jerusalem cherry trees, full of berries. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 2",
-      "Part 3",
-      "Part 4",
-      "Part 5"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 396,
-    "question": "Use the following passage to answer the question. (3) Upon completion of school at age thirteen, he expressed strong interest in art as a career so his father apprenticed him to a cameo cutter. Which of the following numbered parts requires a comma to separate two independent clauses?",
-    "options": [
-      "Part 1",
-      "Part 3",
-      "Part 7",
-      "Part 9"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 397,
-    "question": "Use the following passage to answer the question. (6) In 1870, he left Paris for Rome, where for the next five years, he studies classical art and architecture, and worked on his first commissions. Which of the following words should replace the underlined word in Part 6?",
-    "options": [
-      "studied",
-      "will study",
-      "had been studying",
-      "would have studied"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 398,
-    "question": "Use the following passage to answer the question. (5) At 19, his apprenticeship completed, Augustus traveled to Paris where he studied under Francois Jouffry at the renown Ecole des Beaux-Arts. Which of the following changes needs to be made to the passage?",
-    "options": [
-      "Part 2: Change where to when.",
-      "Part 5: Change renown to renowned.",
-      "Part 8: Change its to its.",
-      "Part 3: Change expressed to impressed."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 399,
-    "question": "Use the following passage to answer the question. (2) Its home to abundant wildlife; including alligators, crocodiles, manatees, and Florida panthers. Which of the following numbered parts contains a nonstandard use of a semicolon?",
-    "options": [
-      "Part 6",
-      "Part 2",
-      "Part 9",
-      "Part 4"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 400,
-    "question": "Use the following passage to answer the question. (9) Year-round, ranger-led activities may help you to enjoy your visit even more; such activities are offered throughout the park in all seasons. Which of the following numbered parts needs to be revised to reduce unnecessary repetition?",
-    "options": [
-      "Part 4",
-      "Part 6",
-      "Part 9",
-      "Part 8"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 401,
-    "question": "Use the following passage to answer the question. (3) The climate of the Everglades are mild and pleasant from December through April... Which of the following changes is needed in the above passage?",
-    "options": [
-      "Part 2: Change its to its.",
-      "Part 3: Change are to is.",
-      "Part 6: Remove the comma after Everglades.",
-      "Part 8: Remove the comma after campgrounds."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 402,
-    "question": "Use the following passage to answer the question. (1) Choosing a doctor is an important decision. ... (7) The cost of healthcare insurance is quite high and many families have difficulty affording it. Which of the following numbered parts is least relevant to the first paragraph?",
-    "options": [
-      "Part 2",
-      "Part 3",
-      "Part 7",
-      "Part 9"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 403,
-    "question": "Use the following passage to answer the question. (3) Ask questions about the practice, office hours, and how quick he or she responds to phone calls. Which of the following changes needs to be made to the passage?",
-    "options": [
-      "Part 3: Change quick to quickly.",
-      "Part 10: Change better to more better.",
-      "Part 6: Change accepting to accepted.",
-      "Part 10: Change efficient to efficiently."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 404,
-    "question": "Use the following passage to answer the question. (1) Being able to type good is no longer a requirement limited to secretaries and novelists... Which of the following numbered parts contains a nonstandard use of a modifier?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 5"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 405,
-    "question": "Use the following passage to answer the question. (4) This chapter assures that you are familiar enough with a standard keyboard to be able to use it without looking at the keys... Which of the following words, underlined in the passage, is misused in its context?",
-    "options": [
-      "assures",
-      "proficiency",
-      "fingering",
-      "accustomed"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 406,
-    "question": "Use the following passage to answer the question. (5) The following information will help you increase your speed and accuracy and to do our best when being tested on timed writing passages. Which of the following changes needs to be made in the passage?",
-    "options": [
-      "Part 3: Remove the comma after exam.",
-      "Part 4: Insert a colon after that.",
-      "Part 1: Change needs to needed.",
-      "Part 5: Change our to your."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 407,
-    "question": "Use the following passage to answer the question. (2) In one photograph, he stands in front of a tall chiffonier, which looms behind him, massive and shadowy, like one of the Fates in a greek play. Which of the following changes needs to be made to the above passage?",
-    "options": [
-      "Part 2: Change greek to Greek.",
-      "Part 4: Change Sister to sister.",
-      "Part 4: Change summer to Summer.",
-      "Part 3: Change uncle to Uncle."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 408,
-    "question": "Use the following passage to answer the question. (1) None of us knew my Uncle Elmer, not even my mother (he would have been ten years older than she) we had pictures of him in an ancient family album... Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 4"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 409,
-    "question": "Use the following passage to answer the question. (4) But the witty Dubliner will not ensign bragging rights easily and will trump the French visitor with a fine distinction... Which of the following words should replace the underlined word in Part 4 of the passage?",
-    "options": [
-      "require",
-      "relinquish",
-      "acquire",
-      "assign"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 410,
-    "question": "Use the following passage to answer the question. (6) An impressive monument to him towers over the entrance of lower OConnell Street and overlooking the Liffey River. Which of the following changes needs to be made to the second paragraph of the passage?",
-    "options": [
-      "Part 7: Replace the semicolon with a comma.",
-      "Part 5: Change Irish to irish.",
-      "Part 5: Change running to run.",
-      "Part 6: Change overlooking to overlooks."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 411,
-    "question": "Use the following passage to answer the question. (2) Although it is not a particularly long street Dubliners will tell the visitor proudly that it is the widest street in all of Europe. Which of the following changes needs to be made to the first paragraph of the passage?",
-    "options": [
-      "Part 2: Insert a comma after that.",
-      "Part 3: Replace the comma after protests with a semicolon.",
-      "Part 4: Remove the colon after distinction.",
-      "Part 2: Insert a comma after street."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 412,
-    "question": "Use the following passage to answer the question. (3) Her short brown hair was crimped in waves, which gave a incongruous, quaint, old-fashioned effect. Which of the following changes should be made in Part 3?",
-    "options": [
-      "Change was to is.",
-      "Change gave to gives.",
-      "Change a to an.",
-      "Change effect to affect."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 413,
-    "question": "Use the following passage to answer the question. (5) Her eyes, set rather shallow, were light brown and inquisitive. Which of the following numbered parts contains a nonstandard use of a modifier?",
-    "options": [
-      "Part 7",
-      "Part 5",
-      "Part 3",
-      "Part 2"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 414,
-    "question": "Use the following passage to answer the question. (1) Mrs. Lake arriving twenty minutes early surprised and irritated Nicholas, although the moment for saying so slipped past too quickly for him to snatch its opportunity. Which of the following changes needs to be made to Part 1?",
-    "options": [
-      "Insert a comma after early.",
-      "Change too to two.",
-      "Change Lake to Lakes.",
-      "Change its to its."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 415,
-    "question": "Use the following passage to answer the question. (8) Fill out all pertinent blanks on the message pad sheet while you are still on the phone. (9) Always let the caller hang up first. ... (13) Verify the information by reading it back to the caller. Which of the following editorial changes would most improve the clarity of development of ideas in the second paragraph?",
-    "options": [
-      "Delete Part 9.",
-      "Reverse the order of Part 8 and Part 13.",
-      "Reverse the order of Part 9 and Part 13.",
-      "Add a sentence after Part 7 explaining the need to take phone messages from customers politely."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 416,
-    "question": "Use the following passage to answer the question. (1) If your office job involves telephone work, than your voice may be the first contact a caller has to your company or organization. Which of the following changes needs to be made to the first paragraph?",
-    "options": [
-      "Part 5: Change they to it.",
-      "Part 1: Change than to then.",
-      "Part 2: Change manners to manner.",
-      "Part 6: Change bosss to bosses."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 417,
-    "question": "Use the following passage to answer the question. (10) Do not depend in your memory for the spelling of a name or the last digit of a phone number, and be sure to write legibly. Which of the following numbered parts contains a nonstandard use of a preposition?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 8",
-      "Part 10"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 418,
-    "question": "Use the following passage to answer the question. (3) When someone has authority over you, its hard to remember that theyre just human. Which of the following numbered parts contains a nonstandard use of a pronoun?",
-    "options": [
-      "Part 3",
-      "Part 4",
-      "Part 7",
-      "Part 8"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 419,
-    "question": "Use the following passage to answer the question. (8) But were all entitled to occasional mood swings. Which of the following changes needs to be made to the above passage?",
-    "options": [
-      "Part 5: Change unreasonable to unreasonably.",
-      "Part 7: Change the dash to a semicolon.",
-      "Part 8: Change were to were.",
-      "Part 4: Change deadlines to a deadline."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 420,
-    "question": "Use the following passage to answer the question. (1) Kwanzaa is a holiday celebrated by many African Americans from December 26th through January 1st. ... Which of the following sentences would be the best topic sentence for a second paragraph on the same subject?",
-    "options": [
-      "The seven fundamental principles on which Kwanzaa is based are referred to as the Nguzo Saba.",
-      "These rules consist of unity, self-determination, collective work and responsibility, cooperative economics, purpose, creativity, and faith.",
-      "Each of its seven candles represents a distinct principle beginning with unity, the center candle.",
-      "Participants celebrate by performing rituals such as lighting the kinara."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 421,
-    "question": "Use the following passage to answer the question. (2) It pays tribute to the rich cultural roots of Americans of African ancestry, and celebrates family, community, and culture, Kwanzaa means the first or the first fruits of the harvest and is based on the ancient African first-fruit harvest celebrations. Which of the following numbered parts in the passage contains a nonstandard sentence?",
-    "options": [
-      "Part 4",
-      "Part 3",
-      "Part 1",
-      "Part 2"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 422,
-    "question": "Use the following passage to answer the question. (4) Passengers may request a stop anywhere along the bus route by pulling the bell cord a block ahead. (5) During the first two months of the program, when passengers attempt to flag down a bus anywhere but at a designated stop, the bus driver should proceed to the next stop and wait for them to board the bus. Which of the following editorial changes in the above passage would best help to clarify the information the paragraph intends to convey?",
-    "options": [
-      "Add a sentence between Parts 4 and 5 explaining that while the Stop Here Program allows passengers to leave the bus at almost any point, passengers may board only at designated stops.",
-      "Delete Part 6.",
-      "Add a sentence between Parts 5 and 6 explaining the safety advantages for passengers of flagging down buses at night.",
-      "Reverse the order of Parts 4 and 5."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 423,
-    "question": "Use the following passage to answer the question. (1) Beginning next month, City Transit will institute the Stop Here Program, who will be in effect every night from 10:00 P.M. until 4:00 A.M. Which of the following numbered parts contains a nonstandard use of a pronoun?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 5"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 424,
-    "question": "Use the following passage to answer the question. (5) The water supply in the residential areas was insufficient, some hydrants could not even be opened. Which of the following numbered parts contains a nonstandard sentence?",
-    "options": [
-      "Part 7",
-      "Part 5",
-      "Part 3",
-      "Part 12"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 425,
-    "question": "Use the following passage to answer the question. (4) The task force findings were as follows. Which of the following changes needs to be made to the passage?",
-    "options": [
-      "Part 12: Change were to were.",
-      "Part 12: Insert a comma after others.",
-      "Part 2: Remove the comma after killed.",
-      "Part 4: Replace the period with a colon."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 426,
-    "question": "Use the following passage to answer the question. (3) Cortez was looking for gold, and he were sure that Indian groups in Mexico had mined large amounts of the precious metal. Which of the underlined words in the passage could be replaced with a more precise verb?",
-    "options": [
-      "was looking",
-      "equipped",
-      "conquered",
-      "seized"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 427,
-    "question": "Use the following passage to answer the question. (3) Cortez was looking for gold, and he were sure that Indian groups in Mexico had mined large amounts of the precious metal. Which of the following sentences uses the verb incorrectly?",
-    "options": [
-      "Part 1",
-      "Part 2",
-      "Part 3",
-      "Part 4"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 428,
-    "question": "Use the following passage to answer the question. (1) In 1519, Hernando cortez led his army of Spanish Conquistadors into Mexico. Which of the following changes needs to be made to the passage?",
-    "options": [
-      "Part 1: Capitalize the c in Cortez.",
-      "Part 2: Delete the comma after horses.",
-      "Part 3: Insert a comma after groups.",
-      "Part 4: Place a semicolon after groups."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 429,
-    "question": "Use the following passage to answer the question. (1) Charles Darwin was born in 1809 at Shrewsbury England. Which of the following corrections should be made in punctuation?",
-    "options": [
-      "Part 1: Insert a comma after Shrewsbury.",
-      "Part 2: Insert quotation marks around nature of man.",
-      "Part 3: Delete the comma after study.",
-      "Part 4: Insert a comma before and."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 430,
-    "question": "Use the following passage to answer the question. (7) His major work that contained these theories is On the Origin of the Species written in 1859. In Part 7, On the Origin of Species is italicized because it is",
-    "options": [
-      "a short story.",
-      "the title of a book.",
-      "name of the author.",
-      "copyrighted."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 431,
-    "question": "Use the following passage to answer the question. (5) He was civil service reformer in the east and also a police commissioner. Which of the following sentences represents the best revision of Part 5?",
-    "options": [
-      "Back east he became a civil service reformer and police commissioner.",
-      "A civil service reformer and police commissioner was part of his job in the east.",
-      "A civil service reformer and police commissioner were parts of his job in the east.",
-      "His jobs of civil service reformer and police commissioner were his jobs in the east."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 432,
-    "question": "Use the following passage to answer the question. (1) Theodore Roosevelt were born with asthma and poor eyesight. Which of the following should be used in place of the underlined verb in Part 1 of the passage?",
-    "options": [
-      "will be",
-      "are",
-      "is",
-      "was"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 433,
-    "question": "Use the following passage to answer the question. (3) Although they are not considered the most highly evolved of the cephalopods, cuttlefish are extremely intelligent. (4) _______. (5) While observing them, it is hard to tell who is doing the watching, you or the cuttlefish. Which of the following sentences, if inserted into the blank numbered 4, would be most consistent with the paragraphs development and tone?",
-    "options": [
-      "Curious and friendly, cuttlefish tend, in the wild, to hover near a diver so they can get a good look, and in captivity, when a researcher slips a hand into the tanks, cuttlefish tend to grasp it with their tentacles in a hearty but gentle handshake.",
-      "The cuttlefish can be cooked and eaten like its less tender relatives the squid and octopus, but must still be tenderized before cooking in order not to be exceedingly chewy.",
-      "Cuttlefish are hunted as food not only by many sea creatures, but also by people; they are delicious when properly cooked.",
-      "Cuttlefish do not have an exoskeleton; instead their skin is covered with chromataphors."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 434,
-    "question": "Use the following passage to answer the question. (6) Since the eye of the cuttlefish is very similar in structure to the human eye, cuttlefish can give you the impression that you are looking into the eyes of a wizard who has metamorphosed himself into a squid with very human eyes. Which of the following numbered parts should be revised to reduce its unnecessary repetition?",
-    "options": [
-      "Part 2",
-      "Part 5",
-      "Part 6",
-      "Part 9"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 435,
-    "question": "Use the following passage to answer the question. (9) For navigation, ribbons of flexible fin on each side of the body allow cuttlefish to hoover, move, stop, and start. Which of the following changes should be made in the final sentence?",
-    "options": [
-      "Change For to If.",
-      "Change allow to allot.",
-      "Change each to both.",
-      "Change hoover to hover."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 436,
-    "question": "Use the following passage to answer the question. (3) The very definition made her shiver: from the Latin carnavale, meaning a farewell to the flesh. Which of the following changes needs to be made to the above passage?",
-    "options": [
-      "Part 2: Insert the before Carnival.",
-      "Part 3: Italicize carnavale.",
-      "Part 6: Italicize serfs.",
-      "Part 9: Change were to was."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 437,
-    "question": "Use the following passage to answer the question. (1) ...after sifting through a stack of brochures, the agent and her decided the most exotic vacation she could afford was a week in Rio. Which of the following numbered parts contains a nonstandard use of a pronoun?",
-    "options": [
-      "Part 1",
-      "Part 5",
-      "Part 7",
-      "Part 8"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 438,
-    "question": "Use the following passage to answer the question. (5) Carnival, the brochure informed her, originated in Europe in the Middle Ages... Which of the following changes needs to be made to Part 5 of the passage?",
-    "options": [
-      "Insert quotation marks before originated.",
-      "Remove the comma after her.",
-      "Remove the quotation marks after Carnival.",
-      "Insert quotation marks after society."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 439,
-    "question": "Use the following passage to answer the question. (7) You should be able to nod in agreement and say, Yes, thats it! (8) I understand precisely where this guy is coming from. The tone of this passage is very formal; the last sentence is not. Which of the following would be more consistent with the tone of the passage?",
-    "options": [
-      "This guy is right on.",
-      "I can relate to the poets experience.",
-      "I know this feeling.",
-      "This poem gets right to the point."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 440,
-    "question": "Use the following passage to answer the question. (5) Succinctly, what the poet imagines love to be may or may not be our perception of love. (6) Therefore, the poets job is to enable us to experience it and feel it the same way. (7) You should be able to nod in agreement... Which of the following numbered parts contains a nonstandard use of a pronoun?",
-    "options": [
-      "Part 3",
-      "Part 5",
-      "Part 6",
-      "Part 7"
-    ],
-    "correctIndex": 3
   }
 ]
