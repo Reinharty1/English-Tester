@@ -9,7 +9,8 @@ const EXAM_SIZE = 25;
 const EXAM_DURATION_MIN = 20;
 
 // Google Apps Script Web App URL (for saving results to Google Sheets)
-const SHEET_ENDPOINT = "https://script.google.com/macros/s/AKfycbx6GxRULVqXlFoM36pCdvfPWqEN1GlqG-SfhyQ0NW4BBNOJU4qPtGZbu8gYUuKfBe8c/exec";
+const SHEET_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbxXR8SSS_GNv1FwQzLVqQnriJWLZNKrJVozbQSUQ2aHyzQf_rXjGtw16cxYzqSA6mtI/exec";
 
 // ====== STATE ======
 
@@ -265,10 +266,6 @@ function updateProgress() {
 
 // ====== FINISH & REVIEW ======
 
-/**
- * autoSubmit = true  → time over
- * autoSubmit = false → user clicked Finish
- */
 function handleFinish(autoSubmit) {
   if (!examStarted || examFinished) {
     return;
@@ -285,14 +282,15 @@ function handleFinish(autoSubmit) {
   var feedbackHtml = "";
 
   examQuestions.forEach(function (q, index) {
-    var selected = document.querySelector('input[name="q_' + index + '"]:checked');
+    var selected = document.querySelector(
+      'input[name="q_' + index + '"]:checked'
+    );
     var userAnswerIndex = selected ? parseInt(selected.value, 10) : null;
 
     var correctIndex = q.correctIndex;
     var correctLetter = indexToLetter(correctIndex);
-    var correctText = q.options && q.options[correctIndex]
-      ? q.options[correctIndex]
-      : "";
+    var correctText =
+      q.options && q.options[correctIndex] ? q.options[correctIndex] : "";
 
     var userLetter = "(no answer)";
     var userText = "";
@@ -346,11 +344,19 @@ function handleFinish(autoSubmit) {
     : null;
 
   var html = '<div class="score-box">';
-  html += "<strong>Score:</strong> " + correct + " / " + total + " (" + percent + "%)<br/>";
+  html +=
+    "<strong>Score:</strong> " +
+    correct +
+    " / " +
+    total +
+    " (" +
+    percent +
+    "%)<br/>";
   if (studentName) {
     html += "<strong>Student:</strong> " + escapeHtml(studentName) + "<br/>";
   }
-  html += "<strong>Questions answered:</strong> " + answered + " / " + total + "<br/>";
+  html +=
+    "<strong>Questions answered:</strong> " + answered + " / " + total + "<br/>";
   if (durationSec !== null) {
     html += "<strong>Time used:</strong> " + durationSec + " seconds<br/>";
   }
@@ -371,7 +377,7 @@ function handleFinish(autoSubmit) {
     total: total,
     percent: percent,
     answered: answered,
-    durationSec: durationSec
+    durationSec: durationSec,
   });
 
   startBtn.disabled = false;
@@ -390,5 +396,54 @@ function handleFinish(autoSubmit) {
 function sendResultToSheet(payload) {
   if (!SHEET_ENDPOINT) {
     console.warn("SHEET_ENDPOINT is not configured.");
- 
-::contentReference[oaicite:0]{index=0}
+    return;
+  }
+
+  console.log("Sending result to sheet:", payload);
+
+  fetch(SHEET_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  })
+    .then(function (res) {
+      console.log("Sheet response status:", res.status);
+      return res.text();
+    })
+    .then(function (text) {
+      console.log("Raw sheet response:", text);
+      var data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        console.warn("Could not parse sheet response as JSON.");
+        data = null;
+      }
+      if (data && data.status === "ok") {
+        console.log("Result successfully saved to sheet.");
+      } else {
+        console.warn("Sheet API returned non-ok:", data);
+      }
+    })
+    .catch(function (err) {
+      console.warn("Failed to send result to sheet:", err);
+    });
+}
+
+// ====== HELPERS ======
+
+function indexToLetter(index) {
+  return String.fromCharCode(65 + index); // 0 → A, 1 → B, ...
+}
+
+function escapeHtml(str) {
+  if (str == null) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
