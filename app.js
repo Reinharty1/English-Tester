@@ -455,15 +455,17 @@ function sendResultByEmail(payload) {
     return;
   }
 
+  // Use no-cors to avoid CORS blocks on GitHub Pages (response won't be readable)
   fetch(EMAIL_ENDPOINT, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
+    mode: "no-cors",
+    body: JSON.stringify(payload)
   })
     .then(() => {
-      console.log("📧 Exam emailed successfully");
+      console.log("📧 Exam send request fired (no-cors; response not readable)");
     })
     .catch((err) => {
+      // In no-cors, this usually only fires on real network failures
       console.warn("❌ Email sending failed:", err);
     });
 }
