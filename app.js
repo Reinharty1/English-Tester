@@ -12,6 +12,11 @@ const EXAM_DURATION_MIN = 20;
 const SHEET_ENDPOINT =
   "https://script.google.com/macros/s/AKfycbwRlcxoK6AQSF70x9wabnytu6LYAo7IdaR9h5v7i08fYbpykjL6ZbYQIgzXjboFf7bf/exec";
 
+// Google Apps Script Web App URL (for emailing full exam results)
+const EMAIL_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbyN8jJDi2zEHdJsC2tAGq85or8RWEHeZdgDwIcIsbmACUG4Lyl4l5mUrL2wPTQW9Z4o/exec";
+
+
 // ====== STATE ======
 
 let allQuestions = [];
@@ -380,6 +385,30 @@ function handleFinish(autoSubmit) {
     durationSec: durationSec,
   });
 
+  // Send full exam + answers to email
+  sendResultByEmail({
+    studentName: studentName,
+    examId: "English-Tester",
+    score: correct,
+    total: total,
+    percent: percent,
+    durationSec: durationSec,
+    questions: examQuestions.map(function (q, i) {
+      var selected = document.querySelector(
+        'input[name="q_' + i + '"]:checked'
+      );
+      var chosenIndex = selected ? parseInt(selected.value, 10) : -1;
+
+      return {
+        question: q.question,
+        options: q.options,
+        correctIndex: q.correctIndex,
+        chosenIndex: chosenIndex,
+      };
+    }),
+  });
+
+
   startBtn.disabled = false;
   finishBtn.disabled = true;
 
@@ -416,6 +445,28 @@ function sendResultToSheet(payload) {
 }
 
 
+
+
+// ====== EMAIL INTEGRATION (FULL EXAM REPORT) ======
+
+function sendResultByEmail(payload) {
+  if (!EMAIL_ENDPOINT) {
+    console.warn("EMAIL_ENDPOINT is missing.");
+    return;
+  }
+
+  fetch(EMAIL_ENDPOINT, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  })
+    .then(() => {
+      console.log("📧 Exam emailed successfully");
+    })
+    .catch((err) => {
+      console.warn("❌ Email sending failed:", err);
+    });
+}
 // ====== HELPERS ======
 
 function indexToLetter(index) {
