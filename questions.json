@@ -335,90 +335,6 @@
   },
   {
     "id": 32,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. Someone from the garage phoned to say that the car had been fixed and asking if we would pick it up by 5:00.",
-    "options": [
-      "asking",
-      "if we would",
-      "pick it up",
-      "by 5:00",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 33,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. In 1963, Betty Friedan’s exposé of domesticity, The Feminine Mystique, became an immediate bestseller and creating a national sensation.",
-    "options": [
-      "became",
-      "an immediate",
-      "creating",
-      "sensation",
-      "No error"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 34,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. The staff at the university library deserve recognition for helping to locate the many sources needed for the successful completion of my doctoral dissertation.",
-    "options": [
-      "deserve",
-      "recognition",
-      "helping to locate",
-      "needed for",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 35,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. Homesteaders on the Great Plains had to build homes, find water in a semiarid land, and to learn to understand the blessings of the environment.",
-    "options": [
-      "had to build",
-      "find water",
-      "to learn",
-      "understand",
-      "No error"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 36,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. During the winter season, homeowners should change their disposable furnace filters at least once a month; a dirty filter reduce furnace efficiency.",
-    "options": [
-      "should change",
-      "their",
-      "reduce",
-      "furnace efficiency",
-      "No error"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 37,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. The chief executive officer and the chairman of the board agrees that the new benefit package should include a dental health plan as well as eye care.",
-    "options": [
-      "agrees",
-      "that the",
-      "should include",
-      "as well as",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 38,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. Watching the film, I begun to ask myself why I cared about these characters when I felt such an intense unease.",
-    "options": [
-      "begun",
-      "to ask myself",
-      "cared about",
-      "intense unease",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 39,
     "question": "Fill in the blank with the correct verb form. On March 15, 2006, the Maywood Recreation Department requested a grant from the state to rebuild the community center that _________________ in the recent fire.",
     "options": [
       "destroys",
@@ -429,7 +345,7 @@
     "correctIndex": 2
   },
   {
-    "id": 40,
+    "id": 33,
     "question": "Fill in the blank with the correct verb form. Matthew Morris and Jessica Glassman hosted a holiday party that The River Bank Café _________________.",
     "options": [
       "caters",
@@ -440,7 +356,7 @@
     "correctIndex": 3
   },
   {
-    "id": 41,
+    "id": 34,
     "question": "The managing director ____ Sid to sales manager and ever since then, he ____ everybody around.",
     "options": [
       "promoted / has been bossing",
@@ -452,7 +368,7 @@
     "correctIndex": 0
   },
   {
-    "id": 42,
+    "id": 35,
     "question": "Problems with the hotel, coupled with this awful weather, ____ our holiday miserable, so we ____ before the scheduled time.",
     "options": [
       "have made / have left",
@@ -464,7 +380,7 @@
     "correctIndex": 3
   },
   {
-    "id": 43,
+    "id": 36,
     "question": "The fact that more people ____ ozone-friendly products nowadays ____ that the media can positively increase public awareness.",
     "options": [
       "have used / was showing",
@@ -476,7 +392,7 @@
     "correctIndex": 4
   },
   {
-    "id": 44,
+    "id": 37,
     "question": "My sister ____ from severe backaches lately and I think it's because, last month, she ____ to work in a shop where she has to pick up heavy things.",
     "options": [
       "is suffering / has started",
@@ -488,7 +404,7 @@
     "correctIndex": 2
   },
   {
-    "id": 45,
+    "id": 38,
     "question": "Though she ____ dancing, Sonia ____ to the disco with her friends the previous night just in order to be with them in a different atmosphere.",
     "options": [
       "hasn't like / has gone",
@@ -500,7 +416,7 @@
     "correctIndex": 1
   },
   {
-    "id": 46,
+    "id": 39,
     "question": "Somebody ____ three times this morning asking for Pete, but nobody called Pete ____ here.",
     "options": [
       "has phoned / has ever lived",
@@ -512,7 +428,7 @@
     "correctIndex": 0
   },
   {
-    "id": 47,
+    "id": 40,
     "question": "Joey ____ just ____ stubborn when he refused to go to the cinema today and he only did so because we ____ to go bowling yesterday.",
     "options": [
       "is / being / haven't wanted",
@@ -524,7 +440,7 @@
     "correctIndex": 4
   },
   {
-    "id": 48,
+    "id": 41,
     "question": "My mother ____ her optician tomorrow because her eyesight ____ worse since she got this computing job.",
     "options": [
       "has visited / is becoming",
@@ -536,7 +452,7 @@
     "correctIndex": 3
   },
   {
-    "id": 49,
+    "id": 42,
     "question": "As the President ____ the hall, all the guests ____ to their feet to welcome him.",
     "options": [
       "was entering / have risen",
@@ -548,7 +464,7 @@
     "correctIndex": 1
   },
   {
-    "id": 50,
+    "id": 43,
     "question": "She ____ interested in health ever since she was a young girl and now that the medical college ____ her as a student, it seems that she will be able to work in the medical field.",
     "options": [
       "was / accepted",
@@ -560,7 +476,7 @@
     "correctIndex": 1
   },
   {
-    "id": 51,
+    "id": 44,
     "question": "‘Next to’ and ‘instead of’ are _______ prepositions.",
     "options": [
       "phrasal",
@@ -569,7 +485,7 @@
     "correctIndex": 1
   },
   {
-    "id": 52,
+    "id": 45,
     "question": "My son was born _______ Christmas Day.",
     "options": [
       "on",
@@ -578,7 +494,7 @@
     "correctIndex": 0
   },
   {
-    "id": 53,
+    "id": 46,
     "question": "I’ll have finished my talk _______ five.",
     "options": [
       "by",
@@ -587,7 +503,7 @@
     "correctIndex": 0
   },
   {
-    "id": 54,
+    "id": 47,
     "question": "Only people aged _______ 18 can purchase alcohol.",
     "options": [
       "above",
@@ -596,7 +512,7 @@
     "correctIndex": 1
   },
   {
-    "id": 55,
+    "id": 48,
     "question": "The competition is now _______ the red and blue teams.",
     "options": [
       "between",
@@ -605,7 +521,7 @@
     "correctIndex": 0
   },
   {
-    "id": 56,
+    "id": 49,
     "question": "The _______ verb form is ‘to’ plus a verb.",
     "options": [
       "infinitive",
@@ -614,7 +530,7 @@
     "correctIndex": 0
   },
   {
-    "id": 57,
+    "id": 50,
     "question": "The gerund can be used like a _______.",
     "options": [
       "noun",
@@ -623,7 +539,7 @@
     "correctIndex": 0
   },
   {
-    "id": 58,
+    "id": 51,
     "question": "I would prefer _______ a Shakespeare play.",
     "options": [
       "seeing",
@@ -632,7 +548,7 @@
     "correctIndex": 1
   },
   {
-    "id": 59,
+    "id": 52,
     "question": "_______ passed his driving test, Marco bought a car.",
     "options": [
       "To have",
@@ -641,7 +557,7 @@
     "correctIndex": 1
   },
   {
-    "id": 60,
+    "id": 53,
     "question": "Ana was delighted _______ your invitation.",
     "options": [
       "to get",
@@ -650,7 +566,7 @@
     "correctIndex": 0
   },
   {
-    "id": 61,
+    "id": 54,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "My least favorite season is Winter.",
@@ -661,7 +577,7 @@
     "correctIndex": 0
   },
   {
-    "id": 62,
+    "id": 55,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "“Can you attend next week’s meeting?” she asked.",
@@ -672,7 +588,7 @@
     "correctIndex": 2
   },
   {
-    "id": 63,
+    "id": 56,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "Leo told her, to call the customer service department in the morning.",
@@ -683,7 +599,7 @@
     "correctIndex": 0
   },
   {
-    "id": 64,
+    "id": 57,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "Did you see the movie Shrek?",
@@ -694,7 +610,7 @@
     "correctIndex": 1
   },
   {
-    "id": 65,
+    "id": 58,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "A major highway is being built on the outskirts of town.",
@@ -705,7 +621,7 @@
     "correctIndex": 2
   },
   {
-    "id": 66,
+    "id": 59,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "The instructor asked us if we needed more time?",
@@ -716,7 +632,7 @@
     "correctIndex": 0
   },
   {
-    "id": 67,
+    "id": 60,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "Jane’s family owned three Persian cats.",
@@ -727,7 +643,7 @@
     "correctIndex": 1
   },
   {
-    "id": 68,
+    "id": 61,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "“I’ll do the grocery shopping for you, grandma,” Lucy said.",
@@ -738,7 +654,7 @@
     "correctIndex": 0
   },
   {
-    "id": 69,
+    "id": 62,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "I always have a hard time getting up in the morning.",
@@ -749,7 +665,7 @@
     "correctIndex": 1
   },
   {
-    "id": 70,
+    "id": 63,
     "question": "Identify the sentence with a mistake in capitalization or punctuation. If none, choose D.",
     "options": [
       "This is someone elses coat.",
@@ -760,127 +676,7 @@
     "correctIndex": 0
   },
   {
-    "id": 71,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The words Equal Justice Under Law is carved above the main entrance to the Supreme Court.",
-    "options": [
-      "is carved",
-      "carved",
-      "has been carved",
-      "are carved",
-      "No error"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 72,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. In classical economic theory, the relationship between supply and demand determines the price of a commodity.",
-    "options": [
-      "between supply and demand determines",
-      "among supply and demand determines",
-      "among supply and demand determine",
-      "between supply and demand determine",
-      "with supply and demand determine"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 73,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. A corporation created by the federal government during the Great Depression, the Tennessee Valley Authority (TVA) is responsible for flood control, must generate electric power, and soil conservation.",
-    "options": [
-      "flood control, must generate electric power, and soil conservation.",
-      "flood control, generating electric power, and for soil conservation.",
-      "controlling floods, generating electric power, and soil conservation.",
-      "flood control, the generation of electric power, and soil conservation.",
-      "flood control, for the generation of electric power, and conserving the soil."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 74,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. According to traditional Chinese medicine, people with healthy livers are said to be calm and that they possess unerring judgment.",
-    "options": [
-      "are said to be calm and that they possess",
-      "are said to be calm and to possess",
-      "said to be calm and possessing",
-      "have said to be calm and to possess",
-      "are said to be calm and possessive of"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 75,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. When the phone is ringing, Jacoby had been writing in his journal.",
-    "options": [
-      "is ringing, Jacoby had been writing",
-      "rings, Jacoby was writing",
-      "rang, Jacoby was writing",
-      "had rung, Jacoby was writing",
-      "rang, Jacoby will be writing"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 76,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. To determine the speed of automobiles, radar is often used by the state police.",
-    "options": [
-      "To determine the speed of automobiles, radar is often used by the state police.",
-      "To determine the speed of automobiles, it is often necessary for the state police to use radar.",
-      "In determining the speed of automobiles, the use of radar by state police is often employed.",
-      "To determine the speed of automobiles, the state police often use radar.",
-      "Radar by state police in determining the speed of automobiles is often used."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 77,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. Everyone signed the petition before submitting to the city council.",
-    "options": [
-      "submitting",
-      "one submits it",
-      "you submit it",
-      "we will submit it",
-      "we submitted it"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 78,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. I have a cross-training exercise program: I swim laps, play tennis, the weight machines, and bicycle riding.",
-    "options": [
-      "I swim laps, play tennis, the weight machines, and bicycle riding.",
-      "I swim laps, play tennis, lift weights, and ride a bicycle.",
-      "I swim laps, play tennis, I lift weights, and bicycle riding is a change.",
-      "swimming laps, tennis, lifting weights, and the bicycle.",
-      "swim laps, play tennis, lifting weights, and riding a bicycle."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 79,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that she’s changed her mind and doesn’t want to see the movie after all.",
-    "options": [
-      "says that she’s changed her mind and doesn’t",
-      "said that she had changed her mind and didn’t",
-      "is saying that she’d changed her mind and doesn’t",
-      "told us that she is changing her mind and didn’t",
-      "tells us that she had changed her mind and doesn’t"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 80,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. State Senator Partridge wished to insure the people that their tax dollars would be spent wisely.",
-    "options": [
-      "to insure the people that their tax dollars would be spent wisely.",
-      "that the people would be insured of tax dollars wisely spent.",
-      "in assuring the people, that their tax dollars would be wisely spent.",
-      "to assure the people that he would spend their tax dollars wisely.",
-      "to assure and promise the people of his intentions to spend their tax dollars wisely."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 81,
+    "id": 64,
     "question": "To form the passive we use ‘be’ and a _______ participle.",
     "options": [
       "past",
@@ -889,7 +685,7 @@
     "correctIndex": 0
   },
   {
-    "id": 82,
+    "id": 65,
     "question": "The company _______ closed down.",
     "options": [
       "might",
@@ -898,7 +694,7 @@
     "correctIndex": 1
   },
   {
-    "id": 83,
+    "id": 66,
     "question": "Karl has just _______ by a physiotherapist.",
     "options": [
       "been seen",
@@ -907,7 +703,7 @@
     "correctIndex": 0
   },
   {
-    "id": 84,
+    "id": 67,
     "question": "A newspaper article was written _______ my son.",
     "options": [
       "to",
@@ -916,7 +712,7 @@
     "correctIndex": 1
   },
   {
-    "id": 85,
+    "id": 68,
     "question": "The air pollution was caused _______ the traffic.",
     "options": [
       "by",
@@ -925,7 +721,7 @@
     "correctIndex": 0
   },
   {
-    "id": 86,
+    "id": 69,
     "question": "The word ‘that’ is a type of _______.",
     "options": [
       "article",
@@ -934,7 +730,7 @@
     "correctIndex": 1
   },
   {
-    "id": 87,
+    "id": 70,
     "question": "She has two daughters and they _______ do ballet.",
     "options": [
       "both",
@@ -943,7 +739,7 @@
     "correctIndex": 0
   },
   {
-    "id": 88,
+    "id": 71,
     "question": "_______ fishing is allowed on this river.",
     "options": [
       "No",
@@ -952,7 +748,7 @@
     "correctIndex": 0
   },
   {
-    "id": 89,
+    "id": 72,
     "question": "I don’t like _______ of these photos.",
     "options": [
       "either",
@@ -961,7 +757,7 @@
     "correctIndex": 0
   },
   {
-    "id": 90,
+    "id": 73,
     "question": "I’ve been trying to eat _______ chocolate bars.",
     "options": [
       "fewer",
@@ -970,7 +766,7 @@
     "correctIndex": 0
   },
   {
-    "id": 91,
+    "id": 74,
     "question": "The words ‘tiny’ and ‘young’ are _______ adjectives.",
     "options": [
       "describing",
@@ -979,7 +775,7 @@
     "correctIndex": 0
   },
   {
-    "id": 92,
+    "id": 75,
     "question": "Adjectives come before nouns and _______ linking verbs.",
     "options": [
       "after",
@@ -988,7 +784,7 @@
     "correctIndex": 0
   },
   {
-    "id": 93,
+    "id": 76,
     "question": "Claude was wearing a _______ coat.",
     "options": [
       "grey, black",
@@ -997,7 +793,7 @@
     "correctIndex": 1
   },
   {
-    "id": 94,
+    "id": 77,
     "question": "I saw a documentary that was absolutely _______.",
     "options": [
       "fascinated",
@@ -1006,7 +802,7 @@
     "correctIndex": 1
   },
   {
-    "id": 95,
+    "id": 78,
     "question": "We need to give more opportunities to _______.",
     "options": [
       "unemployed",
@@ -1015,7 +811,7 @@
     "correctIndex": 1
   },
   {
-    "id": 96,
+    "id": 79,
     "question": "A noun clause is usually used as the _______ of a verb.",
     "options": [
       "subject",
@@ -1024,7 +820,7 @@
     "correctIndex": 1
   },
   {
-    "id": 97,
+    "id": 80,
     "question": "Fin was disgusted with _______ he saw.",
     "options": [
       "that",
@@ -1033,7 +829,7 @@
     "correctIndex": 1
   },
   {
-    "id": 98,
+    "id": 81,
     "question": "_______ doesn’t matter if you wear jeans or trousers.",
     "options": [
       "It",
@@ -1042,7 +838,7 @@
     "correctIndex": 0
   },
   {
-    "id": 99,
+    "id": 82,
     "question": "I hate the idea _______ men are brighter than women.",
     "options": [
       "that",
@@ -1051,7 +847,7 @@
     "correctIndex": 0
   },
   {
-    "id": 100,
+    "id": 83,
     "question": "It is recommended that the factory _______.",
     "options": [
       "close",
@@ -1060,627 +856,7 @@
     "correctIndex": 0
   },
   {
-    "id": 101,
-    "question": "Choose the sentence that best combines the underlined sentences. The wisdom of the hedgehog is applauded in medieval bestiaries. The hedgehog builds a nest with two exits and, when in danger, rolls itself into a prickly ball.",
-    "options": [
-      "The wisdom of the hedgehog is applauded in medieval bestiaries, while the hedgehog builds a nest with two exits and, when in danger, rolls itself into a prickly ball.",
-      "The hedgehog builds a nest with two exits and, when in danger, rolls itself into a prickly ball, so its wisdom is applauded in medieval bestiaries.",
-      "The hedgehog builds a nest with two exits and, when in danger, rolls itself into a prickly ball, but its wisdom is applauded in medieval bestiaries.",
-      "Its wisdom applauded in medieval bestiaries, the hedgehog builds a nest with two exits and, when in danger, rolls itself into a prickly ball."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 102,
-    "question": "Choose the sentence that best combines the underlined sentences. Some people believe fairy tales are merely children’s stories. Some people believe fairy tales carry important psychological truths for adults.",
-    "options": [
-      "When some believe they carry important psychological truths for adults, some people believe fairy tales are merely children’s stories.",
-      "Some people believe fairy tales are merely children’s stories, whereupon some believe they carry important psychological truths for adults.",
-      "Because some believe fairy tales carry important psychological truths for adults, some people believe fairy tales are merely children’s stories.",
-      "Some people believe fairy tales are merely children’s stories, yet some believe they carry important psychological truths for adults."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 103,
-    "question": "Choose the sentence that best combines the underlined sentences. Most species of the bacterium Streptococcus are harmless. Some species of Streptococcus are dangerous pathogens.",
-    "options": [
-      "Whereas most species of the bacterium Streptococcus are harmless, some are dangerous pathogens.",
-      "Since most species of the bacterium Streptococcus are harmless, some are dangerous pathogens.",
-      "As most species of the bacterium Streptococcus are harmless, some are dangerous pathogens.",
-      "Because most species of the bacterium Streptococcus are harmless, some are dangerous pathogens."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 104,
-    "question": "Choose the sentence that best combines the underlined sentences. The man nodded politely. His expression was bewildered.",
-    "options": [
-      "Nodding politely, the man’s expression was bewildered.",
-      "The man nodded politely his expression was bewildered.",
-      "The man nodded politely, his expression bewildered.",
-      "The man nodded politely, since his expression was bewildered."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 105,
-    "question": "Choose the sentence that best combines the underlined sentences. Watching a TV show is a passive behavior. Playing a computer game is an interactive one.",
-    "options": [
-      "Watching a TV show is a passive behavior, or playing a computer game is an interactive one.",
-      "Watching a TV show is a passive behavior, for playing a computer game is an interactive one.",
-      "Watching a TV show is a passive behavior, but playing a computer game is an interactive one.",
-      "Being that playing a computer game is an interactive one, watching a TV show is a passive behavior."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 106,
-    "question": "Choose the sentence that best combines the underlined sentences. Socrates taught that we should question everything, even the law. He was both greatly loved and profoundly hated.",
-    "options": [
-      "That he was both greatly loved and profoundly hated, Socrates taught that we should question everything, even the law.",
-      "Socrates taught that we should question everything, even the law, so he was both greatly loved and profoundly hated.",
-      "Socrates taught that we should question everything, even the law, which he was both greatly loved and profoundly hated.",
-      "Socrates taught that we should question everything, even the law, for he was both greatly loved and profoundly hated."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 107,
-    "question": "Choose the sentence that best combines the underlined sentences. Sailors are said to catch albatrosses with baited hooks let down into the ship’s wake. To kill the albatross was thought to be bad luck, so they were released immediately.",
-    "options": [
-      "Sailors are said to catch albatrosses with baited hooks and let them down into the ship’s wake, then release them again, for to kill the albatross was thought to be bad luck.",
-      "With baited hooks let down into the ship’s wake, sailors are said to catch albatrosses then release them again, so to kill the albatross was thought to be bad luck.",
-      "Sailors are said to catch albatrosses with baited hooks let down into the ship’s wake, then release them again, or to kill the albatross was thought to be bad luck.",
-      "To kill the albatross was thought to be bad luck, so sailors are said to catch albatrosses with baited hooks let down into the ship’s wake, only to release them immediately."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 108,
-    "question": "Choose the sentence that best combines the underlined sentences. The symptoms of diabetes often develop gradually and are hard to identify at first. Nearly half of all people with diabetes do not know they have it.",
-    "options": [
-      "The symptoms of diabetes often develop gradually and are hard to identify at first, so nearly half of all people with diabetes do not know they have it.",
-      "The symptoms of diabetes often develop gradually and are hard to identify at first, yet nearly half of all people with diabetes do not know they have it.",
-      "Nearly half of all people with diabetes do not know they have it, and the symptoms of diabetes often develop gradually and are hard to identify at first.",
-      "The symptoms of diabetes often develop gradually for nearly half of all people with diabetes do not know they have it and are hard to identify at first."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 109,
-    "question": "Choose the sentence that best combines the underlined sentences. The French philosopher Voltaire was greatly respected. Voltaire spent almost a year imprisoned in the Bastille.",
-    "options": [
-      "The French philosopher Voltaire was greatly respected, so he spent almost a year imprisoned in the Bastille.",
-      "The French philosopher Voltaire was greatly respected with almost a year imprisoned in the Bastille.",
-      "The French philosopher Voltaire was greatly respected, or he spent almost a year imprisoned in the Bastille.",
-      "The French philosopher Voltaire was greatly respected, yet he spent almost a year imprisoned in the Bastille."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 110,
-    "question": "Choose the sentence that best combines the underlined sentences. I must buy some new shoes to wear to the prom. My date, Donnie, will be upset if I wear my flip-flops.",
-    "options": [
-      "Unless my date, Donnie, will be upset if I wear my flip-flops, I must buy some new shoes to wear to the prom.",
-      "I must buy some new shoes to wear to the prom, and my date, Donnie, will be upset if I wear my flip-flops.",
-      "I must buy some new shoes to wear to the prom, for my date, Donnie, will be upset if I wear my flip-flops.",
-      "My date, Donnie, will be upset if I wear my flip-flops while I must buy some new shoes to wear to the prom."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 111,
-    "question": "Choose the sentence that best combines the underlined sentences. Sylvia is loaded with money. She can afford that trip to Silver Dollar City.",
-    "options": [
-      "Sylvia is loaded with money, or she can afford that trip to Silver Dollar City.",
-      "Sylvia is loaded with money, but she can afford that trip to Silver Dollar City.",
-      "Sylvia is loaded with money, so she can afford that trip to Silver Dollar City.",
-      "Sylvia is loaded with money, yet she can afford that trip to Silver Dollar City."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 112,
-    "question": "Choose the sentence that best combines the underlined sentences. The rules of statistics say that it is possible for all the air in a room to move to one corner. This is extremely unlikely.",
-    "options": [
-      "The rules of statistics say that it is possible for all the air in a room to move to one corner, or this is extremely unlikely.",
-      "The rules of statistics say that it is possible for all the air in a room to move to one corner, but this is extremely unlikely.",
-      "This is extremely unlikely in that the rules of statistics say that it is possible for all the air in a room to move to one corner.",
-      "For all the air in a room to move to one corner, this is extremely unlikely, according to the rules of statistics saying that it is possible."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 113,
-    "question": "Choose the sentence that best combines the underlined sentences. I must buy my dog a new license. If I don’t, I will have to pay a fine.",
-    "options": [
-      "I must buy my dog a new license, and I will have to pay a fine.",
-      "I must buy my dog a new license; I will have to pay a fine.",
-      "Unless I buy my dog a new license, I will have to pay a fine.",
-      "I will have to pay a fine since I must buy my dog a new license."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 114,
-    "question": "Choose the sentence that best combines the underlined sentences. Bats are not rodents. Bats bear a surface resemblance to a winged mouse.",
-    "options": [
-      "Bats are not rodents, although they do bear a resemblance to a winged mouse.",
-      "Bats are not rodents that they bear a surface resemblance to a winged mouse.",
-      "Bats are not rodents, when they bear a surface resemblance to a winged mouse.",
-      "Bats are not rodents, if they bear a surface resemblance to a winged mouse."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 115,
-    "question": "Choose the sentence that best combines the underlined sentences. Art is not only found in the museum or concert hall. Art can be found in the expressive behavior of ordinary people, as well.",
-    "options": [
-      "Art can be found not only in the museum or concert hall, and it can be found in the expressive behavior of ordinary people, as well.",
-      "In the museum or concert hall, art can be found not only there and in the expressive behavior of ordinary people, as well.",
-      "Although in the expressive behavior of ordinary people, as well, art can be found not only in the museum or concert hall.",
-      "Art can be found not only in the museum or concert hall, but in the expressive behavior of ordinary people, as well."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 116,
-    "question": "Choose the sentence that best combines the underlined sentences. In lucid dreams, the dreamer knows she is dreaming. It gives her a sense of unlimited freedom.",
-    "options": [
-      "In lucid dreams, the dreamer knows she is dreaming, although it gives her a sense of unlimited freedom.",
-      "In lucid dreams, the dreamer knows she is dreaming, while it gives her a sense of unlimited freedom.",
-      "In lucid dreams, the dreamer knows she is dreaming, where it gives her a sense of unlimited freedom.",
-      "In lucid dreams, the dreamer knows she is dreaming, which gives her a sense of unlimited freedom."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 117,
-    "question": "Choose the sentence that best combines the underlined sentences. She never responded to the invitation we sent. We assumed she wasn’t coming.",
-    "options": [
-      "She never responded to the invitation we sent; however we assumed she wasn’t coming.",
-      "While we assumed she wasn’t coming, she never responded to the invitation we sent.",
-      "She never responded to the invitation we sent, whether we assumed she wasn’t coming.",
-      "Because she never responded to the invitation we sent, we assumed she wasn’t coming."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 118,
-    "question": "Choose the sentence that best combines the underlined sentences. My friends loved the restaurant. I thought it was overpriced.",
-    "options": [
-      "That my friends loved the restaurant, I thought it was overpriced.",
-      "My friends loved the restaurant, whereas I thought it was overpriced.",
-      "My friends loved the restaurant, when I thought it was overpriced.",
-      "My friends loved the restaurant, or I thought it was overpriced."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 119,
-    "question": "Choose the sentence that best combines the underlined sentences. Elizabeth is an athletic woman. Elizabeth cannot swim or ride a bike.",
-    "options": [
-      "Elizabeth cannot swim or ride a bike, while she is an athletic woman.",
-      "Elizabeth cannot swim or ride a bike and is an athletic woman.",
-      "Although Elizabeth cannot swim or ride a bike, she is an athletic woman.",
-      "Being an athletic woman, Elizabeth cannot swim or ride a bike."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 120,
-    "question": "Choose the sentence that best combines the underlined sentences. This neighborhood is called “baby central.” Almost every family within a three-block radius has a child under the age of one.",
-    "options": [
-      "Almost every family within a three-block radius has a child under the age of one, while this neighborhood is called “baby central.”",
-      "Almost every family within a three-block radius has a child under the age of one, but this neighborhood is called “baby central.”",
-      "Almost every family within a three-block radius has a child under the age of one; therefore, this neighborhood is called “baby central.”",
-      "This neighborhood is called “baby central:” meanwhile, almost every family within a three-block radius has a child under the age of one."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 121,
-    "question": "Choose the sentence that best combines the underlined sentences. The new shopping mall has 200 stores. The new shopping mall doesn’t have a pet shop.",
-    "options": [
-      "The new shopping mall has 200 stores; however, it doesn’t have a pet shop.",
-      "Instead of a pet shop, the new shopping mall has 200 stores.",
-      "With 200 stores, the new shopping mall doesn’t have a pet shop.",
-      "The new shopping mall has 200 stores, and it doesn’t have a pet shop."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 122,
-    "question": "Choose the sentence that best combines the underlined sentences. Eugene has a difficult personality. Eugene is unreliable.",
-    "options": [
-      "Eugene has a difficult personality, and furthermore he’s unreliable.",
-      "Eugene has a difficult personality, although he is unreliable.",
-      "While he is unreliable, Eugene has a difficult personality.",
-      "Being unreliable, Eugene has a difficult personality."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 123,
-    "question": "Choose the sentence that best combines the underlined sentences. We never eat candy or ice cream. We do drink soda.",
-    "options": [
-      "We never eat candy or ice cream, but we do drink soda.",
-      "Because we never eat candy or ice cream, we drink soda.",
-      "We never eat candy or ice cream, so we do drink soda.",
-      "We never eat candy or ice cream and drink soda."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 124,
-    "question": "Choose the sentence that best combines the underlined sentences. Having several cavities filled during a dental appointment is definitely unpleasant. It is not as unpleasant as having a root canal.",
-    "options": [
-      "Having several cavities filled during a dental appointment is definitely unpleasant, so it is not as unpleasant as having a root canal.",
-      "Having several cavities filled during a dental appointment is definitely unpleasant, and it is not as unpleasant as having a root canal.",
-      "Having several cavities filled during a dental appointment is definitely unpleasant, but it is not as unpleasant as having a root canal.",
-      "Having several cavities filled during a dental appointment is definitely unpleasant, or it is not as unpleasant as having a root canal."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 125,
-    "question": "Choose the sentence that best combines the underlined sentences. She loves celebrating her birthday. She always has a big party.",
-    "options": [
-      "She loves celebrating her birthday, to where she always has a big party.",
-      "Although she loves celebrating her birthday, she always has a big party.",
-      "She always has a big party, meanwhile she loves celebrating her birthday.",
-      "She loves celebrating her birthday, so she always has a big party."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 126,
-    "question": "Choose the sentence that best combines the underlined sentences. Insomnia does not usually begin as a physical problem. It can affect one’s physical health.",
-    "options": [
-      "Insomnia is not usually a physical problem; therefore, it can affect one’s physical health.",
-      "Insomnia is not usually a physical problem, yet it can affect one’s physical health.",
-      "Insomnia not usually a physical problem can affect one’s physical health.",
-      "Insomnia is not usually a physical problem, so it can affect one’s physical health."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 127,
-    "question": "Choose the sentence that best combines the underlined sentences. True narcolepsy is the sudden and irresistible onset of sleep during waking hours. True narcolepsy is extremely dangerous.",
-    "options": [
-      "While true narcolepsy is the sudden and irresistible onset of sleep during waking hours and is extremely dangerous.",
-      "The sudden and irresistible onset of sleep during waking hours, which is true narcolepsy but extremely dangerous.",
-      "True narcolepsy is the sudden and irresistible onset of sleep during waking hours, yet narcolepsy is extremely dangerous.",
-      "True narcolepsy is the sudden and irresistible onset of sleep during waking hours, and it is extremely dangerous."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 128,
-    "question": "Choose the sentence that best combines the underlined sentences. There has been much interest in dreams throughout the ages. The empirical, scientific study of dreams is relatively new.",
-    "options": [
-      "Despite much interest in dreams throughout the ages, the empirical, scientific study of dreams being relatively new.",
-      "There has been much interest in dreams throughout the ages, yet the empirical, scientific study of dreams is relatively new.",
-      "While much interest in dreams throughout the ages, although the empirical, scientific study of dreams is relatively new.",
-      "There has been much interest in dreams throughout the ages, for the empirical, scientific study of dreams is relatively new."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 129,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. I look forward to welcoming you and having the opportunity to show you around our office.",
-    "options": [
-      "I look forward to welcoming you and having",
-      "I will look forward to our welcome and having",
-      "As I look forward to welcoming you and to have",
-      "I look forward to welcoming you and have",
-      "Looking forward to welcoming you and hoping to have"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 130,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. For a wide variety of different reasons, more and more people are making the choice to vacation close to home.",
-    "options": [
-      "For a wide variety of different reasons, more and more people",
-      "For a variety of many reasons, much more people",
-      "For a number of reasons, more people",
-      "More people, for various different reasons",
-      "Lots of people, for many numerous reasons"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 131,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The likelihood that she will decide to take the job is great, she is never completely predictable.",
-    "options": [
-      "The likelihood",
-      "Although the likelihood",
-      "Since the likelihood",
-      "In fact, the likelihood",
-      "Knowing that the likelihood"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 132,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Most of a human tooth is made up of a substance known as dentin, which is located directly below the enamel.",
-    "options": [
-      "dentin, which is located",
-      "dentin, and which is located",
-      "dentin but located",
-      "dentin, which it is located",
-      "dentin, that its location is"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 133,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Jackson Pollock, a twentieth-century American painter, is well known and renowned for creating abstract paintings by dripping paint on canvas.",
-    "options": [
-      "a twentieth-century American painter, is well known and renowned for creating",
-      "an American painter who lived and painted in the twentieth century, is well known for the creation of",
-      "renowned and prominent, was known as a twentieth-century American painter for creating",
-      "he is an American painter famous and renowned for creating",
-      "a twentieth-century American painter, is famous for creating"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 134,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Having missed class several times, this was the cause of our poor grades.",
-    "options": [
-      "Having missed class several times, this was the cause of our poor grades.",
-      "After missing class several times, our poor grades were anticipated.",
-      "Because we missed class several times, we received poor grades.",
-      "We received poor grades missing class several times.",
-      "Receiving poor grades, we missed class several times."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 135,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Because of the need for accuracy, all employees must diligently review their work at the end of every day.",
-    "options": [
-      "all employees must diligently review their work at the end of every day.",
-      "all employees who work here must be diligent and careful to review their work at the end of every day.",
-      "employees must be diligently reviewing and checking their work at the end of every day.",
-      "workers and employees must diligently review their work at the end of every day.",
-      "all employees must diligently review and assess their work daily, every day."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 136,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Beside his expertise in gardening, Malcolm is also an accomplished carpenter.",
-    "options": [
-      "Beside his expertise in gardening",
-      "Beside gardening",
-      "In addition also to his accomplished carpentry",
-      "Besides his expertise in gardening",
-      "Beside his gardening"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 137,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Baseball is a sport that is popular in the United States like Japan.",
-    "options": [
-      "popular in the United States like Japan.",
-      "as well popular in Japan as it is in the United States",
-      "just as popular in the United States than in Japan",
-      "popular in the United States as well as in Japan.",
-      "popular as well as in both Japan and the United States"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 138,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. I decided to paint the kitchen yellow, and after I had painted, my husband informed me that he’d rather it be blue.",
-    "options": [
-      "yellow, and after I had painted, my husband",
-      "yellow, and after I had painted my husband",
-      "yellow and after I had painted, my husband",
-      "yellow; and, after I had painted, my husband",
-      "yellow and after I had painted my husband"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 139,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Yelling after it as the taxi drove away, leaving Austin and me standing helplessly on the sidewalk.",
-    "options": [
-      "Yelling after it as the taxi drove away, leaving Austin and me standing helplessly on the sidewalk.",
-      "While yelling after it and watching the taxi drive away, which left Austin and me standing helplessly on the sidewalk.",
-      "Left helplessly standing on the sidewalk after Austin and me yelled after the taxi and watched as it drove away.",
-      "As we yelled after it, the taxi drove away, leaving Austin and me standing helplessly on the sidewalk.",
-      "After having yelled after it, the taxi driving off and leaving Austin and me on the sidewalk, watching helplessly."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 140,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. When making a chocolate torte, only the best ingredients should be used.",
-    "options": [
-      "only the best ingredients should be used.",
-      "you should use only the best ingredients.",
-      "the best ingredients only should be used.",
-      "one should have used only the best ingredients.",
-      "using only the best ingredients is essential."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 141,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. With her book Coming of Age in Samoa, anthropologist Margaret Mead emphasized the role of culture, rather than biology, in shaping human behavior.",
-    "options": [
-      "rather than biology, in shaping human behavior.",
-      "rather than biology with shaping human behavior.",
-      "somewhat better than biology to shape human behavior.",
-      "in shaping human behavior, and not biology.",
-      "in shaping human behavior over biology."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 142,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. This was the fifth of the five speeches the mayor gave during this the month of May.",
-    "options": [
-      "This was the fifth of the five speeches the mayor gave during this the month of May.",
-      "Of the five speeches the mayor gave during May, this was the fifth one.",
-      "Thus far during the month of May, the mayor gave five speeches and this was the fifth.",
-      "This fifth speech of the mayor’s given during the month of May was one of five speeches.",
-      "This was the fifth speech the mayor has given during the month of May."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 143,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. An American poet of the nineteenth century, Walt Whitman’s collection of poems, Leaves of Grass, celebrates nature and individualism.",
-    "options": [
-      "Walt Whitman’s collection of poems, Leaves of Grass",
-      "Leaves of Grass, a collection of poems by Walt Whitman",
-      "a collection of poems, Leaves of Grass, by Walt Whitman",
-      "Walt Whitman published poems, collected as Leaves of Grass, that",
-      "Walt Whitman published a collection of poems entitled Leaves of Grass, that"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 144,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. We loved our trip to the desert where you could see the tall cactus, the blooming flowers, and the little desert animals.",
-    "options": [
-      "desert where you could see",
-      "desert; you could see",
-      "desert; where we saw",
-      "desert; we saw",
-      "desert in that you saw"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 145,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Opposite in what many financial analysts had predicted, the stock market rose by 22 points this month.",
-    "options": [
-      "Opposite in what many financial analysts had predicted",
-      "Contrary to the predictions of many financial analysts",
-      "As against the predictions of many financial analysts",
-      "Contrasting of many financial analysts’ predictions",
-      "Contrary with what many financial analysts predicted"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 146,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. A standardized extract made from the leaves of the ginkgo biloba tree is proving to be effective in treating mild to moderate Alzheimer’s disease.",
-    "options": [
-      "is proving to be effective in treating",
-      "has shown its proof of effectiveness with treating",
-      "may have proven effective treatment for",
-      "is effectively proving in treating",
-      "have given a proven effectiveness in the treatment of"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 147,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The citizens’ action committee has accused the city counsel members with being careless with the spending of the taxpayers’ money.",
-    "options": [
-      "with being careless with the spending of",
-      "as to carelessness in the spending of",
-      "of carelessness in the spending of",
-      "of careless spending to",
-      "with spending carelessly of"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 148,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Aspirin was exclusively known as a painkiller until the time when cardiologists began prescribing it as a preventative for heart attacks.",
-    "options": [
-      "as a painkiller until the time when cardiologists began prescribing it as a preventative for",
-      "to be a painkiller since when cardiologists prescribed it to be a prevention for",
-      "as a way to kill and stop pain until cardiologists began to prescribe it as a method for the prevention of",
-      "as a painkiller until cardiologists began prescribing it as a preventative for",
-      "to be a painkiller up to when cardiologists prescribed its preventative for"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 149,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The news reporter who had been covering the story suddenly became ill, and I was called to take her place.",
-    "options": [
-      "had been covering the story suddenly became ill, and I was called",
-      "was covering the story suddenly becomes ill, and they called me",
-      "is covering the story suddenly becomes ill, and I was called",
-      "would have been covering the story suddenly became ill, and I am called",
-      "covers the story, suddenly became ill, and they called me"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 150,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Donald Trump, the son of a real estate developer, he has built a billion-dollar empire.",
-    "options": [
-      "Donald Trump, the son of a real estate developer, he",
-      "Donald Trump, being the son of a real estate developer",
-      "While he was the son of a real estate developer, Donald Trump",
-      "The son of a real estate developer, Donald Trump",
-      "Donald Trump, the son of a real estate developer, and he"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 151,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. The troposphere is the lowest layer of Earth’s atmosphere, it extends from ground level to an altitude of seven to ten miles.",
-    "options": [
-      "atmosphere, it extends",
-      "atmosphere of which it extends",
-      "atmosphere. Extending",
-      "atmosphere, and extending",
-      "atmosphere; it extends"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 152,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Along with your membership to our health club and two months of free personal training.",
-    "options": [
-      "Along with your membership to our health club, and",
-      "Along with your membership to our health club you receive",
-      "With your membership to our health club",
-      "In addition to your membership to our health club being",
-      "Added to your membership to our health club"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 153,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Our contention is that a body of common knowledge shared by literate Americans of the late twentieth century and that this knowledge can be defined.",
-    "options": [
-      "Our contention is that a body of common knowledge shared by",
-      "To contend that a body of common knowledge is shared by",
-      "We contend that we share a body of common knowledge in",
-      "That a common body of knowledge is shared is our contention with",
-      "It is our contention that a body of common knowledge is shared by"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 154,
-    "question": "Replace the underlined portion with the phrase that best completes the sentence. If correct, choose A. Whether they earn a BS degree, chemical engineers are almost guaranteed a job.",
-    "options": [
-      "Whether they earn",
-      "If they earn",
-      "If earning",
-      "To earn",
-      "Since earning"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 155,
+    "id": 84,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "We asked him to pick us up in the morning.",
@@ -1691,7 +867,7 @@
     "correctIndex": 2
   },
   {
-    "id": 156,
+    "id": 85,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "Our neighbors went on vacation, going to the Grand Canyon.",
@@ -1702,7 +878,7 @@
     "correctIndex": 0
   },
   {
-    "id": 157,
+    "id": 86,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "We are planning to build a new fence in our backyard.",
@@ -1713,7 +889,7 @@
     "correctIndex": 3
   },
   {
-    "id": 158,
+    "id": 87,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "Make sure the door is locked.",
@@ -1724,7 +900,7 @@
     "correctIndex": 1
   },
   {
-    "id": 159,
+    "id": 88,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "After he left, I went straight to bed.",
@@ -1735,7 +911,7 @@
     "correctIndex": 2
   },
   {
-    "id": 160,
+    "id": 89,
     "question": "Choose the sentence that is NOT correctly written or that is unclear. If all sentences are correct, choose D.",
     "options": [
       "Kate was allergic to all dairy products.",
@@ -1746,67 +922,7 @@
     "correctIndex": 3
   },
   {
-    "id": 161,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. The staff at the university library deserve recognition for helping to locate the many sources needed for the successful completion of my doctoral dissertation.",
-    "options": [
-      "deserve",
-      "recognition",
-      "helping to locate",
-      "needed for",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 162,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. Homesteaders on the Great Plains had to build homes, find water in a semiarid land, and to learn to understand the blessings of the environment.",
-    "options": [
-      "had to build",
-      "find water",
-      "to learn",
-      "understand",
-      "No error"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 163,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. During the winter season, homeowners should change their disposable furnace filters at least once a month; a dirty filter reduce furnace efficiency.",
-    "options": [
-      "should change",
-      "their",
-      "reduce",
-      "furnace efficiency",
-      "No error"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 164,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. The chief executive officer and the chairman of the board agrees that the new benefit package should include a dental health plan as well as eye care.",
-    "options": [
-      "agrees",
-      "that the",
-      "should include",
-      "as well as",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 165,
-    "question": "Identify the grammatical error in the underlined part. If none, choose E. Watching the film, I begun to ask myself why I cared about these characters when I felt such an intense unease.",
-    "options": [
-      "begun",
-      "to ask myself",
-      "cared about",
-      "intense unease",
-      "No error"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 166,
+    "id": 90,
     "question": "Fill in the blank with the correct verb form. On March 15, 2006, the Maywood Recreation Department requested a grant from the state to rebuild the community center that _________________ in the recent fire.",
     "options": [
       "destroys",
@@ -1817,7 +933,7 @@
     "correctIndex": 2
   },
   {
-    "id": 167,
+    "id": 91,
     "question": "Fill in the blank with the correct verb form. Matthew Morris and Jessica Glassman hosted a holiday party that The River Bank Café _________________.",
     "options": [
       "caters",
@@ -1828,7 +944,7 @@
     "correctIndex": 3
   },
   {
-    "id": 168,
+    "id": 92,
     "question": "Fill in the blank with the correct verb form. Megan is trying to read all three books in the series before summer ____________.",
     "options": [
       "ended",
@@ -1839,7 +955,7 @@
     "correctIndex": 3
   },
   {
-    "id": 169,
+    "id": 93,
     "question": "Fill in the blank with the correct verb form. We have ______________ more sweets since that wonderful bakery opened down the block.",
     "options": [
       "ate",
@@ -1850,7 +966,7 @@
     "correctIndex": 1
   },
   {
-    "id": 170,
+    "id": 94,
     "question": "Fill in the blank with the correct verb form. While attempting to _____________ his broken bicycle, Leo Donner realized that he didn’t have the proper tools.",
     "options": [
       "be repairing",
@@ -1861,7 +977,7 @@
     "correctIndex": 2
   },
   {
-    "id": 171,
+    "id": 95,
     "question": "Fill in the blank with the correct verb form. ___________ the police immediately.",
     "options": [
       "Call",
@@ -1872,7 +988,7 @@
     "correctIndex": 0
   },
   {
-    "id": 172,
+    "id": 96,
     "question": "Fill in the blank with the correct verb form. The biggest problem with Martha’s garden __________ too many weeds.",
     "options": [
       "will have been",
@@ -1883,7 +999,7 @@
     "correctIndex": 3
   },
   {
-    "id": 173,
+    "id": 97,
     "question": "Fill in the blank with the correct verb form. Last week, Tracy and Shane were honored at a luncheon for their part in rescuing a child who ____________________ into an icy pond.",
     "options": [
       "falls",
@@ -1894,7 +1010,7 @@
     "correctIndex": 2
   },
   {
-    "id": 174,
+    "id": 98,
     "question": "Fill in the blank with the correct verb form. The woman who confronted the owner of the unleashed dog ____________ angry.",
     "options": [
       "were",
@@ -1905,7 +1021,7 @@
     "correctIndex": 1
   },
   {
-    "id": 175,
+    "id": 99,
     "question": "Fill in the blank with the correct verb form. The boy ______________ the bat and ran to first base as fast as he could.",
     "options": [
       "swings",
@@ -1916,7 +1032,7 @@
     "correctIndex": 2
   },
   {
-    "id": 176,
+    "id": 100,
     "question": "Fill in the blank with the correct verb form. There ___________ four excellent restaurants in the center of town.",
     "options": [
       "is",
@@ -1927,7 +1043,7 @@
     "correctIndex": 1
   },
   {
-    "id": 177,
+    "id": 101,
     "question": "Fill in the blank with the correct verb form. The noise from the lawn mowers ______________ louder as the morning progresses.",
     "options": [
       "gets",
@@ -1938,139 +1054,7 @@
     "correctIndex": 0
   },
   {
-    "id": 178,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. The words Equal Justice Under Law is carved above the main entrance to the Supreme Court.",
-    "options": [
-      "is carved",
-      "carved",
-      "has been carved",
-      "are carved",
-      "been carved"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 179,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. In classical economic theory, the relationship between supply and demand determines the price of a commodity.",
-    "options": [
-      "between supply and demand determines",
-      "among supply and demand determines",
-      "among supply and demand determine",
-      "between supply and demand determine",
-      "with supply and demand determine"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 180,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. A corporation created by the federal government during the Great Depression, the Tennessee Valley Authority (TVA) is responsible for flood control, must generate electric power, and soil conservation.",
-    "options": [
-      "flood control, must generate electric power, and soil conservation.",
-      "flood control, generating electric power, and for soil conservation.",
-      "controlling floods, generating electric power, and soil conservation.",
-      "flood control, the generation of electric power, and soil conservation.",
-      "flood control, for the generation of electric power, and conserving the soil."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 181,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. According to traditional Chinese medicine, people with healthy livers are said to be calm and that they possess unerring judgment.",
-    "options": [
-      "are said to be calm and that they possess",
-      "are said to be calm and to possess",
-      "said to be calm and possessing",
-      "have said to be calm and to possess",
-      "are said to be calm and possessive of"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 182,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. When the phone is ringing, Jacoby had been writing in his journal.",
-    "options": [
-      "is ringing, Jacoby had been writing",
-      "rings, Jacoby was writing",
-      "rang, Jacoby was writing",
-      "had rung, Jacoby was writing",
-      "rang, Jacoby will be writing"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 183,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. To determine the speed of automobiles, radar is often used by the state police.",
-    "options": [
-      "To determine the speed of automobiles, radar is often used by the state police.",
-      "To determine the speed of automobiles, it is often necessary for the state police to use radar.",
-      "In determining the speed of automobiles, the use of radar by state police is often employed.",
-      "To determine the speed of automobiles, the state police often use radar.",
-      "Radar by state police in determining the speed of automobiles is often used."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 184,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. Everyone signed the petition before submitting to the city council.",
-    "options": [
-      "submitting",
-      "one submits it",
-      "you submit it",
-      "we will submit it",
-      "we submitted it"
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 185,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. I have a cross-training exercise program: I swim laps, play tennis, the weight machines, and bicycle riding.",
-    "options": [
-      "I swim laps, play tennis, the weight machines, and bicycle riding.",
-      "I swim laps, play tennis, lift weights, and ride a bicycle.",
-      "I swim laps, play tennis, I lift weights, and bicycle riding is a change.",
-      "swimming laps, tennis, lifting weights, and the bicycle.",
-      "swim laps, play tennis, lifting weights, and riding a bicycle."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 186,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. We all arrived at the theater on time, but before we bought our tickets, Candace says that she’s changed her mind and doesn’t want to see the movie after all.",
-    "options": [
-      "says that she’s changed her mind and doesn’t",
-      "said that she had changed her mind and didn’t",
-      "is saying that she’d changed her mind and doesn’t",
-      "told us that she is changing her mind and didn’t",
-      "tells us that she had changed her mind and doesn’t"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 187,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. State Senator Partridge wished to insure the people that their tax dollars would be spent wisely.",
-    "options": [
-      "to insure the people that their tax dollars would be spent wisely.",
-      "that the people would be insured of tax dollars wisely spent.",
-      "in assuring the people, that their tax dollars would be wisely spent.",
-      "to assure the people that he would spend their tax dollars wisely.",
-      "to assure and promise the people of his intentions to spend their tax dollars wisely."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 188,
-    "question": "Replace the underlined part with the phrase that best completes the sentence. If correct, choose A. Because he was given a local anesthetic, Josh was conscience throughout the operation.",
-    "options": [
-      "Josh was conscience throughout the operation.",
-      "Josh had a conscience during the operation.",
-      "the operation was completed with Josh consciousness.",
-      "the operation was done while Josh held consciousness.",
-      "Josh remained conscious throughout the operation."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 189,
+    "id": 102,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "No, it’s not true.",
@@ -2081,7 +1065,7 @@
     "correctIndex": 1
   },
   {
-    "id": 190,
+    "id": 103,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "They talked through the entire movie.",
@@ -2092,7 +1076,7 @@
     "correctIndex": 1
   },
   {
-    "id": 191,
+    "id": 104,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Where are Gianna’s art supplies?",
@@ -2103,7 +1087,7 @@
     "correctIndex": 1
   },
   {
-    "id": 192,
+    "id": 105,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Olivia took her older sister out for lunch.",
@@ -2114,7 +1098,7 @@
     "correctIndex": 2
   },
   {
-    "id": 193,
+    "id": 106,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "She showed us five different shades of blue paint.",
@@ -2125,7 +1109,7 @@
     "correctIndex": 1
   },
   {
-    "id": 194,
+    "id": 107,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "When I go the museum, I wore comfortable shoes.",
@@ -2136,7 +1120,7 @@
     "correctIndex": 0
   },
   {
-    "id": 195,
+    "id": 108,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "David and Mickey danced in the street.",
@@ -2147,7 +1131,7 @@
     "correctIndex": 1
   },
   {
-    "id": 196,
+    "id": 109,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "It has not rained since last April.",
@@ -2158,7 +1142,7 @@
     "correctIndex": 3
   },
   {
-    "id": 197,
+    "id": 110,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "The dog’s barking woke us.",
@@ -2169,7 +1153,7 @@
     "correctIndex": 1
   },
   {
-    "id": 198,
+    "id": 111,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "After we sat down to eat dinner, the phone rung.",
@@ -2180,7 +1164,7 @@
     "correctIndex": 0
   },
   {
-    "id": 199,
+    "id": 112,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "The children’s books are over there.",
@@ -2191,7 +1175,7 @@
     "correctIndex": 1
   },
   {
-    "id": 200,
+    "id": 113,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "The winners were announced yesterday.",
@@ -2202,7 +1186,7 @@
     "correctIndex": 1
   },
   {
-    "id": 201,
+    "id": 114,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "He shook the crumbs from the tablecloth.",
@@ -2213,7 +1197,7 @@
     "correctIndex": 2
   },
   {
-    "id": 202,
+    "id": 115,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "When I heard the alarm, I jump out of bed.",
@@ -2224,7 +1208,7 @@
     "correctIndex": 0
   },
   {
-    "id": 203,
+    "id": 116,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "All the children got out their rugs and took a nap.",
@@ -2235,7 +1219,7 @@
     "correctIndex": 0
   },
   {
-    "id": 204,
+    "id": 117,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "At first I was liking the sound of the wind, but later it got on my nerves.",
@@ -2246,7 +1230,7 @@
     "correctIndex": 3
   },
   {
-    "id": 205,
+    "id": 118,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "I became ill from eating too many fried clams.",
@@ -2257,7 +1241,7 @@
     "correctIndex": 0
   },
   {
-    "id": 206,
+    "id": 119,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "As the old saying goes, a cat may look at a king.",
@@ -2268,7 +1252,7 @@
     "correctIndex": 0
   },
   {
-    "id": 207,
+    "id": 120,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "A longer happier life, caused by one’s owning a pet.",
@@ -2279,7 +1263,7 @@
     "correctIndex": 3
   },
   {
-    "id": 208,
+    "id": 121,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "One of the first modern detectives in literature were created by Edgar Allan Poe.",
@@ -2290,7 +1274,7 @@
     "correctIndex": 1
   },
   {
-    "id": 209,
+    "id": 122,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "My brother and I going to see the ball game.",
@@ -2301,7 +1285,7 @@
     "correctIndex": 1
   },
   {
-    "id": 210,
+    "id": 123,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "I don’t like fish as well as my sister does.",
@@ -2312,7 +1296,7 @@
     "correctIndex": 0
   },
   {
-    "id": 211,
+    "id": 124,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "After renting him the room, Alvin discovered Mr. Morris owned a cat.",
@@ -2323,7 +1307,7 @@
     "correctIndex": 0
   },
   {
-    "id": 212,
+    "id": 125,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "We ate the popcorn and watch the movie.",
@@ -2334,187 +1318,7 @@
     "correctIndex": 3
   },
   {
-    "id": 213,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. All employees with two years’ experience are entitled to full benefits, including health insurance, life insurance, a retirement plan, and stock options.",
-    "options": [
-      "with two years’",
-      "entitled to",
-      "including",
-      "and stock options",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 214,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Because their afraid of air travel, my mother and my Aunt Felicia have decided to take the train from Chicago to New Orleans.",
-    "options": [
-      "their",
-      "have decided",
-      "to take",
-      "from",
-      "No error."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 215,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. To find the perimeter of a polygon, add the lengths of it’s sides.",
-    "options": [
-      "To find",
-      "add",
-      "lengths",
-      "it’s",
-      "No error."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 216,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. After the director and assistant director both resigned, we all wondered who would be appointed to fill their positions.",
-    "options": [
-      "After",
-      "both",
-      "who",
-      "their",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 217,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Last spring, my cousin and I packed the tent, the sleeping bags, and a cooler filled with food and headed west.",
-    "options": [
-      "Last spring",
-      "and I",
-      "filled with",
-      "headed",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 218,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Although it usually has a soft body and muscular feet, some mollusks also have hard shells.",
-    "options": [
-      "it",
-      "usually has",
-      "muscular feet",
-      "also have",
-      "No error."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 219,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. For all of those people who have vowed to give up fatty foods, video games, and shopping for the new year, here’s an incentive to keep him on the straight and narrow path.",
-    "options": [
-      "have vowed",
-      "for the new",
-      "him",
-      "on the straight",
-      "No error."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 220,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Even as the mainstream music industry pushes further into the digital world of solid state circuitry, there is a renewed interest in old-style amplifiers and speakers.",
-    "options": [
-      "Even as",
-      "pushes",
-      "solid state",
-      "is",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 221,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. To formalize and commit themselves to there new government, the Pilgrims signed the Mayflower Pact.",
-    "options": [
-      "themselves to",
-      "there",
-      "signed",
-      "Mayflower Pact",
-      "No error."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 222,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Last summer around the end of July, my brother, my Aunt Clarissa, and me jumped into the Ford station wagon and headed out of the city.",
-    "options": [
-      "around",
-      "and",
-      "me",
-      "headed out",
-      "No error."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 223,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The term “blood type” refers to one of the many groups into which a person’s blood can be categorized, based on the presence or absence of specific antigens.",
-    "options": [
-      "refers to",
-      "into which",
-      "can be categorized",
-      "based on",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 224,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. As you use them, remember that this glossary is intended to be a guide and that nothing in it is absolute.",
-    "options": [
-      "them",
-      "is intended",
-      "that nothing",
-      "is absolute",
-      "No error."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 225,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Although the chances of being victimized are slim, if your not careful, airport thieves—who look like ordinary travelers—can make off with your purse, your wallet, your phone card, and all your credit cards.",
-    "options": [
-      "are slim",
-      "your",
-      "who look",
-      "can make",
-      "No error."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 226,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The distinct geology of Cape Cod began to form about 20,000 years ago when the Wisconsin Glacier, up to two miles thick, pushed its way south from Canada, stopped, and then slowly receded.",
-    "options": [
-      "to form",
-      "up to",
-      "pushed its",
-      "slowly receded",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 227,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Although this was an unusually dry summer, the corn crop was not seriously damaged.",
-    "options": [
-      "this was",
-      "unusually",
-      "was not",
-      "seriously",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 228,
+    "id": 126,
     "question": "Fill in the blank with the correct pronoun. That fine circus elephant now belongs to my sister and ________.",
     "options": [
       "I",
@@ -2525,7 +1329,7 @@
     "correctIndex": 1
   },
   {
-    "id": 229,
+    "id": 127,
     "question": "Fill in the blank with the correct pronoun. The person ________ made these delicious candied figs has my vote.",
     "options": [
       "that",
@@ -2536,7 +1340,7 @@
     "correctIndex": 2
   },
   {
-    "id": 230,
+    "id": 128,
     "question": "Fill in the blank with the correct pronoun. If you don’t stop playing ________ video games, you will miss the bus.",
     "options": [
       "that",
@@ -2547,7 +1351,7 @@
     "correctIndex": 1
   },
   {
-    "id": 231,
+    "id": 129,
     "question": "Fill in the blank with the correct pronoun. George and Michael left ________ backpacks at school.",
     "options": [
       "his",
@@ -2558,7 +1362,7 @@
     "correctIndex": 1
   },
   {
-    "id": 232,
+    "id": 130,
     "question": "Fill in the blank with the correct pronoun. If you steal ________ artichoke from Petra’s garden, you’ll be sorry.",
     "options": [
       "them",
@@ -2569,7 +1373,7 @@
     "correctIndex": 2
   },
   {
-    "id": 233,
+    "id": 131,
     "question": "Fill in the blank with the correct pronoun. We arranged the flowers and placed ________ in the center of the table.",
     "options": [
       "it",
@@ -2580,7 +1384,7 @@
     "correctIndex": 2
   },
   {
-    "id": 234,
+    "id": 132,
     "question": "Fill in the blank with the correct pronoun. ________ met more than ten years ago at a mutual friend’s birthday party.",
     "options": [
       "Her and I",
@@ -2591,7 +1395,7 @@
     "correctIndex": 3
   },
   {
-    "id": 235,
+    "id": 133,
     "question": "Fill in the blank with the correct pronoun. My parents approved of ________ taking guitar lessons.",
     "options": [
       "my",
@@ -2602,67 +1406,7 @@
     "correctIndex": 0
   },
   {
-    "id": 236,
-    "question": "Replace the underlined phrase with the most grammatically correct option. It was either Kendra or Zoë who brought their volleyball to the picnic.",
-    "options": [
-      "brought their",
-      "brought her",
-      "brought their",
-      "brang their",
-      "brang her"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 237,
-    "question": "Replace the underlined phrase with the most grammatically correct option. Whose car will you take when you drive to their house?",
-    "options": [
-      "Whose car will you take when you drive to their",
-      "Whose car will you take when you drive to there",
-      "Who’s car will you take when you drive to their",
-      "Who’s car will take when you drive to there",
-      "Which car will you take when you drive to there"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 238,
-    "question": "Replace the underlined phrase with the most grammatically correct option. If someone is looking for the best car loan, you should compare interest rates at several banks.",
-    "options": [
-      "If someone is looking",
-      "When one is looking",
-      "If you are looking",
-      "To have a person look",
-      "When someone is about to look"
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 239,
-    "question": "Replace the underlined phrase with the most grammatically correct option. When two angles have the same degree measure, it is said to be congruent.",
-    "options": [
-      "it is said to be congruent.",
-      "it is said to be congruent.",
-      "Two angles with the same degree measure is said to be congruent.",
-      "They are congruent when the said two angles has the same degree measure.",
-      "they are said to be congruent."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 240,
-    "question": "Replace the underlined phrase with the most grammatically correct option. The friendship between Andre and Robert began when he and his family moved to Ohio.",
-    "options": [
-      "he and his",
-      "he and his",
-      "he and his",
-      "Robert and his",
-      "their"
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 241,
+    "id": 134,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Of the four of us, I am the tallest.",
@@ -2673,7 +1417,7 @@
     "correctIndex": 2
   },
   {
-    "id": 242,
+    "id": 135,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Help is on the way.",
@@ -2684,7 +1428,7 @@
     "correctIndex": 3
   },
   {
-    "id": 243,
+    "id": 136,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "His family has lived in this town for thirty-five years.",
@@ -2695,7 +1439,7 @@
     "correctIndex": 3
   },
   {
-    "id": 244,
+    "id": 137,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "“Meet me at six o’clock,” she said.",
@@ -2706,7 +1450,7 @@
     "correctIndex": 2
   },
   {
-    "id": 245,
+    "id": 138,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Sheila’s sister wanted to accompany us to the party.",
@@ -2717,7 +1461,7 @@
     "correctIndex": 1
   },
   {
-    "id": 246,
+    "id": 139,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "The main problem Jim had was too many parking tickets.",
@@ -2728,7 +1472,7 @@
     "correctIndex": 1
   },
   {
-    "id": 247,
+    "id": 140,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Kamala was the most intelligent person in the group.",
@@ -2739,7 +1483,7 @@
     "correctIndex": 3
   },
   {
-    "id": 248,
+    "id": 141,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "They weren’t the only ones who didn’t like the movie.",
@@ -2750,7 +1494,7 @@
     "correctIndex": 2
   },
   {
-    "id": 249,
+    "id": 142,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "The first house on the street is there’s.",
@@ -2761,7 +1505,7 @@
     "correctIndex": 0
   },
   {
-    "id": 250,
+    "id": 143,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Either Cassie nor I heard the door open.",
@@ -2772,7 +1516,7 @@
     "correctIndex": 0
   },
   {
-    "id": 251,
+    "id": 144,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "It’s not my fault that you and him got caught.",
@@ -2783,7 +1527,7 @@
     "correctIndex": 0
   },
   {
-    "id": 252,
+    "id": 145,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "Couldn’t you arrive fashionably late?",
@@ -2794,7 +1538,7 @@
     "correctIndex": 1
   },
   {
-    "id": 253,
+    "id": 146,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "We invited Mayor Chen to speak at our school.",
@@ -2805,7 +1549,7 @@
     "correctIndex": 2
   },
   {
-    "id": 254,
+    "id": 147,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "He wore two different shoes to class.",
@@ -2816,7 +1560,7 @@
     "correctIndex": 3
   },
   {
-    "id": 255,
+    "id": 148,
     "question": "Find the sentence that has a mistake in grammar or usage. If you find no mistakes, mark choice D.",
     "options": [
       "She and I have been friends for more than ten years.",
@@ -2827,7 +1571,7 @@
     "correctIndex": 3
   },
   {
-    "id": 256,
+    "id": 149,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "Melanie wrote to her sister once a week while she was living abroad.",
@@ -2838,7 +1582,7 @@
     "correctIndex": 1
   },
   {
-    "id": 257,
+    "id": 150,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "Some of the instructions I have to follow are very detailed, but that doesn’t bother one as long as they are clear.",
@@ -2849,7 +1593,7 @@
     "correctIndex": 3
   },
   {
-    "id": 258,
+    "id": 151,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "In search of the missing teenagers, who still had not been found through snake-ridden underbrush all day, the exhausted volunteers had struggled.",
@@ -2860,7 +1604,7 @@
     "correctIndex": 1
   },
   {
-    "id": 259,
+    "id": 152,
     "question": "Choose the sentence that is the most clearly written and has the best construction.",
     "options": [
       "One New York publisher have estimated that 50,000 to 60,000 people in the United States want an anthology that includes the complete works of William Shakespeare.",
@@ -2871,139 +1615,7 @@
     "correctIndex": 2
   },
   {
-    "id": 260,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Frightened, the little boy screamed loud as his neighbor’s friendly eighty-pound dog bounded up the sidewalk.",
-    "options": [
-      "Frightened",
-      "loud",
-      "neighbor’s",
-      "bounded up",
-      "No error."
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 261,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Gwen’s friend Luke—once the star quarterback of his college football team and now a successful restaurateur—owns ten restaurants and has published three award-winning cookbooks.",
-    "options": [
-      "once the",
-      "team and now",
-      "restaurateur",
-      "cookbooks",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 262,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Of the three girls who have recently joined the basketball team, Frieda is the taller.",
-    "options": [
-      "Of the",
-      "who have",
-      "joined the",
-      "taller",
-      "No error."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 263,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. At about 4,000 miles long, the Yangtze, a major east-west trade and transportation route, is easily the longest river in Asia.",
-    "options": [
-      "At about",
-      "transportation",
-      "is easily",
-      "longest",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 264,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Despite its daunting three-hour length, the movie’s popularity continues to grow; last week, it took in 12.7 million dollars.",
-    "options": [
-      "Despite its",
-      "length",
-      "continues",
-      "took in",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 265,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The love seat is now being installed in some New York movie theaters, giving couples the option of lifting the arm between the seats to create a more cozier viewing experience.",
-    "options": [
-      "is now being",
-      "giving couples",
-      "to create",
-      "more cozier",
-      "No error."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 266,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Some buildings, such as the White House, Saint Paul’s Cathedral, and the Taj Mahal, deserve to be preserved not only because of their artistic excellence but also because of their symbolic associations.",
-    "options": [
-      "such as",
-      "deserve to",
-      "not only",
-      "but also",
-      "No error."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 267,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. Because they close resemble sound arguments, fallacious arguments can sound convincing, so be sure to carefully organize your thoughts when you’re writing an opinion paper.",
-    "options": [
-      "close",
-      "can sound",
-      "to carefully",
-      "you’re",
-      "No error."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 268,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. In this cookbook, you’ll discover colorful, easy to prepare, and great-tasting recipes for even your more diet-conscious guests.",
-    "options": [
-      "In this",
-      "you’ll discover",
-      "great-tasting",
-      "more",
-      "No error."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 269,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. When the professor called out his name, he walked rather hesitant to the front of the room and stood there shaking.",
-    "options": [
-      "called out",
-      "rather",
-      "hesitant",
-      "there shaking",
-      "No error."
-    ],
-    "correctIndex": 2
-  },
-  {
-    "id": 270,
-    "question": "Choose the underlined part that contains a grammatical error. If none, choose E. The puppy had been treated bad by its previous owner, but the people at the animal shelter worked hard to find a loving home for little Scotty.",
-    "options": [
-      "bad",
-      "its previous",
-      "at the",
-      "worked hard",
-      "No error."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 271,
+    "id": 153,
     "question": "Fill in the blank with the correct adjective or adverb. In many popular movies today, the heroes are ________ armed than the villains.",
     "options": [
       "more heavily",
@@ -3014,7 +1626,7 @@
     "correctIndex": 0
   },
   {
-    "id": 272,
+    "id": 154,
     "question": "Fill in the blank with the correct adjective or adverb. The cake I made last week tasted ________ than the one I made today.",
     "options": [
       "best",
@@ -3025,7 +1637,7 @@
     "correctIndex": 2
   },
   {
-    "id": 273,
+    "id": 155,
     "question": "Fill in the blank with the correct adjective or adverb. After winning the yo-yo contest, Lydia skipped ________ down the street.",
     "options": [
       "happy",
@@ -3036,7 +1648,7 @@
     "correctIndex": 3
   },
   {
-    "id": 274,
+    "id": 156,
     "question": "Fill in the blank with the correct adjective or adverb. Of the three brothers, Andre is the ________.",
     "options": [
       "taller",
@@ -3047,7 +1659,7 @@
     "correctIndex": 1
   },
   {
-    "id": 275,
+    "id": 157,
     "question": "Fill in the blank with the correct adjective or adverb. Riding the Tornado at the amusement park was ________ than I thought it would be.",
     "options": [
       "more terrifying",
@@ -3058,7 +1670,7 @@
     "correctIndex": 0
   },
   {
-    "id": 276,
+    "id": 158,
     "question": "Fill in the blank with the correct adjective or adverb. This year our company sold ________ magazine subscriptions than ever before.",
     "options": [
       "less",
@@ -3069,55 +1681,7 @@
     "correctIndex": 3
   },
   {
-    "id": 277,
-    "question": "Replace the underlined phrase with the most grammatically correct option. The book had a frighteningly and unhappy ending.",
-    "options": [
-      "a frighteningly and unhappy ending.",
-      "a frighteningly and unhappily ending.",
-      "an ending that was frightening and unhappily.",
-      "a frightening and unhappy ending.",
-      "an ending that was frightening and it was also an unhappy one."
-    ],
-    "correctIndex": 3
-  },
-  {
-    "id": 278,
-    "question": "Replace the underlined phrase with the most grammatically correct option. Since her graduation from business school last spring, Adela has become known as the more important member of her graduating class.",
-    "options": [
-      "as the more important",
-      "as the most important",
-      "as the most importantly",
-      "as the more importantly",
-      "like the most important"
-    ],
-    "correctIndex": 1
-  },
-  {
-    "id": 279,
-    "question": "Replace the underlined phrase with the most grammatically correct option. Surprisingly, my younger sister dresses more conservatively than I do.",
-    "options": [
-      "more conservatively than I do.",
-      "more conservative than I do.",
-      "more conservative than me.",
-      "more conservatively than me.",
-      "the most conservative in opposition to me."
-    ],
-    "correctIndex": 0
-  },
-  {
-    "id": 280,
-    "question": "Replace the underlined phrase with the most grammatically correct option. There wasn’t nothing that could have been easier.",
-    "options": [
-      "There wasn’t nothing that could have been easier.",
-      "There was nothing that could have been more easier.",
-      "Nothing could have been more easier.",
-      "Nothing couldn’t have been more easy.",
-      "Nothing could have been easier."
-    ],
-    "correctIndex": 4
-  },
-  {
-    "id": 281,
+    "id": 159,
     "question": "I was clearly the happiest person in the crowd.",
     "options": [
       "I was clearly the happiest person in the crowd.",
@@ -3128,7 +1692,7 @@
     "correctIndex": 0
   },
   {
-    "id": 282,
+    "id": 160,
     "question": "Our team scored less baskets today than we did last Tuesday.",
     "options": [
       "less baskets today than we did",
@@ -3139,7 +1703,7 @@
     "correctIndex": 3
   },
   {
-    "id": 283,
+    "id": 161,
     "question": "Strip mining, the cheaper method of mining, is controversial because it jeopardizes the environment.",
     "options": [
       "cheaper",
@@ -3150,7 +1714,7 @@
     "correctIndex": 3
   },
   {
-    "id": 284,
+    "id": 162,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "The steam rose up from the hot pavement.",
@@ -3161,7 +1725,7 @@
     "correctIndex": 3
   },
   {
-    "id": 285,
+    "id": 163,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "The lost dog wandered sad through the streets.",
@@ -3172,7 +1736,7 @@
     "correctIndex": 0
   },
   {
-    "id": 286,
+    "id": 164,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "I don’t want to participate no longer.",
@@ -3183,7 +1747,7 @@
     "correctIndex": 0
   },
   {
-    "id": 287,
+    "id": 165,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "Have you ever read the book Little House on the Prairie?",
@@ -3194,7 +1758,7 @@
     "correctIndex": 3
   },
   {
-    "id": 288,
+    "id": 166,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "Anne will head out first, and Nick will follow her.",
@@ -3205,7 +1769,7 @@
     "correctIndex": 3
   },
   {
-    "id": 289,
+    "id": 167,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "We sold less cookies this year than we did last year.",
@@ -3216,7 +1780,7 @@
     "correctIndex": 0
   },
   {
-    "id": 290,
+    "id": 168,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "She spread the frosting too thickly.",
@@ -3227,7 +1791,7 @@
     "correctIndex": 3
   },
   {
-    "id": 291,
+    "id": 169,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "Between the three of us, we should find the answer.",
@@ -3238,7 +1802,7 @@
     "correctIndex": 0
   },
   {
-    "id": 292,
+    "id": 170,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "The Adirondacks are mountains in New York.",
@@ -3249,7 +1813,7 @@
     "correctIndex": 3
   },
   {
-    "id": 293,
+    "id": 171,
     "question": "Find the sentence that has a mistake in grammar or usage. If none, choose D.",
     "options": [
       "Trading Spaces is probably the most daring show on television.",
@@ -3260,7 +1824,7 @@
     "correctIndex": 2
   },
   {
-    "id": 294,
+    "id": 172,
     "question": "Clean snow ____ as much as 87 per cent of the sunlight that ____ on it.",
     "options": [
       "is reflecting / shone",
@@ -3272,7 +1836,7 @@
     "correctIndex": 4
   },
   {
-    "id": 295,
+    "id": 173,
     "question": "More than two hundred people ____ the tower when the bomb ____ in one of the dustbins.",
     "options": [
       "have visited / was exploding",
@@ -3284,7 +1848,7 @@
     "correctIndex": 1
   },
   {
-    "id": 296,
+    "id": 174,
     "question": "Because you ____ half of the ingredients as I ____ dinner, you probably aren't hungry at all now.",
     "options": [
       "were eating / have prepared",
@@ -3296,7 +1860,7 @@
     "correctIndex": 3
   },
   {
-    "id": 297,
+    "id": 175,
     "question": "She ____ strictly since Christmas and so far she ____ eight kilos.",
     "options": [
       "was dieting / was losing",
@@ -3308,7 +1872,7 @@
     "correctIndex": 4
   },
   {
-    "id": 298,
+    "id": 176,
     "question": "Cindy's family ____ chains in this area for over three centuries and now her father ____ this traditional craft at the county museum twice a day as well.",
     "options": [
       "are making / is demonstrating",
@@ -3320,7 +1884,7 @@
     "correctIndex": 4
   },
   {
-    "id": 299,
+    "id": 177,
     "question": "He ______ to unlock the door to his flat because the telephone ________.",
     "options": [
       "was hurrying / rang",
@@ -3332,7 +1896,7 @@
     "correctIndex": 2
   },
   {
-    "id": 300,
+    "id": 178,
     "question": "There ____ economies since the dawn of civilisation, but as a field of study, economics ____ only recently.",
     "options": [
       "were / was developing",
@@ -3344,7 +1908,7 @@
     "correctIndex": 1
   },
   {
-    "id": 301,
+    "id": 179,
     "question": "John Deere ____ his farm machinery business, which ____ tractors today, in the 19th century.",
     "options": [
       "founds / still produced",
@@ -3356,7 +1920,7 @@
     "correctIndex": 3
   },
   {
-    "id": 302,
+    "id": 180,
     "question": "I ____ my French lately; consequently, I ____ more and more of it.",
     "options": [
       "am not practising / forget",
@@ -3368,7 +1932,7 @@
     "correctIndex": 1
   },
   {
-    "id": 303,
+    "id": 181,
     "question": "The old lady's health ____ day by day until she ____ smoking.",
     "options": [
       "was deteriorating / gave up",
@@ -3380,7 +1944,7 @@
     "correctIndex": 0
   },
   {
-    "id": 304,
+    "id": 182,
     "question": "The managing director ____ Sid to sales manager and ever since then, he ____ everybody around.",
     "options": [
       "promoted / has been bossing",
@@ -3392,7 +1956,7 @@
     "correctIndex": 0
   },
   {
-    "id": 305,
+    "id": 183,
     "question": "Problems with the hotel, coupled with this awful weather, ____ our holiday miserable, so we ____ before the scheduled time.",
     "options": [
       "have made / have left",
@@ -3404,7 +1968,7 @@
     "correctIndex": 3
   },
   {
-    "id": 306,
+    "id": 184,
     "question": "The fact that more people ____ ozone-friendly products nowadays ____ that the media can positively increase public awareness.",
     "options": [
       "have used / was showing",
@@ -3416,7 +1980,7 @@
     "correctIndex": 4
   },
   {
-    "id": 307,
+    "id": 185,
     "question": "My sister ____ from severe backaches lately and I think it's because, last month, she ____ to work in a shop where she has to pick up heavy things.",
     "options": [
       "is suffering / has started",
@@ -3428,7 +1992,7 @@
     "correctIndex": 2
   },
   {
-    "id": 308,
+    "id": 186,
     "question": "Though she ____ dancing, Sonia ____ to the disco with her friends the previous night just in order to be with them in a different atmosphere.",
     "options": [
       "hasn't like / has gone",
@@ -3440,7 +2004,7 @@
     "correctIndex": 1
   },
   {
-    "id": 309,
+    "id": 187,
     "question": "Somebody ____ three times this morning asking for Pete, but nobody called Pete ____ here.",
     "options": [
       "has phoned / has ever lived",
@@ -3452,7 +2016,7 @@
     "correctIndex": 0
   },
   {
-    "id": 310,
+    "id": 188,
     "question": "Joey ____ just ____ stubborn when he refused to go to the cinema today and he only did so because we ____ to go bowling yesterday.",
     "options": [
       "is / being / haven't wanted",
@@ -3464,7 +2028,7 @@
     "correctIndex": 4
   },
   {
-    "id": 311,
+    "id": 189,
     "question": "My mother ____ her optician tomorrow because her eyesight ____ worse since she got this computing job.",
     "options": [
       "has visited / is becoming",
@@ -3476,7 +2040,7 @@
     "correctIndex": 3
   },
   {
-    "id": 312,
+    "id": 190,
     "question": "As the President ____ the hall, all the guests ____ to their feet to welcome him.",
     "options": [
       "was entering / have risen",
@@ -3488,7 +2052,7 @@
     "correctIndex": 1
   },
   {
-    "id": 313,
+    "id": 191,
     "question": "She ____ interested in health ever since she was a young girl and now that the medical college ____ her as a student, it seems that she will be able to work in the medical field.",
     "options": [
       "was / accepted",
@@ -3500,7 +2064,7 @@
     "correctIndex": 1
   },
   {
-    "id": 314,
+    "id": 192,
     "question": "Bob ____ with us tonight as he ____ an appointment with the dentist.",
     "options": [
       "won't have trained / is making",
@@ -3512,7 +2076,7 @@
     "correctIndex": 4
   },
   {
-    "id": 315,
+    "id": 193,
     "question": "We ____ football for two hours and ____ to a restaurant for a meal, afterwards.",
     "options": [
       "are playing / go",
@@ -3524,7 +2088,7 @@
     "correctIndex": 2
   },
   {
-    "id": 316,
+    "id": 194,
     "question": "Environmental pollution ____ ever since people ____ to congregate in towns and cities.",
     "options": [
       "will have existed / are beginning",
@@ -3536,7 +2100,7 @@
     "correctIndex": 3
   },
   {
-    "id": 317,
+    "id": 195,
     "question": "I heard that you ____ about the boys all day, so I just rang to tell you that Matthew ____ from a payphone a couple of hours ago and they are both fine.",
     "options": [
       "had been worrying / will phone",
@@ -3548,7 +2112,7 @@
     "correctIndex": 1
   },
   {
-    "id": 318,
+    "id": 196,
     "question": "Although he ____ the first round in record time, he ____ in the second, and so finished tenth overall.",
     "options": [
       "finishes / is slipping",
@@ -3560,7 +2124,7 @@
     "correctIndex": 3
   },
   {
-    "id": 319,
+    "id": 197,
     "question": "The petrol warning light ____ for half an hour before we ____ a petrol station.",
     "options": [
       "had been flashing / reached",
@@ -3572,7 +2136,7 @@
     "correctIndex": 0
   },
   {
-    "id": 320,
+    "id": 198,
     "question": "Up until the tap water ____ back on yesterday evening, we ____ water back and forth for three days.",
     "options": [
       "came / had been carrying",
@@ -3584,7 +2148,7 @@
     "correctIndex": 0
   },
   {
-    "id": 321,
+    "id": 199,
     "question": "The neighbours ____ so loudly last night that they ____ us all awake until after midnight.",
     "options": [
       "are shouting / are keeping",
@@ -3596,7 +2160,7 @@
     "correctIndex": 4
   },
   {
-    "id": 322,
+    "id": 200,
     "question": "Man's use of pictures to tell stories and to record experiences ____ prehistoric times, when he ____ the walls of caves.",
     "options": [
       "was beginning / has drawn",
@@ -3608,7 +2172,7 @@
     "correctIndex": 1
   },
   {
-    "id": 323,
+    "id": 201,
     "question": "My team ____ a match for a month, so currently the manager ____ resigning if they lose one more match.",
     "options": [
       "doesn't win / considered",
@@ -3620,7 +2184,7 @@
     "correctIndex": 2
   },
   {
-    "id": 324,
+    "id": 202,
     "question": "________. Residents have been directed to use the new plastic bins as their primary recycling containers. These new containers will make picking up recyclables faster and easier.",
     "options": [
       "The city has distributed standardized recycling containers to all households.",
@@ -3631,7 +2195,7 @@
     "correctIndex": 0
   },
   {
-    "id": 325,
+    "id": 203,
     "question": "________. Telecommuters produce, on average, 20% more than if they were to work in an office. Their flexible schedule allows them to balance both their family and work responsibilities.",
     "options": [
       "People who work in offices make up a large part of the U.S. workforce.",
@@ -3642,7 +2206,7 @@
     "correctIndex": 1
   },
   {
-    "id": 326,
+    "id": 204,
     "question": "________. No search of a person’s home or personal effects may be conducted without a written search warrant. This means that a judge must justify a search before it can be conducted.",
     "options": [
       "There is an old saying that a person’s home is his or her castle.",
@@ -3653,7 +2217,7 @@
     "correctIndex": 2
   },
   {
-    "id": 327,
+    "id": 205,
     "question": "________. You must imitate as closely as possible the parents’ methods of feeding. First, hold the beak open using thumb and forefinger. Then, introduce food into the beak with tweezers or an eyedropper.",
     "options": [
       "Recently, I read an article about baby birds.",
@@ -3664,7 +2228,7 @@
     "correctIndex": 1
   },
   {
-    "id": 328,
+    "id": 206,
     "question": "________. All waves, though, have common characteristics that govern their height. The height of a wave is determined by its speed, the distance it travels, and the length of time the wind blows.",
     "options": [
       "Currents, unlike waves, are caused by steady winds or temperature fluctuations.",
@@ -3675,7 +2239,7 @@
     "correctIndex": 2
   },
   {
-    "id": 329,
+    "id": 207,
     "question": "________. When people respect the law too much, they will follow it blindly. They will say that the majority has decided on this law and therefore I must obey it. They will not stop to consider whether or not the law is fair.",
     "options": [
       "Some people say there is too little respect for the law, but I say there is too much respect for it.",
@@ -3686,7 +2250,7 @@
     "correctIndex": 0
   },
   {
-    "id": 330,
+    "id": 208,
     "question": "Gary was a very distinguished looking man with a touch of gray at the temples. Even in his early fifties, he was still the one to turn heads. He enjoyed spending most of his time admiring his profile in the mirror. In fact, he considered his good looks to be his second most important asset in the world. The first, however, was money. He was lucky in this area, too, having been born into a wealthy family. ________. He loved the power his wealth had given him. He could buy whatever he desired, be that people, places, or things. Gary checked that mirror often and felt great delight with what he saw.",
     "options": [
       "Gary’s gray hair was his worst characteristic.",
@@ -3697,7 +2261,7 @@
     "correctIndex": 1
   },
   {
-    "id": 331,
+    "id": 209,
     "question": "The term “spices” is a pleasant one, whether it connotes fine French cuisine or a down-home, cinnamon-flavored apple pie. ________. Individuals have traveled the world seeking exotic spices for profit and, in searching, have changed the course of history. Indeed, to gain control of lands harboring new spices, nations have actually gone to war.",
     "options": [
       "The taste and aroma of spices are the main elements that make food such a source of fascination and pleasure.",
@@ -3708,7 +2272,7 @@
     "correctIndex": 3
   },
   {
-    "id": 332,
+    "id": 210,
     "question": "________. Although these mechanical alarms are fairly recent, the idea of a security system is not new. The oldest alarm system was probably a few strategically placed dogs that discouraged intruders with a loud warning cry.",
     "options": [
       "Anyone who lives in a large, modern city has heard the familiar sound of electronic security alarms.",
@@ -3719,7 +2283,7 @@
     "correctIndex": 0
   },
   {
-    "id": 333,
+    "id": 211,
     "question": "________. According to scholars, these patterns almost certainly represent the labyrinth that held the Minotaur, a monster with the head of a bull and the body of a man. Legend has it that, in ancient times, King Minos built the labyrinth in order to imprison the Minotaur, which loved to dine on human flesh.",
     "options": [
       "Patterned corridors are commonplace in many architectural structures.",
@@ -3730,7 +2294,7 @@
     "correctIndex": 1
   },
   {
-    "id": 334,
+    "id": 212,
     "question": "________. It is important to take special precautions to keep these medications in a secure place, where a child cannot get to them. Every item in the medicine cabinet should be labeled in large letters and attached to the container. Even if you believe the medicine cabinet is too high for a child to reach, it should be locked at all times.",
     "options": [
       "Many families have small children.",
@@ -3741,7 +2305,7 @@
     "correctIndex": 1
   },
   {
-    "id": 335,
+    "id": 213,
     "question": "________. It is true that Ernest Hemingway went to war to gather material for his stories, and F. Scott Fitzgerald lived a life of dissolution that destroyed him. However, Emily Brontë seldom ventured outside her father’s tiny country rectory, yet she wrote Wuthering Heights, a tale of passionate love and intense hatred, and one of the greatest works in the English language.",
     "options": [
       "It is not necessary for a writer to endanger his or her life in order to have something to write about.",
@@ -3752,7 +2316,7 @@
     "correctIndex": 0
   },
   {
-    "id": 336,
+    "id": 214,
     "question": "________. Hearsay that depends on the statement’s truthfulness is inadmissible because the witness does not appear in court and swear an oath to tell the truth. This means that his or her demeanor when making the statement is not visible to the jury, the accuracy of the statement cannot be tested under cross-examination, and to introduce it would be to deprive the accused of the constitutional right to confront the accuser.",
     "options": [
       "Hearsay evidence is not acceptable in a criminal trial because the witness cannot be cross-examined.",
@@ -3763,7 +2327,7 @@
     "correctIndex": 3
   },
   {
-    "id": 337,
+    "id": 215,
     "question": "________. Any truck that finishes its assigned route before the end of the workers’ shift will return to the sanitation lot, where supervisors will provide materials for workers to use in cleaning off the graffiti. Because the length of time it takes to complete different routes varies, trucks will no longer be assigned to a specific route but will be rotated among the routes. Therefore, workers should no longer leave personal items in the trucks, as they will not necessarily be using the same truck each day as they did in the past.",
     "options": [
       "Graffiti on city trucks is unsightly and gives city residents a poor impression of the Sanitation Department.",
@@ -3774,7 +2338,7 @@
     "correctIndex": 2
   },
   {
-    "id": 338,
+    "id": 216,
     "question": "________. One type of tickler system is the index-card file with 12 large dividers, one for each month, and 31 small dividers, one for each day. Whenever secretaries need to schedule a reminder, they jot it down on a card and place it behind the appropriate divider. Each morning, they review the reminders for that particular day.",
     "options": [
       "As busy secretaries, we cannot expect to remember all the details of our daily responsibilities without some help.",
@@ -3785,7 +2349,7 @@
     "correctIndex": 3
   },
   {
-    "id": 339,
+    "id": 217,
     "question": "________. Space shuttle astronauts, because they spend only about a week in space, undergo minimal wasting of bone and muscle. But when longer stays in microgravity or zero gravity are contemplated, as in the proposed space station or a two-year roundtrip voyage to Mars, these problems are of particular concern because they could become acute. Fortunately, studies show that muscle atrophy can be kept largely at bay with appropriate exercise. Unfortunately, bone loss caused by reduced gravity cannot.",
     "options": [
       "Space flight, especially if it is prolonged, can be hazardous to the health of the astronauts.",
@@ -3796,7 +2360,7 @@
     "correctIndex": 2
   },
   {
-    "id": 340,
+    "id": 218,
     "question": "________. Rather, asthma is now understood to be a chronic inflammatory disorder of the airways—that is, inflammation makes the airways chronically sensitive. When these hyper-responsive airways are irritated, air flow is limited, and attacks of coughing, wheezing, chest tightness, and difficulty breathing occur.",
     "options": [
       "No longer is asthma considered a condition with isolated, acute episodes of bronchospasm.",
@@ -3807,7 +2371,7 @@
     "correctIndex": 0
   },
   {
-    "id": 341,
+    "id": 219,
     "question": "________. Many experts, including those in the American Diabetes Association, recommend that 50 to 60% of daily calories of patients suffering from non-insulin-dependent diabetes (NIDD) come from carbohydrates, 12 to 20% from protein, and no more than 30% from fat. Foods that are rich in carbohydrates, like breads, cereals, fruits, and vegetables, break down into glucose during digestion, causing blood glucose to rise. Additionally, studies have shown that cooked foods raise blood glucose higher than raw, unpeeled foods.",
     "options": [
       "In 1986, a National Institute of Health panel gave broad recommendations as to the type of diet that is best for non-insulin-dependent diabetics.",
@@ -3818,7 +2382,7 @@
     "correctIndex": 0
   },
   {
-    "id": 342,
+    "id": 220,
     "question": "Choose the answer that best develops the topic sentence given. Indoor pollution sources that release gases or particles into the air are the primary cause of indoor air-quality problems in homes.",
     "options": [
       "Inadequate ventilation can increase indoor pollutant levels by not bringing in enough outdoor air to dilute emissions from indoor sources.",
@@ -3829,7 +2393,7 @@
     "correctIndex": 0
   },
   {
-    "id": 343,
+    "id": 221,
     "question": "Choose the answer that best develops the topic sentence given. In the Middle Ages, red hair was associated with evil, so to have red hair was to be in constant danger.",
     "options": [
       "People with red hair are sometimes singledout and called unflattering nicknames.",
@@ -3840,7 +2404,7 @@
     "correctIndex": 2
   },
   {
-    "id": 344,
+    "id": 222,
     "question": "Choose the answer that best develops the topic sentence given. Because of the cost of medical care these days, many Americans self-diagnose and self-medicate.",
     "options": [
       "Because of the abundance of over-the-counter medications that exist, this can be a bewildering task.",
@@ -3851,7 +2415,7 @@
     "correctIndex": 0
   },
   {
-    "id": 345,
+    "id": 223,
     "question": "Choose the answer that best develops the topic sentence given. One of the most fascinating discoveries in modern physics is the idea that light can behave both as particles and as waves.",
     "options": [
       "In order to understand quantum physics, one must know a great deal about mathematics.",
@@ -3862,7 +2426,7 @@
     "correctIndex": 2
   },
   {
-    "id": 346,
+    "id": 224,
     "question": "Choose the answer that best develops the topic sentence given. Because of technological advances, much communication between companies and businesses is now conducted via e-mail, and office workers must face that fact.",
     "options": [
       "Every day, the U.S. Post Office is subjected to a huge deluge of junk mail.",
@@ -3873,7 +2437,7 @@
     "correctIndex": 1
   },
   {
-    "id": 347,
+    "id": 225,
     "question": "Choose the answer that best develops the topic sentence given. There are many good reasons to eat organic food. It tastes great. It is grown and handled according to strict guidelines to ensure that it is safe and pesticide-free. And organic farming respects the balance demanded of a healthy ecosystem.",
     "options": [
       "Many restaurants and supermarkets now carry organic products.",
@@ -3884,7 +2448,7 @@
     "correctIndex": 2
   },
   {
-    "id": 348,
+    "id": 226,
     "question": "Choose the answer that best develops the topic sentence given. It is a myth that financial aid for higher education just means getting a loan and going into heavy debt.",
     "options": [
       "It’s important for young people to avoid starting out their working lives under a load of indebtedness.",
@@ -3895,7 +2459,7 @@
     "correctIndex": 3
   },
   {
-    "id": 349,
+    "id": 227,
     "question": "Choose the answer that best develops the topic sentence given. This contract will confirm our agreement in connection with your services as freelance writer for the work entitled Why Kangaroos Can’t Fly.",
     "options": [
       "The title, although rather silly, accurately sums up the tone and style of the book.",
@@ -3906,7 +2470,7 @@
     "correctIndex": 1
   },
   {
-    "id": 350,
+    "id": 228,
     "question": "Choose the answer that best develops the topic sentence given. America’s fascination with reality television is a topic of much discussion. Many think that people tune in simply to keep up-to-date with the latest popular culture trends.",
     "options": [
       "Whether you love it or hate it, reality television is definitely here to stay.",
@@ -3917,7 +2481,7 @@
     "correctIndex": 3
   },
   {
-    "id": 351,
+    "id": 229,
     "question": "Choose the answer that best develops the topic sentence given. Before we learn how to truly love someone else, we must learn how to love the face in the mirror.",
     "options": [
       "Don’t be shy about meeting members of the opposite sex.",
@@ -3928,7 +2492,7 @@
     "correctIndex": 3
   },
   {
-    "id": 352,
+    "id": 230,
     "question": "Choose the answer that best develops the topic sentence given. During colonial times in America, juries were encouraged to ask questions of the parties in the courtroom.",
     "options": [
       "The jurors were, in fact, expected to investigate the facts of the case themselves. If jurors conducted an investigation today, we would throw out the case.",
@@ -3939,7 +2503,7 @@
     "correctIndex": 0
   },
   {
-    "id": 353,
+    "id": 231,
     "question": "Choose the answer that best develops the topic sentence given. Landscapers do not recommend rose bushes for homeowners who have shade-filled gardens and who don’t spend a great deal of time maintaining outdoor plants.",
     "options": [
       "Bugs called aphids can destroy roses. However, you can get rid of them by spraying with a solution of water and dish soap.",
@@ -3950,7 +2514,7 @@
     "correctIndex": 2
   },
   {
-    "id": 354,
+    "id": 232,
     "question": "Choose the answer that best develops the topic sentence given. Ginkgo biloba extract is the most commonly prescribed plant remedy in the world.",
     "options": [
       "There are many plant remedies, including the ones that can be purchased in health-food stores. Not all plant remedies have been approved.",
@@ -3961,7 +2525,7 @@
     "correctIndex": 1
   },
   {
-    "id": 355,
+    "id": 233,
     "question": "Choose the answer that best develops the topic sentence given. Life on Earth is ancient and, even at its first appearance, unimaginably complex.",
     "options": [
       "Scientists place its beginnings at some 3,000 million years ago. This is when the first molecule floated up out of the ooze with the unique ability to replicate itself.",
